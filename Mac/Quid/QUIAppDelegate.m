@@ -67,7 +67,6 @@
     // If you're on a multi-display system and you want to capture a secondary display,
     // you can call CGGetActiveDisplayList() to get the list of all active displays.
     // For this example, we just specify the main display.
-    
     // Create a ScreenInput with the display and add it to the session
     mMovieFileInput = [[AVCaptureScreenInput alloc] initWithDisplayID:kCGDirectMainDisplay];
     if ([mSession canAddInput:mMovieFileInput]) {
@@ -85,7 +84,7 @@
     // Start running the session
     [mSession startRunning];
     
-    NSURL *destPath = [NSURL fileURLWithPath:@"/Users/joshholat/Desktop/Quid_Recording.mov"];
+    NSURL *destPath = [NSURL fileURLWithPath:[@"~/Desktop/Quid_Recording.mov" stringByExpandingTildeInPath]];
     
     // Delete any existing movie file first
     if ([[NSFileManager defaultManager] fileExistsAtPath:[destPath path]]) {
