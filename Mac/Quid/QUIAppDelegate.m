@@ -17,7 +17,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-
+    counter = 3;
 }
 
 - (void)awakeFromNib
@@ -26,7 +26,7 @@
     [statusMenu setAutoenablesItems:NO];
     
     // Add the various needed menu items to the menu
-    NSMenuItem *recordMenuItem = [[NSMenuItem alloc] initWithTitle:@"Start Recording" action:@selector(startRecording:) keyEquivalent:@"R"];
+    NSMenuItem *recordMenuItem = [[NSMenuItem alloc] initWithTitle:@"Start Recording" action:@selector(almostStartRecording:) keyEquivalent:@"R"];
     [recordMenuItem setToolTip:@"Start recording your entire screen"];
     [statusMenu addItem:recordMenuItem];
     
@@ -49,6 +49,32 @@
 - (void)quit
 {
     [NSApp terminate:self]; // Go to sleep now... everything is going to be okay
+}
+
+- (void)almostStartRecording:(NSMenuItem*)sender
+{
+    // Set a timer to fire every second as an initial countdown until the recording will start
+    [statusItem setTitle:[NSString stringWithFormat:@"%d", counter]];
+    NSTimer *countdownTimer = [NSTimer scheduledTimerWithTimeInterval:1
+                                                               target:self
+                                                             selector:@selector(advanceTimer:)
+                                                             userInfo:sender
+                                                              repeats:YES];
+    NSRunLoop *runLoop = [NSRunLoop currentRunLoop];
+    [runLoop addTimer:countdownTimer forMode:NSDefaultRunLoopMode];
+}
+
+- (void)advanceTimer:(NSTimer *)timer
+{
+    // For each advance of the timer, update our counter and various UI states
+    counter--;
+    [statusItem setTitle:[NSString stringWithFormat:@"%d", counter]];
+    if (counter <= 0) {
+        [statusItem setTitle:@"Quid"];
+        [self startRecording:(NSMenuItem*)timer.userInfo];
+        [timer invalidate];
+        counter = 3;
+    }
 }
 
 - (void)startRecording:(NSMenuItem *)sender
