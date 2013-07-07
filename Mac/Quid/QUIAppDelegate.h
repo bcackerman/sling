@@ -16,8 +16,6 @@
     
     AVCaptureSession *mSession;
     AVCaptureMovieFileOutput *mMovieFileOutput;
-    AVCaptureScreenInput *mMovieFileInput;
-    NSTimer *mTimer;
 }
 
 @property (assign) IBOutlet NSWindow *window;

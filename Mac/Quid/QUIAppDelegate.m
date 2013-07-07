@@ -38,6 +38,7 @@
     NSMenuItem *quitMenuItem = [[NSMenuItem alloc] initWithTitle:@"Quit" action:@selector(quit) keyEquivalent:@""];
     [statusMenu addItem:quitMenuItem];    
     
+    // Add our main status bar item to attach the menu to
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:statusMenu];
     [statusItem setTitle:@"Quid"];
@@ -46,7 +47,7 @@
 
 - (void)quit
 {
-    [NSApp terminate:self];
+    [NSApp terminate:self]; // Go to sleep now... everything is going to be okay
 }
 
 - (void)startRecording:(NSMenuItem *)sender
@@ -68,15 +69,13 @@
     // you can call CGGetActiveDisplayList() to get the list of all active displays.
     // For this example, we just specify the main display.
     // Create a ScreenInput with the display and add it to the session
-    mMovieFileInput = [[AVCaptureScreenInput alloc] initWithDisplayID:kCGDirectMainDisplay];
+    AVCaptureScreenInput *mMovieFileInput = [[AVCaptureScreenInput alloc] initWithDisplayID:kCGDirectMainDisplay];
     if ([mSession canAddInput:mMovieFileInput]) {
         [mSession addInput:mMovieFileInput];
     }
-    
+        
     // Create a MovieFileOutput and add it to the session
     mMovieFileOutput = [[AVCaptureMovieFileOutput alloc] init];
-    //NSDictionary *outputSettings = [[NSDictionary alloc] initWithObjectsAndKeys:AVVideoCodecH264, AVVideoCodecKey, nil];
-    //[mMovieFileOutput setOutputSettings:outputSettings forConnection:nil];
     if ([mSession canAddOutput:mMovieFileOutput]) {
          [mSession addOutput:mMovieFileOutput];
     }
