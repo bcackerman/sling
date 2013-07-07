@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE0643461789FE240069534A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BE0643451789FE240069534A /* README.md */; };
 		BE4554B31788B0890079F296 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4554B21788B0890079F296 /* Cocoa.framework */; };
 		BE4554BD1788B0890079F296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE4554BB1788B0890079F296 /* InfoPlist.strings */; };
 		BE4554BF1788B0890079F296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4554BE1788B0890079F296 /* main.m */; };
-		BE4554C31788B0890079F296 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BE4554C11788B0890079F296 /* Credits.rtf */; };
 		BE4554C61788B0890079F296 /* QUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4554C51788B0890079F296 /* QUIAppDelegate.m */; };
 		BE4554C91788B0890079F296 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4554C71788B0890079F296 /* MainMenu.xib */; };
 		BE4554CC1788B0890079F296 /* Quid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE4554CA1788B0890079F296 /* Quid.xcdatamodeld */; };
@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE0643451789FE240069534A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		BE4554AF1788B0890079F296 /* Quid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4554B21788B0890079F296 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BE4554B51788B0890079F296 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -27,7 +28,6 @@
 		BE4554BC1788B0890079F296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE4554BE1788B0890079F296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE4554C01788B0890079F296 /* Quid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quid-Prefix.pch"; sourceTree = "<group>"; };
-		BE4554C21788B0890079F296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		BE4554C41788B0890079F296 /* QUIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QUIAppDelegate.h; sourceTree = "<group>"; };
 		BE4554C51788B0890079F296 /* QUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QUIAppDelegate.m; sourceTree = "<group>"; };
 		BE4554C81788B0890079F296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -100,11 +100,11 @@
 		BE4554B91788B0890079F296 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BE0643451789FE240069534A /* README.md */,
 				BE4554BA1788B0890079F296 /* Quid-Info.plist */,
 				BE4554BB1788B0890079F296 /* InfoPlist.strings */,
 				BE4554BE1788B0890079F296 /* main.m */,
 				BE4554C01788B0890079F296 /* Quid-Prefix.pch */,
-				BE4554C11788B0890079F296 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,8 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4554BD1788B0890079F296 /* InfoPlist.strings in Resources */,
-				BE4554C31788B0890079F296 /* Credits.rtf in Resources */,
 				BE4554C91788B0890079F296 /* MainMenu.xib in Resources */,
+				BE0643461789FE240069534A /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +189,6 @@
 				BE4554BC1788B0890079F296 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BE4554C11788B0890079F296 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE4554C21788B0890079F296 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		BE4554C71788B0890079F296 /* MainMenu.xib */ = {
@@ -312,6 +304,7 @@
 				BE4554D11788B0890079F296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
