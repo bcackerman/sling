@@ -16,7 +16,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+
 }
 
 - (void)awakeFromNib
@@ -24,9 +24,19 @@
     [statusMenu setDelegate:self];
     [statusMenu setAutoenablesItems:NO];
     
-    NSMenuItem *menuItem = [[NSMenuItem alloc] initWithTitle:@"Record" action:@selector(record) keyEquivalent:@"R"];
-    [menuItem setEnabled:YES];
-    [statusMenu addItem:menuItem];
+    // Add the various needed menu items to the menu
+    NSMenuItem *recordMenuItem = [[NSMenuItem alloc] initWithTitle:@"Start Recording" action:@selector(startRecording:) keyEquivalent:@"R"];
+    [recordMenuItem setToolTip:@"Start recording your entire screen"];
+    [statusMenu addItem:recordMenuItem];
+    
+    [statusMenu addItem:[NSMenuItem separatorItem]];
+    
+    NSMenuItem *settingsMenuItem = [[NSMenuItem alloc] initWithTitle:@"Settings" action:@selector(openSettings:) keyEquivalent:@""];
+    [settingsMenuItem setToolTip:@"Start recording your entire screen"];
+    [statusMenu addItem:settingsMenuItem];
+    
+    NSMenuItem *quitMenuItem = [[NSMenuItem alloc] initWithTitle:@"Quit" action:@selector(quit) keyEquivalent:@""];
+    [statusMenu addItem:quitMenuItem];    
     
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:statusMenu];
@@ -34,29 +44,40 @@
     [statusItem setHighlightMode:YES];
 }
 
-- (void)record
+- (void)quit
 {
+    [NSApp terminate:self];
+}
+
+- (void)startRecording:(NSMenuItem *)sender
+{
+    // Set the menu item to make more sense now that we are recording
+    [sender setAction:@selector(stopRecording:)];
+    [sender setToolTip:@"Stop the current recording"];
+    [sender setTitle:@"Stop Recording"];
+    
     // Create a capture session
     mSession = [[AVCaptureSession alloc] init];
     
     if ([mSession canSetSessionPreset:AVCaptureSessionPresetMedium]) {
         // Set the session preset as you wish
-        mSession.sessionPreset = AVCaptureSessionPresetMedium;
+        mSession.sessionPreset = AVCaptureSessionPresetHigh;
     }
     
     // If you're on a multi-display system and you want to capture a secondary display,
     // you can call CGGetActiveDisplayList() to get the list of all active displays.
     // For this example, we just specify the main display.
-    CGDirectDisplayID displayId = kCGDirectMainDisplay;
     
     // Create a ScreenInput with the display and add it to the session
-    AVCaptureScreenInput *input = [[AVCaptureScreenInput alloc] initWithDisplayID:displayId];
-    if ([mSession canAddInput:input]) {
-        [mSession addInput:input];
+    mMovieFileInput = [[AVCaptureScreenInput alloc] initWithDisplayID:kCGDirectMainDisplay];
+    if ([mSession canAddInput:mMovieFileInput]) {
+        [mSession addInput:mMovieFileInput];
     }
     
     // Create a MovieFileOutput and add it to the session
     mMovieFileOutput = [[AVCaptureMovieFileOutput alloc] init];
+    //NSDictionary *outputSettings = [[NSDictionary alloc] initWithObjectsAndKeys:AVVideoCodecH264, AVVideoCodecKey, nil];
+    //[mMovieFileOutput setOutputSettings:outputSettings forConnection:nil];
     if ([mSession canAddOutput:mMovieFileOutput]) {
          [mSession addOutput:mMovieFileOutput];
     }
@@ -64,7 +85,7 @@
     // Start running the session
     [mSession startRunning];
     
-    NSURL *destPath = [NSURL fileURLWithPath:@"/Users/joshholat/Desktop/test.mov"];
+    NSURL *destPath = [NSURL fileURLWithPath:@"/Users/joshholat/Desktop/Quid_Recording.mov"];
     
     // Delete any existing movie file first
     if ([[NSFileManager defaultManager] fileExistsAtPath:[destPath path]]) {
@@ -78,17 +99,16 @@
     // The destination path is assumed to end with ".mov", for example, @"/users/master/desktop/capture.mov"
     // Set the recording delegate to self
     [mMovieFileOutput startRecordingToOutputFileURL:destPath recordingDelegate:self];
-    
-    // Fire a timer in 5 seconds
-    mTimer = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(finishRecord:) userInfo:nil repeats:NO];
 }
 
--(void)finishRecord:(NSTimer *)timer
-{
-    NSLog(@"finish it");
-    
+- (void)stopRecording:(NSMenuItem *)sender
+{    
     // Stop recording to the destination movie file
-    [mMovieFileOutput stopRecording];    
+    [mMovieFileOutput stopRecording];
+    
+    [sender setAction:@selector(startRecording:)];
+    [sender setTitle:@"Start Recording"];
+    [sender setToolTip:@"Start recording your entire screen"];
 }
 
 // AVCaptureFileOutputRecordingDelegate methods

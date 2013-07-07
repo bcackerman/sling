@@ -16,6 +16,7 @@
     
     AVCaptureSession *mSession;
     AVCaptureMovieFileOutput *mMovieFileOutput;
+    AVCaptureScreenInput *mMovieFileInput;
     NSTimer *mTimer;
 }
 
