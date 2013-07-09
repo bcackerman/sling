@@ -25,6 +25,8 @@
 		BE4554C91788B0890079F296 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4554C71788B0890079F296 /* MainMenu.xib */; };
 		BE4554CC1788B0890079F296 /* Quid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE4554CA1788B0890079F296 /* Quid.xcdatamodeld */; };
 		BE4554D31788D80E0079F296 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4554D21788D80E0079F296 /* AVFoundation.framework */; };
+		BE6DDBC6178CB66100692F27 /* status_bar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DDBC4178CB66100692F27 /* status_bar_icon.png */; };
+		BE6DDBC7178CB66100692F27 /* status_bar_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DDBC5178CB66100692F27 /* status_bar_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		BE4554C81788B0890079F296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BE4554CB1788B0890079F296 /* Quid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quid.xcdatamodel; sourceTree = "<group>"; };
 		BE4554D21788D80E0079F296 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BE6DDBC4178CB66100692F27 /* status_bar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_bar_icon.png; sourceTree = "<group>"; };
+		BE6DDBC5178CB66100692F27 /* status_bar_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status_bar_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,7 @@
 		BE4554B81788B0890079F296 /* Quid */ = {
 			isa = PBXGroup;
 			children = (
+				BE6DDBB6178CB3AF00692F27 /* Images */,
 				BE3E3E15178A0C5B00FD1915 /* Classes */,
 				BE4554C41788B0890079F296 /* QUIAppDelegate.h */,
 				BE4554C51788B0890079F296 /* QUIAppDelegate.m */,
@@ -182,6 +187,23 @@
 				BE4554C01788B0890079F296 /* Quid-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE6DDBB6178CB3AF00692F27 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BE6DDBB7178CB3AF00692F27 /* Icons */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BE6DDBB7178CB3AF00692F27 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				BE6DDBC4178CB66100692F27 /* status_bar_icon.png */,
+				BE6DDBC5178CB66100692F27 /* status_bar_icon@2x.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +261,8 @@
 				BE4554BD1788B0890079F296 /* InfoPlist.strings in Resources */,
 				BE4554C91788B0890079F296 /* MainMenu.xib in Resources */,
 				BE0643461789FE240069534A /* README.md in Resources */,
+				BE6DDBC6178CB66100692F27 /* status_bar_icon.png in Resources */,
+				BE6DDBC7178CB66100692F27 /* status_bar_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

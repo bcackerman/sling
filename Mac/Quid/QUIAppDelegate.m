@@ -42,7 +42,7 @@
     // Add our main status bar item to attach the menu to
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:statusMenu];
-    [statusItem setTitle:@"Quid"];
+    [statusItem setImage:[NSImage imageNamed:@"status_bar_icon.png"]];
     [statusItem setHighlightMode:YES];
 }
 
@@ -70,7 +70,7 @@
     counter--;
     [statusItem setTitle:[NSString stringWithFormat:@"%d", counter]];
     if (counter <= 0) {
-        [statusItem setTitle:@"Quid"];
+        [statusItem setImage:[NSImage imageNamed:@"status_bar_icon.png"]];
         [self startRecording:(NSMenuItem*)timer.userInfo];
         [timer invalidate];
         counter = 3;
