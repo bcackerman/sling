@@ -1,23 +1,52 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+ruby '1.9.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
+gem 'pg'
+gem 'devise', '~> 2.2.3'
+gem 'simple_form'
+gem 'nested_form', :git => 'git://github.com/ryanb/nested_form.git'
+gem 'rmagick'
+gem 'fog'
+gem 'bootstrap-sass', '~> 2.3.2.0'
+gem 'carrierwave'
+gem 'annotate'
+gem 'newrelic_rpm'
+gem 'delayed_job'
+gem 'delayed_job_active_record'
+gem 'airbrake', '~> 3.1.12'
+gem 'dalli' # cache store
+gem 'memcachier'
+gem "font-awesome-rails", "~> 3.2.1"
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
-
+  gem 'compass-rails'
   gem 'uglifier', '>= 1.0.3'
+end
+
+group :production do
+  gem 'unicorn'
+  gem 'execjs' # heroku stuff
+end
+
+group :development, :test do
+  gem 'taps'
+  gem 'rspec-rails', '~> 2.11'
+  gem 'thin'
+  gem 'heroku_san', '4.0.4'
+  gem 'bullet'
+  gem 'sqlite3'
+  gem 'lol_dba'
+  gem 'foreman'
+  gem "better_errors"
 end
 
 gem 'jquery-rails'

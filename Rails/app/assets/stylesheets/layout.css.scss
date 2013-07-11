@@ -1,0 +1,19 @@
+@import "mixins";
+
+.navbar{
+  .navbar-inner{
+    .nav{
+      .header-register{
+        border:2px solid white;
+        @include rounded(3);
+        padding: 4px 15px 0px;
+        height:25px;
+        margin:7px 0 7px 0;
+        color:white;
+      }
+      .header-register:hover{
+        background:#3a454e;
+      }
+    }
+  }
+}

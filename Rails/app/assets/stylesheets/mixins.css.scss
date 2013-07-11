@@ -1,0 +1,30 @@
+@mixin rounded($amount){
+  -webkit-border-radius: $amount+px;
+  border-radius: $amount+px;
+}
+@mixin transition{
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+      -ms-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+@mixin bottom-black-shadow{
+  text-shadow:0 1px 1px rgba(0, 0, 0, .7)
+}
+@mixin white-shadow{
+  text-shadow:0 1px 0 rgba(255, 255, 255, .4)
+}
+@mixin top-black-shadow{
+  text-shadow:0 -1px 1px rgba(0, 0, 0, .3)
+}
+@mixin at2x($image_name, $w: auto, $h: auto, $extention: '.png') {
+  background-image: image_url($image_name + $extention);
+  $x2img : $image_name + '@2x' + $extention;
+
+  @media all and (-webkit-min-device-pixel-ratio : 1.5) {
+    background-image: image_url($x2img);
+    background-size: $w $h;
+
+  }  
+}

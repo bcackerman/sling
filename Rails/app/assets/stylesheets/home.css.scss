@@ -1,0 +1,46 @@
+@import "mixins";
+
+#home-banner{
+  background-image:url('home/banner.jpg');
+  background-size:cover;
+  background-position: top center;
+  margin-top:-20px;
+  color:white;
+  @include bottom-black-shadow;
+  padding:60px 0;
+  h1{
+    font-size:28px;
+    margin:0;
+  }
+  h2{
+    font-size:18px;
+    font-weight:400;
+    margin-bottom: 25px;
+  }
+  .mac-download{
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1; /* Fix for IE7 */
+    *display: inline; /* Fix for IE7 */
+    padding:14px 18px;
+    background-color: #509fd6;
+    color:white;
+    @include rounded(3);
+    width:250px;
+    position: relative;
+    @include transition;
+    h5{
+      margin:0;
+      text-align: left;
+      @include top-black-shadow;
+    }
+    h4{
+      margin:0;
+      text-align: left;
+      @include top-black-shadow;
+    }
+  }
+  .mac-download:hover{
+    background:#58a7dd;
+  }
+}

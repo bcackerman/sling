@@ -2,13 +2,41 @@
 <html>
 <head>
   <title>Quid</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  
   <%= csrf_meta_tags %>
+
+  <meta name="description" content="" />
+  <link rel="canonical" href="http://bruceackerman.com/" />
+  <link rel="author" href="https://plus.google.com/104344423059749527240/posts"/>
+  <meta name="google-site-verification" content="y0_ijkUxCCHxRsFj0qY5C3Z89xeg36PPjTNu2Nf6bww" />
+  <meta property='og:locale' content='en_US'/>
+  <meta property='og:title' content='Bruce Ackerman - Entrepreneur, UI/UX designer and developer'/>
+  <meta property='og:url' content='http://bruceackerman.com/'/>
+  <meta property='og:site_name' content='Bruce Ackerman'/>
+  <meta property="og:image" content="me.jpg">
+  <meta property='og:type' content='website'/>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@webbruce">
+  <meta name="twitter:creator" content="@webbruce">
+  <meta name="twitter:url" content="http://bruceackerman.com">
+  <meta name="twitter:title" content="Bruce Ackerman">
+  <meta name="twitter:description" content="Bruce Ackerman - Entrepreneur, UI/UX designer and developer">
+  <meta name="twitter:image" content="img/me.jpg">
+  <meta name="twitter:domain" content="http://bruceackerman.com">
+
 </head>
 <body>
+  <%= render 'layouts/partials/header' %>
+  
+  <% flash.each do |key, value| %>
+    <div id="alert">
+      <%= content_tag :div, value, :class => "alert flash #{key}" unless value.blank? %>
+    </div>
+  <% end %>
+  
+  <%= yield %>
 
-<%= yield %>
-
+  <%= javascript_include_tag "application" %>
 </body>
 </html>
