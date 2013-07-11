@@ -13,10 +13,10 @@
 {
     IBOutlet NSMenu *statusMenu;
     NSStatusItem* statusItem;
+    int counter;
     
     AVCaptureSession *mSession;
     AVCaptureMovieFileOutput *mMovieFileOutput;
-    NSTimer *mTimer;
 }
 
 @property (assign) IBOutlet NSWindow *window;

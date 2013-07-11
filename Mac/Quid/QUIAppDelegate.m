@@ -7,6 +7,7 @@
 //
 
 #import "QUIAppDelegate.h"
+#import "AFNetworking.h"
 
 @implementation QUIAppDelegate
 
@@ -16,7 +17,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    counter = 3;
 }
 
 - (void)awakeFromNib
@@ -24,47 +25,92 @@
     [statusMenu setDelegate:self];
     [statusMenu setAutoenablesItems:NO];
     
-    NSMenuItem *menuItem = [[NSMenuItem alloc] initWithTitle:@"Record" action:@selector(record) keyEquivalent:@"R"];
-    [menuItem setEnabled:YES];
-    [statusMenu addItem:menuItem];
+    // Add the various needed menu items to the menu
+    NSMenuItem *recordMenuItem = [[NSMenuItem alloc] initWithTitle:@"Start Recording" action:@selector(almostStartRecording:) keyEquivalent:@"R"];
+    [recordMenuItem setToolTip:@"Start recording your entire screen"];
+    [statusMenu addItem:recordMenuItem];
     
+    [statusMenu addItem:[NSMenuItem separatorItem]];
+    
+    NSMenuItem *settingsMenuItem = [[NSMenuItem alloc] initWithTitle:@"Settings" action:@selector(openSettings:) keyEquivalent:@""];
+    [settingsMenuItem setToolTip:@"Start recording your entire screen"];
+    [statusMenu addItem:settingsMenuItem];
+    
+    NSMenuItem *quitMenuItem = [[NSMenuItem alloc] initWithTitle:@"Quit" action:@selector(quit) keyEquivalent:@""];
+    [statusMenu addItem:quitMenuItem];    
+    
+    // Add our main status bar item to attach the menu to
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:statusMenu];
-    [statusItem setTitle:@"Quid"];
+    [statusItem setImage:[NSImage imageNamed:@"status_bar_icon.png"]];
     [statusItem setHighlightMode:YES];
 }
 
-- (void)record
+- (void)quit
 {
-    // Create a capture session
-    mSession = [[AVCaptureSession alloc] init];
+    [NSApp terminate:self]; // Go to sleep now... everything is going to be okay
+}
+
+- (void)almostStartRecording:(NSMenuItem*)sender
+{
+    // Set a timer to fire every second as an initial countdown until the recording will start
+    [statusItem setTitle:[NSString stringWithFormat:@"%d", counter]];
+    NSTimer *countdownTimer = [NSTimer scheduledTimerWithTimeInterval:1
+                                                               target:self
+                                                             selector:@selector(advanceTimer:)
+                                                             userInfo:sender
+                                                              repeats:YES];
+    NSRunLoop *runLoop = [NSRunLoop currentRunLoop];
+    [runLoop addTimer:countdownTimer forMode:NSDefaultRunLoopMode];
+}
+
+- (void)advanceTimer:(NSTimer *)timer
+{
+    // For each advance of the timer, update our counter and various UI states
+    counter--;
+    [statusItem setTitle:[NSString stringWithFormat:@"%d", counter]];
+    if (counter <= 0) {
+        [statusItem setImage:[NSImage imageNamed:@"status_bar_icon.png"]];
+        [self startRecording:(NSMenuItem*)timer.userInfo];
+        [timer invalidate];
+        counter = 3;
+    }
+}
+
+- (void)startRecording:(NSMenuItem *)sender
+{
+    // Set the menu item to make more sense now that we are recording
+    [sender setAction:@selector(stopRecording:)];
+    [sender setToolTip:@"Stop the current recording"];
+    [sender setTitle:@"Stop Recording"];
     
+    mSession = [[AVCaptureSession alloc] init];    
     if ([mSession canSetSessionPreset:AVCaptureSessionPresetMedium]) {
-        // Set the session preset as you wish
-        mSession.sessionPreset = AVCaptureSessionPresetMedium;
+        [mSession setSessionPreset:AVCaptureSessionPresetHigh];
     }
     
     // If you're on a multi-display system and you want to capture a secondary display,
     // you can call CGGetActiveDisplayList() to get the list of all active displays.
-    // For this example, we just specify the main display.
-    CGDirectDisplayID displayId = kCGDirectMainDisplay;
-    
     // Create a ScreenInput with the display and add it to the session
-    AVCaptureScreenInput *input = [[AVCaptureScreenInput alloc] initWithDisplayID:displayId];
-    if ([mSession canAddInput:input]) {
-        [mSession addInput:input];
+    AVCaptureScreenInput *mMovieFileInput = [[AVCaptureScreenInput alloc] initWithDisplayID:kCGDirectMainDisplay];
+    if ([mSession canAddInput:mMovieFileInput]) {
+        [mSession addInput:mMovieFileInput];
     }
     
+    // Add the main audio input device to the recording as well
+    AVCaptureDevice *audioDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeAudio];
+    AVCaptureDeviceInput * audioInput = [AVCaptureDeviceInput deviceInputWithDevice:audioDevice error:nil];
+    [mSession addInput:audioInput];
+        
     // Create a MovieFileOutput and add it to the session
     mMovieFileOutput = [[AVCaptureMovieFileOutput alloc] init];
     if ([mSession canAddOutput:mMovieFileOutput]) {
          [mSession addOutput:mMovieFileOutput];
     }
     
-    // Start running the session
     [mSession startRunning];
     
-    NSURL *destPath = [NSURL fileURLWithPath:@"/Users/joshholat/Desktop/test.mov"];
+    NSURL *destPath = [NSURL fileURLWithPath:[@"~/Desktop/Quid_Recording.mov" stringByExpandingTildeInPath]];
     
     // Delete any existing movie file first
     if ([[NSFileManager defaultManager] fileExistsAtPath:[destPath path]]) {
@@ -78,28 +124,51 @@
     // The destination path is assumed to end with ".mov", for example, @"/users/master/desktop/capture.mov"
     // Set the recording delegate to self
     [mMovieFileOutput startRecordingToOutputFileURL:destPath recordingDelegate:self];
-    
-    // Fire a timer in 5 seconds
-    mTimer = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(finishRecord:) userInfo:nil repeats:NO];
 }
 
--(void)finishRecord:(NSTimer *)timer
-{
-    NSLog(@"finish it");
-    
+- (void)stopRecording:(NSMenuItem *)sender
+{    
     // Stop recording to the destination movie file
-    [mMovieFileOutput stopRecording];    
+    [mMovieFileOutput stopRecording];
+    
+    [sender setAction:@selector(startRecording:)];
+    [sender setTitle:@"Start Recording"];
+    [sender setToolTip:@"Start recording your entire screen"];
 }
 
-// AVCaptureFileOutputRecordingDelegate methods
+# pragma mark - AVCaptureFileOutputRecordingDelegate
 
 - (void)captureOutput:(AVCaptureFileOutput *)captureOutput didFinishRecordingToOutputFileAtURL:(NSURL *)outputFileURL fromConnections:(NSArray *)connections error:(NSError *)error
-{
-    NSLog(@"Did finish recording to %@ due to error %@", [outputFileURL description], error);
+{    
+    // Setup an HTTP request to upload the data from this file to a server
+    AFHTTPClient *httpClient = [[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:@"http://stagebloc.com"]];
+    NSMutableURLRequest *request = [httpClient multipartFormRequestWithMethod:@"POST"
+                                                                         path:@""
+                                                                   parameters:nil
+                                                    constructingBodyWithBlock:^(id <AFMultipartFormData>formData) {
+                                                        [formData appendPartWithFileData:[NSData dataWithContentsOfURL:outputFileURL]
+                                                                                    name:@"video"
+                                                                                fileName:@"Quid_Recording.mov"
+                                                                                mimeType:@"image/mov"];
+                                                    }];
+    
+    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+    [operation setUploadProgressBlock:^(NSUInteger bytesWritten, long long totalBytesWritten, long long totalBytesExpectedToWrite) {
+        //NSLog(@"Sent %lld of %lld bytes", totalBytesWritten, totalBytesExpectedToWrite);
+    }];
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+                                         NSLog(@"Response: %@", [operation responseString]);
+    }
+                                     failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                                         NSLog(@"Error: %@", error.localizedDescription);
+    }];
+    [httpClient enqueueHTTPRequestOperation:operation];
     
     // Stop running the session
     [mSession stopRunning];    
 }
+
+# pragma mark - Core Data
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "com.holat.quid.Quid" in the user's Application Support directory.
 - (NSURL *)applicationFilesDirectory
