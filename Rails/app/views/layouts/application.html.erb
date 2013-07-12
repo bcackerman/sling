@@ -28,7 +28,7 @@
 </head>
 <body>
   <%= render 'layouts/partials/header' %>
-  
+
   <% flash.each do |key, value| %>
     <div id="alert">
       <%= content_tag :div, value, :class => "alert flash #{key}" unless value.blank? %>
@@ -36,6 +36,8 @@
   <% end %>
   
   <%= yield %>
+
+  <%= render 'layouts/partials/footer' %>
 
   <%= javascript_include_tag "application" %>
 </body>
