@@ -2,15 +2,14 @@
 <html>
 <head>
   <title>Quid</title>
-  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= stylesheet_link_tag "devise", :media => "all" %>
   
   <%= csrf_meta_tags %>
 
   <%= render 'layouts/partials/meta-stuff' %>
 
 </head>
-<body>
-  <%= render 'layouts/partials/header' %>
+<body id="devise-body">
 
   <% flash.each do |key, value| %>
     <div id="alert">
@@ -20,7 +19,6 @@
   
   <%= yield %>
 
-  <%= render 'layouts/partials/footer' %>
 
   <%= javascript_include_tag "application" %>
 </body>
