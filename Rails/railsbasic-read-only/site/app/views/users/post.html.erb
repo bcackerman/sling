@@ -1,0 +1,14 @@
+<%= render(:partial => 'guide') %>
+
+<div id="user-main-audio-list">
+
+    <div id="user-main-audio-title">
+      <h2>User Main Page</h2>
+    </div>
+
+    <div id="user-main-audio-container"><%= render 'users/answers' %></div>
+    <%= pageless("#user-main-audio-container", @posts.num_pages, @user.username) %>
+
+</div>
+
+<%= render(:partial => 'shared/right') %>

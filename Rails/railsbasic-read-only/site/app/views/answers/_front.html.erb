@@ -1,0 +1,60 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".speech-front-audio-item").hover( 
+      function() { $(this).find(".speech-question-info-link").show(); },
+      function() { $(this).find(".speech-question-info-link").hide(); }
+    );
+    
+    /*$("#speech-front-frame-container").find(".speech-question-front-content").each(function() {
+      var obj_ellipsis = $(this).next('.speech-question-front-status');
+      if (this.scrollHeight > $(this).height()) {
+        obj_ellipsis.children('.ellipsis').show();
+      } else {
+        obj_ellipsis.children('.ellipsis').hide();
+      }
+    });*/
+  });
+</script>
+
+<% if @answers.present? %>
+
+  <div class="speech-front-nav-page">
+    <%= paginate @answers %>
+  </div>
+
+  <% for answer in @answers %>
+
+    <div class="speech-front-audio-item">
+      <div class="speech-answer-user-links">
+        <div class="speech-answer-user-avatar">
+          <%= image_tag user_avatar_url(answer.user) %>
+          <div class="play-stop"><%= link_to image_tag "play.png", :voice => post_voice_url(answer) %></div>
+        </div>
+        <div class="speech-answer-play-icon">
+          <%= image_tag("speech_bubble.png") %>
+        </div>
+      </div>
+      <div class="speech-answer-front-content">
+        <div class="speech-answer-front-status">
+          <%= link_to answer.user.username, user_profile_url(answer.user) %>
+          <span class="speech-answer-date"><%= time_ago_in_words(answer.created_at) %> ago</span>
+          <span class="speech-answer-like">
+            <%= answer.liked %>
+            <%= image_tag "thumb_up.png" %>
+          </span>
+        </div>
+        <div class="speech-question-front-content">
+          <span class="speech-question-user-avatar"><%= image_tag user_avatar_url(answer.question.user) %></span>
+          <%= link_to answer.question.user.username, user_profile_url(answer.question.user) %>
+          <%= answer.question.content %>
+        </div>
+        <div class="speech-question-front-status">
+          <span class="ellipsis" title="<%= answer.question.content %>">...</span>
+          <span class="speech-question-info-link"><%= link_to "see all", question_path(answer.question) %></span>
+        </div>
+      </div>
+    </div>
+
+  <% end %>
+
+<% end %>

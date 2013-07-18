@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/481/trunk/speak/spec/routing
+END
+speeches_routing_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/481/trunk/speak/spec/routing/speeches_routing_spec.rb
+END
+groups_routing_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/436/trunk/speak/spec/routing/groups_routing_spec.rb
+END
+users_routing_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/436/trunk/speak/spec/routing/users_routing_spec.rb
+END

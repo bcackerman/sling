@@ -1,0 +1,53 @@
+<% if @post.present? %>
+ 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".post_widget").hover(
+        function () {
+          $(this).find(".echo_remove").show();
+        }, 
+        function () {
+          $(this).find(".echo_remove").hide();
+        });
+    });
+  </script>
+
+  <% for post in @post %>
+    <div class="post_widget">
+      <div class="echo_links">
+        <div class="user_avatar">
+          <%= link_to image_tag user_avatar_url(post.user), :title => "Play Voice", :postid => post.id, :voice => post_voice_url(post) %>
+        </div>
+
+        <div class="echo_topic">
+          <% if post.is_topic %>
+            <%= link_to image_tag("links/forward.png", :title => "Topic View"), topic_show_path(post) %>
+          <% else %>
+            <%= link_to image_tag("links/forward.png", :title => "Topic View"), topic_show_path(post.topic_id) %>
+          <% end %>
+        </div>
+      </div>
+
+      <div class="echo_content">
+        <div class="echo_status">
+          <%= link_to post.user.username, user_profile_url(post.user) %>
+          <span class="echo_date"><em><%= l post.created_at %></em></span>
+          <% if post.is_topic %>
+            <span class="echo_reply"><%= link_to 'echo', reply_post_path(post) %></span>
+          <% end %>
+          <% if @user.present? and user_signed_in? and current_user == @user %>
+            <% if post.is_topic %>
+              <span class="echo_remove"><%= link_to 'remove', remove_post_path(post), :confirm => "Removing topic: are you sure?" %></span>
+            <% else %>
+              <span class="echo_remove"><%= link_to 'remove', remove_post_path(post), :confirm => "Are you sure?" %></span>
+            <% end %>
+          <% end %>
+        </div>
+        <div class="echo_text">
+          <%= post.text_entry %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+  <% paginate @post %>
+<% end %>

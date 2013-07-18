@@ -1,0 +1,17 @@
+<%= render(:partial => 'shared/ads') %>
+
+<div id="new_frame">
+
+  <h2>New Topic:</h2>
+
+  <%= render 'form' %>
+
+  <div class="post_nav">
+    <%= link_to 'Back', posts_path %>
+  </div>
+
+</div>
+
+<div id="side_panel">
+  <%= render(:partial => 'shared/friend') %>
+</div>

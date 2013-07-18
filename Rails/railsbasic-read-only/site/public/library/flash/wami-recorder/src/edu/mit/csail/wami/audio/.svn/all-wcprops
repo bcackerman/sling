@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/219/trunk/site/public/library/flash/wami-recorder/src/edu/mit/csail/wami/audio
+END
+IAudioContainer.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/219/trunk/site/public/library/flash/wami-recorder/src/edu/mit/csail/wami/audio/IAudioContainer.as
+END
+DecodePipe.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/219/trunk/site/public/library/flash/wami-recorder/src/edu/mit/csail/wami/audio/DecodePipe.as
+END
+WaveContainer.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/219/trunk/site/public/library/flash/wami-recorder/src/edu/mit/csail/wami/audio/WaveContainer.as
+END
+AuContainer.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/219/trunk/site/public/library/flash/wami-recorder/src/edu/mit/csail/wami/audio/AuContainer.as
+END
+AudioFormat.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/219/trunk/site/public/library/flash/wami-recorder/src/edu/mit/csail/wami/audio/AudioFormat.as
+END
+EncodePipe.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/219/trunk/site/public/library/flash/wami-recorder/src/edu/mit/csail/wami/audio/EncodePipe.as
+END

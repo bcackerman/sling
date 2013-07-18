@@ -1,0 +1,70 @@
+
+{
+    /**
+     * @ignore
+     */
+
+    var i;
+    var panFlagMax = 12;
+    var panFlagSets = new Array(panFlagMax);
+
+    for (i=0; i<panFlagMax; i++) {
+        panFlagSets[i] = 0;
+    }
+
+
+    /**
+     * @ignore
+     */
+    function setPanFilter(n) {
+       
+        if (panFlagSets[n] == 0) {
+            panFlagSets[n] = 1;
+            $('#pan-flag-' + n).fadeTo('fast', 1);
+
+        } else {
+            panFlagSets[n] = 0;
+            $('#pan-flag-' + n).fadeTo('slow', 0.3);
+        }
+    }
+
+
+    /**
+     * @ignore
+     */
+    function clearPanFilter() {
+
+        for (i=0; i<panFlagMax; i++) {
+            panFlagSets[i] = 0;
+            $('#pan-flag-' + i).fadeTo('slow', 0.3);
+        }
+    }
+
+    /**
+     * Demo only
+     */
+    function setEchoText(n) {
+
+        if (n == 0) {
+            $("p.twtr-tweet-text").html("in English");
+        } else if (n == 1) {
+            $("p.twtr-tweet-text").html("in Chinese");
+        } else if (n == 3) {
+            $("p.twtr-tweet-text").html("in Spanish");
+        }
+
+    }
+
+    /**
+     * Demo only
+     */
+    function playEchoVoice(n) {
+      
+        var soundClip = new Audio('voice-' + n + '.mp3');
+
+        soundClip.load();
+        soundClip.play();
+    }
+
+}
+

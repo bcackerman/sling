@@ -1,0 +1,47 @@
+source 'https://rubygems.org'
+
+gem 'rails', '3.2.13'
+gem 'sqlite3'
+group :assets do
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
+  gem 'bootstrap-sass'
+end
+gem 'jquery-rails'
+gem 'devise'
+gem 'cancan'
+gem 'easy_roles'
+
+gem 'win32-process'
+gem 'ransack'
+gem 'kaminari'
+gem 'bootstrap-kaminari-views'
+gem 'jquery-fileupload-rails'
+gem 'fog'
+gem 'carrierwave'
+gem 'carrierwave_backgrounder'
+gem 's3_direct_upload'
+gem 'streamio-ffmpeg'
+gem 'carrierwave-video'
+gem 'mini_magick'
+gem 'daemons'
+gem 'delayed_job_active_record'
+gem 'simple_form'
+gem 'client_side_validations'
+gem 'client_side_validations-simple_form'
+gem 'google_visualr'
+gem 'best_in_place'
+gem 'friendly_id'
+
+gem "rspec-rails",        :group => [:development, :test]
+gem "email_spec",         :group => :test
+gem "cucumber-rails",     :group => :test, :require => false
+gem "database_cleaner",   :group => :test
+gem "launchy",            :group => :test
+gem "capybara",           :group => :test
+gem "factory_girl_rails", :group => [:development, :test]
+
+group :production do
+  gem "capistrano"
+end

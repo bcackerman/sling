@@ -1,0 +1,25 @@
+<%= render(:partial => 'shared/left') %>
+
+<div id="show_frame">
+  <div class="frame_top">
+    <span class="post_title">Post View</span>
+  </div>
+  <div id="show_post">
+    <div class="echo_links">
+      <div class="echo_avatar"><%= link_to image_tag user_avatar_url(@post.user), :title => "Play Voice", :postid => @post.id, :voice => post_voice_url(@post) %></div>
+      <div class="echo_topic"><%= link_to image_tag("links/forward.png", :title => "Topic View"), topic_show_path(@topic) %></div>
+    </div>
+    <div class="echo_content">
+      <div class="echo_status">
+        <%= link_to @post.user.username, user_profile_url(@post.user) %>
+        <%= image_tag("flags/#{@post.language}_small.png", :title => @post.language) %>
+        <span class="echo_date"><em><%= l @post.created_at %></em></span>
+      </div>
+      <div class="echo_text">
+        <%= @post.text_entry %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= render(:partial => 'shared/right') %>

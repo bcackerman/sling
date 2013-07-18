@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/286/trunk/site/app/views/answers
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/182/trunk/site/app/views/answers/edit.html.erb
+END
+featured.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/232/trunk/site/app/views/answers/featured.js.erb
+END
+_front.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/242/trunk/site/app/views/answers/_front.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/203/trunk/site/app/views/answers/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/286/trunk/site/app/views/answers/new.html.erb
+END
+_wami.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/254/trunk/site/app/views/answers/_wami.html.erb
+END
+index.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/236/trunk/site/app/views/answers/index.js.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/182/trunk/site/app/views/answers/show.html.erb
+END
+_wave.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/286/trunk/site/app/views/answers/_wave.html.erb
+END

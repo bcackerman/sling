@@ -1,0 +1,219 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Async Voice is a service that lets you talk to your friends using short (\&lt; 14s) voice messages.It\'s push-to-talk, made for the web!">
+<title>Push-to-talk, made for the web - Async Voice</title>
+<link rel="apple-touch-icon" href="/static/images/async_logo_white.png?v=fa26e">
+<link rel="stylesheet" href="asyncvoice_main.css" type="text/css">
+<link rel="shortcut icon" href="/static/favicon.ico?v=110f0" type="image/x-icon">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js" type="text/javascript"></script>
+
+<link rel="alternate" href="/async/conversation/public" type="application/atom+xml" title="Public messages">
+<link rel="stylesheet" href="asyncvoice_async.css" type="text/css">
+<style type="text/css">
+.user-profile {padding-bottom:8px;}
+.app {width:270px;margin-right:30px; margin-bottom:40px;}
+td {vertical-align:top;}
+</style>
+<script type="text/javascript">
+function showMap(target, lat, long) {
+$(target).parents('.async-entry').toggleClass('async-expand async-entry-w-map');
+$(target).siblings('.async-map-div').toggle();
+var ll = lat + "," + long;
+var map = "<a target='_blank' href='http://maps.google.com/maps?q="+ll+"'><img src='http://maps.google.com/maps/api/staticmap?center="+ll+
+"&zoom=12&size=400x270&maptype=roadmap&markers=color:blue|label:A|"+ll+"&sensor=false' width='320' height='270' border='0' /></a>";
+$(target).siblings(".async-map-div").html(map);
+}
+$(document).ready(function() {
+$('#login_facebook').click(function () {
+document.location = "/auth/login/fb";
+});
+$('#show-browsers').toggle(function() {
+$('#browsers').show("slow");
+} , function() {
+$('#browsers').hide("slow");
+}
+);
+if (navigator.appName.indexOf("Explorer") > 0 && navigator.appVersion.indexOf("9") < 0) {
+$('#ie-show').show();
+$('#browsers').show();
+}
+$("#joinB").click(function() {document.location = "/auth/join"});
+});
+</script>
+
+</head>
+<body>
+<div id="av-root"><script async="" src="http://asyncvoice.com/static/async-voice.js"></script></div>
+<script type="text/javascript">
+var onAVLoad = function() {
+AV.init({apiKey: 'teNqdVXmwSC2uwcIaLK2Snii05wwO7Eho4uHX6Y9', appName: "Another Public Wall", recordToken: false}, function(){
+if (this.initPage && this.initPage instanceof Function)
+initPage(); //onready callback
+});
+};
+(function() {
+var e = document.createElement('script');
+e.async = true;
+e.onload = onAVLoad;
+e.src = "http://asyncvoice.com/static/async-voice.js";
+document.getElementById('av-root').appendChild(e);
+}());
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-20004623-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<div id="page-wrapper">
+<div id="header-wrapper">
+<a href="/" title="Async Voice"><img class="header-image" src="/static/images/async_logo_clean.png?v=5eeaa"></a>
+<div id="header-top">
+
+<span class="leaf"><a href="/auth/login">Sign in</a></span>
+<span class="leaf"><a href="/auth/join">Join</a></span>
+
+</div>
+<div id="header-title">
+<a href="/"><img src="/static/images/title.png?v=aea50"></a>
+</div>
+<div id="header-menu">
+<div class="content">
+
+<span class="leaf">Push-to-talk, made for the web</span>
+
+</div>
+</div>
+</div> <!-- /#header-wrapper -->
+
+<div id="content-wrapper">
+
+<div id="apps">
+<table>
+<tbody><tr>
+<td>
+<div id="howto" class="app">
+<h2>What is Async Voice?</h2>
+<p>
+Async Voice is a service that lets you talk to your friends using short (&lt; 14s) voice messages.
+It's push-to-talk, made for the web!
+</p>
+<h3>What do I need?</h3>
+<ul>
+<li>A microphone connected to your computer</li>
+<li><strong><a href="http://get.adobe.com/flashplayer/">Flash 10.1</a></strong> or newer.</li>
+<li>A modern browser <a id="show-browsers" href="#">(show)</a>.<br><span id="ie-show" style="display:none;"> <strong>Note</strong> Internet Explorer is currently not supported.</span></li>
+<div id="browsers" style="display:none;">
+<ul>
+<li><a href="http://www.google.com/chrome" target="_blank"><img class="sup-browser" src="/static/images/chrome.png?v=18809"></a></li>
+<li><a href="http://www.apple.com/safari/" target="_blank"><img class="sup-browser" src="/static/images/safari.png?v=ddb5a"></a></li>
+</ul>
+<ul>
+<li><a href="http://www.firefox.com" target="_blank"><img class="sup-browser" src="/static/images/ff.png?v=38b75"></a></li>
+<li><a href="http://www.opera.com/browser/download/" target="_blank"><img class="sup-browser" src="/static/images/opera.png?v=474b3"></a></li>
+</ul>
+</div>
+<li>An Async Voice <a href="/auth/join">account</a></li>
+</ul>
+</div>
+<div id="login-fb" style="float:left;">
+<a href="/auth/login/fb"><img id="login_facebook" src="/static/images/fblogin.png?v=40764"></a>
+                  </div>
+                  <span class="big">or</span>
+                  <div id="joinB" class="whiteButton" style="margin-top:-5px;width:80px;float:right;">
+                      <a href="/auth/join">Join!</a>
+                  </div>
+              </td>
+              <td>
+                  <div style="width:500px;">
+                      <h2>Async Voice conversations</h2>
+                      <p>
+                        Enjoy an Async Voice conversation. Anyone can listen. Anyone can speak. Just share a link and start talking!
+                      </p>
+                      <p>
+                        Say something to the <a href="/c/3a08788eed7a75ba467f54da3af939dc">public wall</a> or create your own conversation such as the one below.
+                      </p>
+                      <div class="conversation-ex">
+                          <div class="async-entry async-entry-w-map" id="17647f18df3a702216e368ece5ed4c4c">
+                              <div class="async-user async-vert-content">
+                                  <a href="http://asyncvoice.labs.ericsson.net/Stefan" target="_blank">
+                                      <img title="Stefan" class="async-user-img" src="http://graph.facebook.com/724990849/picture">
+                                  </a>
+                              </div>
+                              <div class="async-speech-bubble left async-vert-content async-entry-bubble">
+                                  <audio controls="" preload="meta" class="audio-elem" style="margin-left:15px;margin-top:10px;">
+                                      <source type="audio/mpeg" src="http://async-voice.s3.amazonaws.com/1f453d9411f04212fca16d5273cfaec0.mp3">
+                                      <source type="audio/x-wav" src="http://async-voice.s3.amazonaws.com/c68a50ebe227664399e31ad892fb79f9.wav">
+                                      Your browser does not support the <pre><audio></audio></pre> tag.
+                                  </audio>
+                                  <br>
+                                  <span class="async-submitted">12:23 - 15/11</span>
+                                  <img class="async-map-pin" src="http://asyncvoice.labs.ericsson.net/static/images/map_16.png" onclick="showMap(this, 59.403,17.947)">
+                                  <div class="async-map-div" style="display: none; "><a target="_blank" href="http://maps.google.com/maps?q=59.403,17.947"><img src="http://maps.google.com/maps/api/staticmap?center=59.403,17.947&amp;zoom=12&amp;size=400x270&amp;maptype=roadmap&amp;markers=color:blue|label:A|59.403,17.947&amp;sensor=false" width="320" height="270" border="0"></a></div>
+                              </div>
+                          </div>
+                          <div class="async-entry">
+                                <div class="async-speech-bubble right async-vert-content async-entry-bubble">
+                                    <audio controls="" preload="meta" class="audio-elem" style="margin-left:15px;margin-top:10px;">
+                                        <source type="audio/mpeg" src="http://async-voice.s3.amazonaws.com/8287e785a4383bde3ee100ead386a8e2.mp3"><source type="audio/x-wav" src="http://async-voice.s3.amazonaws.com/af5c52ec4868fde6add50c7513ab6fe9.wav">
+                                        Your browser does not support the <pre><audio></audio></pre> tag.
+                                    </audio>
+                                    <br><span class="async-submitted">13:20 - 15/11</span>
+                                </div>
+                                <div class="async-user async-vert-content">
+                                    <a href="http://asyncvoice.labs.ericsson.net/Kalle" target="_blank">
+                                        <img title="Kalle" class="async-user-img" src="http://graph.facebook.com/704190354/picture">
+                                    </a>
+                                </div>
+                          </div>
+                          <div class="async-entry async-entry-w-map" id="b6bd9b96d7e0dbc984e3d602b0805bc2">
+                                <div class="async-user async-vert-content">
+                                    <a href="http://asyncvoice.labs.ericsson.net/Stefan" target="_blank">
+                                        <img title="Stefan" class="async-user-img" src="http://graph.facebook.com/724990849/picture">
+                                    </a>
+                                </div>
+                                <div class="async-speech-bubble left async-vert-content async-entry-bubble">
+                                    <audio controls="" preload="meta" class="audio-elem" style="margin-left:15px;margin-top:10px;">
+                                        <source type="audio/mpeg" src="http://async-voice.s3.amazonaws.com/076e3f4885742dbe7536567e045fd508.mp3">
+                                        <source type="audio/x-wav" src="http://async-voice.s3.amazonaws.com/2b400a1dac594c73dfdf784888d0c3b8.wav">
+                                        Your browser does not support the <pre><audio></audio></pre> tag.
+                                    </audio>
+                                    <br>
+                                    <span class="async-submitted">12:41 - 15/11</span>
+                                    <img class="async-map-pin" src="http://asyncvoice.labs.ericsson.net/static/images/map_16.png" onclick="showMap(this, 59.403,17.948)">
+                                    <div class="async-map-div"></div>
+                                </div>
+                          </div>
+                      </div>
+</div>
+</td>
+<td>
+<div style="margin-top:30px;width:120px;">
+<span style="position:relative;top:-4px;"><iframe allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" class="twitter-share-button twitter-count-vertical" src="http://platform0.twitter.com/widgets/tweet_button.html?_=1298678086822&amp;count=vertical&amp;lang=en&amp;text=Push-to-talk%2C%20made%20for%20the%20web&amp;url=http%3A%2F%2Fasyncvoice.com&amp;via=asyncvoice" style="width: 55px; height: 62px; " title="Twitter For Websites: Tweet Button"></iframe><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></span>
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fasyncvoice.com&amp;layout=box_count&amp;show_faces=true&amp;width=200&amp;action=like&amp;colorscheme=light&amp;height=65" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:65px;" allowtransparency="true"></iframe>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+</div> <!-- /#content-wrapper -->
+<div style="clear:both;"></div>
+<div id="footer-wrapper">
+<div class="divider"></div>
+<div class="footer-content">
+<span class="leaf"><a title="About" href="/info/about">About</a></span>
+<span class="leaf"><a title="Terms of Use" href="/info/terms">Terms of Use</a></span>
+<span class="leaf"><a title="Privacy Policy" href="/info/privacy">Privacy Policy</a></span>
+<span class="leaf"><a title="Twitter" href="http://twitter.com/asyncvoice" class="ext" target="_blank">Twitter</a><span class="ext"></span></span>
+<span class="leaf"><a title="API" href="https://labs.ericsson.com/apis/async-voice/" class="ext" target="_blank">API</a><span class="ext"></span></span>
+<span class="leaf"><a title="Ericsson Labs" href="http://labs.ericsson.com">Visit labs.ericsson.com</a></span>
+</div>
+</div> <!-- footer-wrapper -->
+</div> <!-- /#page-wrapper -->
+
+
+</body></html>
+

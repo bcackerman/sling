@@ -1,0 +1,10 @@
+<%= simple_form_for @feedback, :validate => true do |f| %>
+  <div class="control-group">
+    <%= f.label "Feedback" %>
+    <div class="controls">
+      <%= f.text_area :content, :rows => 8, :placeholder => "Enter your comments and suggestions here.", :class => "span7" %>
+    </div>
+  </div>
+  <div class="new-question-status"></div>
+  <div class="create-button"><%= f.submit "Send Feedback", :class => "btn btn-inverse pull-left" %></div>
+<% end %>

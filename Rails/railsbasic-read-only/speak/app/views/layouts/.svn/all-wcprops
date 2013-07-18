@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/601/trunk/speak/app/views/layouts
+END
+frontpage.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/571/trunk/speak/app/views/layouts/frontpage.html.erb
+END
+_messages.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/436/trunk/speak/app/views/layouts/_messages.html.erb
+END
+_best.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/601/trunk/speak/app/views/layouts/_best.html.erb
+END
+_footer.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/436/trunk/speak/app/views/layouts/_footer.html.erb
+END
+_navigation.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/571/trunk/speak/app/views/layouts/_navigation.html.erb
+END
+_profile.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/599/trunk/speak/app/views/layouts/_profile.html.erb
+END
+_browse.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/505/trunk/speak/app/views/layouts/_browse.html.erb
+END
+application.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/563/trunk/speak/app/views/layouts/application.html.erb
+END

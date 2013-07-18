@@ -1,0 +1,46 @@
+10
+
+dir
+605
+http://railsbasic.googlecode.com/svn/trunk/site/spec
+http://railsbasic.googlecode.com/svn
+
+
+
+2012-02-09T14:59:08.806350Z
+207
+mpengz@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+950e4a67-1729-6560-252b-532fff5b6ec6
+
+helpers
+dir
+
+models
+dir
+
+controllers
+dir
+
+routing
+dir
+
+requests
+dir
+
+views
+dir
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/436/trunk/speak/spec/views/users
+END
+new.html.erb_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/436/trunk/speak/spec/views/users/new.html.erb_spec.rb
+END
+show.html.erb_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/436/trunk/speak/spec/views/users/show.html.erb_spec.rb
+END
+edit.html.erb_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/436/trunk/speak/spec/views/users/edit.html.erb_spec.rb
+END
+index.html.erb_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/436/trunk/speak/spec/views/users/index.html.erb_spec.rb
+END

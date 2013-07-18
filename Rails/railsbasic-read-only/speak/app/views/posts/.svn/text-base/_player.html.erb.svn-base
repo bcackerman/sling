@@ -1,0 +1,9 @@
+<div id="watch-video" class="container">
+  <div id="watch-player" style="overflow: hidden">
+    <video id="movie_player" class="video-js vjs-default-skin"
+      controls preload="auto" width="800" height="450" 
+      data-setup="{}">
+      <source src=<%= post_video_url(@post) %> type='video/mp4'>
+    </video>
+  </div>
+</div>

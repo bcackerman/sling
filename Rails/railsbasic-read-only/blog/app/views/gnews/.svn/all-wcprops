@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/162/trunk/blog/app/views/gnews
+END
+_front.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/162/trunk/blog/app/views/gnews/_front.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/162/trunk/blog/app/views/gnews/index.html.erb
+END
+manage.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/162/trunk/blog/app/views/gnews/manage.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/162/trunk/blog/app/views/gnews/new.html.erb
+END
+top.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/162/trunk/blog/app/views/gnews/top.js.erb
+END
+reply.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/162/trunk/blog/app/views/gnews/reply.html.erb
+END
+index.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/162/trunk/blog/app/views/gnews/index.js.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/162/trunk/blog/app/views/gnews/show.html.erb
+END
+manage.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/162/trunk/blog/app/views/gnews/manage.js.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/162/trunk/blog/app/views/gnews/_form.html.erb
+END
+_main.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/162/trunk/blog/app/views/gnews/_main.html.erb
+END

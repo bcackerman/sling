@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/428/trunk/show/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/292/trunk/show/config/initializers/inflections.rb
+END
+devise.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/295/trunk/show/config/initializers/devise.rb
+END
+session_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/292/trunk/show/config/initializers/session_store.rb
+END
+s3_direct_upload.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/428/trunk/show/config/initializers/s3_direct_upload.rb
+END
+rolify.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/311/trunk/show/config/initializers/rolify.rb
+END
+secret_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/292/trunk/show/config/initializers/secret_token.rb
+END
+backtrace_silencers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/292/trunk/show/config/initializers/backtrace_silencers.rb
+END
+simple_form_bootstrap.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/314/trunk/show/config/initializers/simple_form_bootstrap.rb
+END
+carrierwave.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/404/trunk/show/config/initializers/carrierwave.rb
+END
+aws.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/425/trunk/show/config/initializers/aws.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/292/trunk/show/config/initializers/mime_types.rb
+END
+simple_form.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/314/trunk/show/config/initializers/simple_form.rb
+END
+wrap_parameters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/292/trunk/show/config/initializers/wrap_parameters.rb
+END

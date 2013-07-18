@@ -1,0 +1,27 @@
+<div class="page-canvas">
+  <div class="setting-header">
+    <h4><span class="setting-header-status-text">Update <%= current_user.name %>'s avatar</span></h4>
+  </div>
+  <div class="setting-main">
+    <div class="cropping-wrapper">
+      <h4>Select avatar from the image</h4>
+      <div id="crop-pane">
+        <%= image_tag @user.avatar_url(:large), id: "cropbox" %>
+      </div>
+      <div id="crop-preview" class="img-rounded">
+        <%= image_tag @user.avatar.url(:large), :id => "preview" %>
+      </div>
+      <div id="crop-info" class="label">preview</div>
+      <div id="crop-action">
+        <%= form_for @user do |f| %>
+          <% %w[x y w h].each do |attribute| %>
+            <%= f.hidden_field "crop_#{attribute}" %>
+          <% end %>
+          <div class="actions">
+            <%= f.submit "Update Avatar", :class => "btn btn-primary pull-left" %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

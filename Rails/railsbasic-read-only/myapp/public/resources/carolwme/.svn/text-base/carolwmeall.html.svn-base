@@ -1,0 +1,347 @@
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase no-indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head><style type="text/css"></style>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>Carol with Me</title>
+ <meta http-equiv="Content-Language" content="en">
+
+<script>var AUTH_TOKEN = "pBM3qXrniy7WoiedAYQDtX1ntS5I/h7OTzD+3QEtaRk=";</script>
+      
+ <script src="/javascripts/swfobject.js?1271182649" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<meta content="Carol with Me" property="og:title">
+<meta content="song" property="og:type">
+<meta content="Join in the fun - send your friends a crowd-sourced carol!" property="og:description">
+<meta content="/system/storage/17/69/6/3/tree.png" property="og:image"> <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+ <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js" type="text/javascript"></script>
+ <script src="/components/carol/js/swfobject.js?1298983866" type="text/javascript"></script>
+ <script src="/components/carol/js/recorder.js?1298983866" type="text/javascript"></script>
+ <script src="/components/carol/js/jquery.bouncingball.js?1298983866" type="text/javascript"></script>
+ <script src="/components/carol/js/jquery.singalong.js?1298983866" type="text/javascript"></script>
+ <script src="/components/carol/js/modernizr-1.6.min.js?1298983866" type="text/javascript"></script>
+ <script src="/components/carol/js/carolwithme.js?1298983866" type="text/javascript"></script>
+ <script src="/components/carol/js/jquery.jcarousel.min.js?1298983866" type="text/javascript"></script>
+ <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+ <script src="/javascripts/webalytics.js?1284410689" type="text/javascript"></script><script src="/webalytics?loc[city]=Austin&amp;loc[region]=TX&amp;loc[country]=US&amp;loc[latitude]=30.267&amp;loc[longitude]=-97.743"></script>
+ <link href="/stylesheet/2.css" rel="Stylesheet" type="text/css">
+     
+<style type="text/css" media="screen">#audio-recorder-container {visibility:hidden}</style><script src="http://www.google-analytics.com/ga.js" async="true"></script></head>
+<body>
+      <div id="overDiv" style="position:absolute; left:0px; top:0px; visibility:hidden; z-index:1000;"></div>
+      
+<div id="container">
+  <header>
+     <h1><a href="/">Carol With Me</a></h1>
+  </header>
+  <section>
+
+  <article>
+      <div class="html_paragraph"><h2 style="text-align: center;">Record and share your own mashup of Deck the Halls.</h2>
+<h2 style="text-align: center;">Please Note: Animation &amp; HTML5 Audio best in Chrome&nbsp;</h2></div><div class="paragraph" id="cmspara_295">  <div id="status" style="display:none;">stopped</div>
+  
+  <div id="lyrics-container">
+    <audio id="deckthehalls" preload="preload"> 
+<source src="/system/storage/17/18/4/11/deck.ogg"> 
+<source src="/system/storage/17/ba/8/10/deck.mp3"> 
+audio tag demo requires HTML 5 (try Firefox 3.5+)
+</audio> 
+
+	<div id="lyrics"> 
+	    <div id="ball" style="top: -0.002731403299670733px; left: 346.5px; ">b</div> 
+      <span data-start="0.1" data-stop="5.75" style="display: none; ">
+        <span class="word nospace">&nbsp;</span>
+        <span class="word nospace">&nbsp;</span>
+        <span class="word nospace">&nbsp;</span>
+        <span class="word nospace">&nbsp;</span>
+        <span class="word nospace">&nbsp;</span>
+        <span class="word nospace">&nbsp;</span>
+        <span class="word nospace">&nbsp;</span>
+      </span>
+
+	    <span data-start="5.75" data-stop="7.10" style="display: none; ">
+		    <span class="word">Deck</span>
+		    <span class="word">the</span>
+		    <span class="word">Halls</span>
+		    <span class="word">with</span>
+	    </span> 
+
+	    <span data-start="7.25" data-stop="8.5" style="display: none; ">
+		    <span class="word">Boughs</span>
+		    <span class="word">of</span>
+		    <span class="word">Hol</span><span class="word">ly</span>
+	    </span>
+
+	    <span data-start="8.75" data-stop="11.25" style="display: none; ">
+		    <span class="word">Fa</span> 
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la,</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word"></span>
+	    </span>
+
+	    <span data-start="11.75" data-stop="13.10" style="display: none; ">
+		    <span class="word">'Tis</span>
+		    <span class="word">the</span>
+		    <span class="word">sea</span><span class="word">son</span>
+	    </span> 
+
+	    <span data-start="13.25" data-stop="14.5" style="display: none; ">
+		    <span class="word">To</span>
+		    <span class="word">be</span>
+		    <span class="word">jol</span><span class="word">ly</span>
+	    </span>
+	    <span data-start="14.75" data-stop="17.25" style="display: none; ">
+		    <span class="word">Fa</span> la
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la,</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word"></span>
+	    </span>
+
+
+	    <span data-start="17.75" data-stop="19.10" style="display: none; ">
+		    <span class="word">Don</span>
+		    <span class="word">we</span>
+		    <span class="word">now</span>
+	    </span> 
+	    <span data-start="19.25" data-stop="20.5" style="display: none; ">
+		    <span class="word">Our</span>
+		    <span class="word">gay</span>
+		    <span class="word">appa</span><span class="word">rel</span>
+	    </span>
+	    <span data-start="20.75" data-stop="23.25" style="display: none; ">
+		    <span class="word">Fa</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la,</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word"></span>
+	    </span>
+
+
+
+	    <span data-start="23.75" data-stop="25.10" style="display: none; ">
+		    <span class="word">Troll</span>
+		    <span class="word">the</span>
+		    <span class="word">anci</span><span class="word">ent</span>
+	    </span> 
+	    <span data-start="25.25" data-stop="26.5" style="display: none; ">
+		    <span class="word">Yule</span><span class="word">tide</span>
+		    <span class="word">car</span><span class="word">ol</span>
+	    </span>
+	    <span data-start="26.75" data-stop="29.25" style="display: none; ">
+		    <span class="word">Fa</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la,</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word">la</span>
+		    <span class="word"></span>
+	    </span>
+
+
+	</div> 	
+
+    </div>
+    <div id="carol_save_form" style="display: block; ">
+    <form action="" enctype="multipart/form-data" id="carol_form" method="post"><input name="authenticity_token" type="hidden" value="pBM3qXrniy7WoiedAYQDtX1ntS5I/h7OTzD+3QEtaRk=">
+    <h2> Your Caroller's Name: <input class="text_field_input text_field" id="carol_name" name="carol[name]" size="20" type="text"></h2>
+    <ul class="icons clearfix">
+                
+          
+          <li>          
+            <label><img height="64" src="/system/storage/17/f6/4/90/thumb/bird.png" style="" width="64"><input type="radio" name="carol[icon_id]" value="90"></label>
+          </li>
+          
+          <li>          
+            <label><img height="64" src="/system/storage/17/a4/3/89/thumb/dreidle.png" style="" width="64"><input type="radio" name="carol[icon_id]" value="89"></label>
+          </li>
+          
+          <li>          
+            <label><img height="64" src="/system/storage/17/36/c/88/thumb/elf.png" style="" width="64"><input type="radio" name="carol[icon_id]" value="88"></label>
+          </li>
+          
+          <li>          
+            <label><img height="64" src="/system/storage/17/d7/6/87/thumb/gingerbreadman.png" style="" width="64"><input type="radio" name="carol[icon_id]" value="87"></label>
+          </li>
+          
+          <li>          
+            <label><img height="64" src="/system/storage/17/2a/5/86/thumb/minora.png" style="" width="64"><input type="radio" name="carol[icon_id]" value="86"></label>
+          </li>
+          
+          <li>          
+            <label><img height="64" src="/system/storage/17/51/7/8/thumb/ornament.png" style="" width="64"><input type="radio" name="carol[icon_id]" value="8"></label>
+          </li>
+          
+          <li>          
+            <label><img height="64" src="/system/storage/17/9a/5/7/thumb/penguin.png" style="" width="64"><input type="radio" name="carol[icon_id]" value="7"></label>
+          </li>
+          
+          <li>          
+            <label><img height="64" src="/system/storage/17/b3/e/83/thumb/rudolph.png" style="" width="64"><input type="radio" name="carol[icon_id]" value="83"></label>
+          </li>
+          
+          <li>          
+            <label><img height="64" src="/system/storage/17/49/b/6/thumb/santa.png" style="" width="64"><input type="radio" name="carol[icon_id]" value="6"></label>
+          </li>
+          
+          <li>          
+            <label><img height="64" src="/system/storage/17/ca/d/5/thumb/snowflake.png" style="" width="64"><input type="radio" name="carol[icon_id]" value="5"></label>
+          </li>
+          
+          <li>          
+            <label><img height="64" src="/system/storage/17/39/d/4/thumb/snowman.png" style="" width="64"><input type="radio" name="carol[icon_id]" value="4"></label>
+          </li>
+          
+          <li>          
+            <label><img height="64" src="/system/storage/17/69/6/3/thumb/tree.png" style="" width="64"><input type="radio" name="carol[icon_id]" value="3"></label>
+          </li>
+          
+        
+    </ul>
+    <p>Please wait after pressing save (uploading and encoding can take some time)</p>
+    </form>
+    </div>
+
+    <div id="recorder">
+      <div id="carol-warning" style="display: none; ">
+      <h2>To record, allow flash to use the Microphone and then press record again.<br>
+         <br>
+          Please use headphones to prevent feedback while recording.
+      </h2>
+      </div>
+      <object type="application/x-shockwave-flash" id="audio-recorder" name="audio-recorder" data="/components/carol/recorder.swf" width="118px" height="67px"><param name="flashvars" value="wmode=transparent&amp;event_handler=microphone_recorder_events&amp;upload_image=/components/carol/images/carol_save.png"></object><script>Recorder.embedSwf();</script>
+    </div>
+
+    <div id="controls-container">
+      <span id="carol_play" style="display: inline; "><a href="javascript:void(0);" onclick="CarolWithMe.play();"><img src="/system/storage/17/21/7/32/play.png">play</a></span>
+      <span id="carol_stop" style="display: none; "><a href="javascript:void(0);" onclick="CarolWithMe.stop();"><img src="/system/storage/17/a5/3/28/stop.png">stop</a></span>
+      <span id="recording_controls" style="">
+        <span id="carol_record" style="display: inline; "><a href="javascript:void(0);" onclick="CarolWithMe.record();"><img src="/system/storage/17/f1/9/31/record.png">record</a></span>
+        <span id="carol_save" style="display: inline; "><a href="javascript:void(0);" onclick="CarolWithMe.save();"><img src="/system/storage/17/33/e/76/save.png">save</a></span>
+      </span>
+    </div>
+
+  
+</div>
+      <div id="content-container">
+        <div id="half-content" class="clearfix">
+           <div id="left-content">
+              <div class="paragraph" id="cmspara_296"> <meta content="Carol with Me" property="og:title">
+  <meta content="Carol with Me" property="og:title"><meta content="song" property="og:type">
+  <meta content="Carol with Me" property="og:title"><meta content="song" property="og:type"><meta content="Join in the fun - send your friends a crowd-sourced carol!" property="og:description">
+  <meta content="Carol with Me" property="og:title"><meta content="song" property="og:type"><meta content="Join in the fun - send your friends a crowd-sourced carol!" property="og:description"><meta content="/system/storage/17/69/6/3/tree.png" property="og:image">
+
+ <h2>your carollers</h2>
+  <script id="carollerTemplate" type="text/x-jquery-tmpl">
+    <li id='caroller_item_${id}'><label>
+       <input type='checkbox' name='caroller[]' id='caroller${id}' checked='checked'/>
+       <img src='${image}' />
+       <div class='name'>
+           ${name}
+       </div>
+       <a class='remove' href='javascript:void(0);' >x</a>
+       </label>
+    </li>
+  </script>
+   <p>Instructions: uncheck a caroller during playback to make them shush. X to remove. Add by clicking on someone in "Add Carollers"</p> 
+  <div id="carollers-loading" style="display: none; "><b>Please Wait, rounding up your Carollers...</b></div>
+  <ul id="carollers" class="carollers" style="display: block; "><li id="caroller_item_1"><label>        <input type="checkbox" name="caroller[]" id="caroller1" checked="checked">        <img src="/system/storage/17/69/6/3/tree.png">        <div class="name">            bob        </div>        <a class="remove" href="javascript:void(0);">x</a>        </label>     </li><li id="caroller_item_2"><label>        <input type="checkbox" name="caroller[]" id="caroller2" checked="checked">        <img src="/system/storage/17/36/c/88/elf.png">        <div class="name">            John        </div>        <a class="remove" href="javascript:void(0);">x</a>        </label>     </li><li id="caroller_item_3"><label>        <input type="checkbox" name="caroller[]" id="caroller3" checked="checked">        <img src="/system/storage/17/69/6/3/tree.png">        <div class="name">            mrs Doubtfire        </div>        <a class="remove" href="javascript:void(0);">x</a>        </label>     </li><li id="caroller_item_5"><label>        <input type="checkbox" name="caroller[]" id="caroller5" checked="checked">        <img src="/system/storage/17/51/7/8/ornament.png">        <div class="name">            sky        </div>        <a class="remove" href="javascript:void(0);">x</a>        </label>     </li></ul>
+
+
+  
+  <script>
+    $(function() {
+    
+      CarolWithMe.add(39,'bob', '/system/storage/17/69/6/3/tree.png', '/system/storage/17/9f/4/177/carol.ogg', '/system/storage/17/f5/2/178/carol.mp3');
+    
+      CarolWithMe.add(36,'John', '/system/storage/17/36/c/88/elf.png', '/system/storage/17/12/1/168/carol.ogg', '/system/storage/17/03/5/169/carol.mp3');
+    
+      CarolWithMe.add(35,'mrs Doubtfire', '/system/storage/17/69/6/3/tree.png', '/system/storage/17/ea/3/165/carol.ogg', '/system/storage/17/c1/7/166/carol.mp3');
+    
+  });
+  </script>
+  </div>
+           </div> <!-- end #left-content -->
+           <div id="right-content">
+              <div class="paragraph" id="cmspara_297">  <h2>all carollers</h2>
+  
+  <div id="more-carollers-wrapper">
+  <div class=" jcarousel-skin-carol"><div class="jcarousel-container jcarousel-container-vertical" style="position: relative; display: block; "><div class="jcarousel-clip jcarousel-clip-vertical" style="overflow-x: hidden; overflow-y: hidden; position: relative; "><ul class="more-carollers jcarousel jcarousel-list jcarousel-list-vertical" style="overflow-x: hidden; overflow-y: hidden; position: relative; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; left: 0px; height: 450px; top: 0px; ">
+    
+    <li class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical" style="float: left; list-style-type: none; list-style-position: initial; list-style-image: initial; " jcarouselindex="1">
+      <a onclick="CarolWithMe.add(39, 'bob', '/system/storage/17/69/6/3/tree.png', '/system/storage/17/9f/4/177/carol.ogg', '/system/storage/17/f5/2/178/carol.mp3');" href="javascript:void(0);"><img height="64" src="/system/storage/17/69/6/3/thumb/tree.png" style="" width="64"><div class="name">bob</div></a>
+    </li>
+    
+    <li class="jcarousel-item jcarousel-item-vertical jcarousel-item-2 jcarousel-item-2-vertical" style="float: left; list-style-type: none; list-style-position: initial; list-style-image: initial; " jcarouselindex="2">
+      <a onclick="CarolWithMe.add(36, 'John', '/system/storage/17/36/c/88/elf.png', '/system/storage/17/12/1/168/carol.ogg', '/system/storage/17/03/5/169/carol.mp3');" href="javascript:void(0);"><img height="64" src="/system/storage/17/36/c/88/thumb/elf.png" style="" width="64"><div class="name">John</div></a>
+    </li>
+    
+    <li class="jcarousel-item jcarousel-item-vertical jcarousel-item-3 jcarousel-item-3-vertical" style="float: left; list-style-type: none; list-style-position: initial; list-style-image: initial; " jcarouselindex="3">
+      <a onclick="CarolWithMe.add(35, 'mrs Doubtfire', '/system/storage/17/69/6/3/tree.png', '/system/storage/17/ea/3/165/carol.ogg', '/system/storage/17/c1/7/166/carol.mp3');" href="javascript:void(0);"><img height="64" src="/system/storage/17/69/6/3/thumb/tree.png" style="" width="64"><div class="name">mrs Doubtfire</div></a>
+    </li>
+    
+    <li class="jcarousel-item jcarousel-item-vertical jcarousel-item-4 jcarousel-item-4-vertical" style="float: left; list-style-type: none; list-style-position: initial; list-style-image: initial; " jcarouselindex="4">
+      <a onclick="CarolWithMe.add(26, 'vibrato violin', '/system/storage/17/ca/d/5/snowflake.png', '/system/storage/17/b3/6/138/carol.ogg', '/system/storage/17/98/a/139/carol.mp3');" href="javascript:void(0);"><img height="64" src="/system/storage/17/ca/d/5/thumb/snowflake.png" style="" width="64"><div class="name">vibrato violin</div></a>
+    </li>
+    
+    <li class="jcarousel-item jcarousel-item-vertical jcarousel-item-5 jcarousel-item-5-vertical" style="float: left; list-style-type: none; list-style-position: initial; list-style-image: initial; " jcarouselindex="5">
+      <a onclick="CarolWithMe.add(22, 'Humming Tone-Deaf Guy', '/system/storage/17/9a/5/7/penguin.png', '/system/storage/17/f5/d/126/carol.ogg', '/system/storage/17/d5/0/127/carol.mp3');" href="javascript:void(0);"><img height="64" src="/system/storage/17/9a/5/7/thumb/penguin.png" style="" width="64"><div class="name">Humming Tone-Deaf Guy</div></a>
+    </li>
+    
+  </ul></div><div class="jcarousel-prev jcarousel-prev-vertical jcarousel-prev-disabled jcarousel-prev-disabled-vertical" style="display: block; " disabled="true"></div><div class="jcarousel-next jcarousel-next-vertical jcarousel-next-disabled jcarousel-next-disabled-vertical" style="display: block; " disabled="true"></div></div></div>
+  </div>
+  
+</div>          
+           </div> <!-- end #right-content -->
+        </div> <!-- end #half-content -->
+        <div class="code_paragraph">       <div id="share-links">
+         Share the love... &nbsp;&nbsp;
+         <a href="http://www.facebook.com/sharer.php?u=http://carolwith.me/?play=39,36,35,41" target="_blank" id="share-facebook"><img align="absmiddle" src="/system/storage/17/e4/e/34/facebook-share.png"></a>
+         <a href="http://twitter.com/share?url=http://carolwith.me/?play=39,36,35,41&amp;text=Check+out my carol on CarolWith.me %23carolwithme" target="_blank" id="share-twitter"><img align="absmiddle" src="/system/storage/17/06/c/26/twitter-share.png"></a>
+       </div>
+</div><div class="html_paragraph"><p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: right;"><a href="/about">About</a> | <a href="/feedback">Feedback</a>&nbsp;</p></div>
+      </div> <!-- end #content-container -->
+  </article>
+  </section>
+  <footer>
+     Site by Cykod. Built in an Afternoon in our <a href="http://www.webiva.org">Rails CMS Webiva</a> instead of doing real work. Site copyright ©2010 <a href="http://cykod.com">Cykod</a>. Your voices, well, your're responsible for those yourself.
+  </footer>
+</div>
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2011791-26']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+        'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+  })();
+</script>
+  
+
+
+
+</body></html>
+

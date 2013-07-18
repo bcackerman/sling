@@ -1,0 +1,14 @@
+<div class="caption hide">
+  <div class="vtheme">
+    <h2><%= @post_play.category.name %></h2>
+  </div>
+  <div class="vtitle">
+    <h3><%= @post_play.title %></h3>
+  </div>
+  <div class="vavatar">
+    <%= image_tag user_avatar_url(@post_play.user) %>
+  </div>
+  <div class="vtime">
+    <div class="centered"><%= Time.at(@post_play.length).gmtime.strftime('%-M:%S') %></div>
+  </div>
+</div>

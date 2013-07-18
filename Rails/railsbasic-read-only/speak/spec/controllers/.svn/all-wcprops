@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/481/trunk/speak/spec/controllers
+END
+users_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/436/trunk/speak/spec/controllers/users_controller_spec.rb
+END
+questions_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/445/trunk/speak/spec/controllers/questions_controller_spec.rb
+END
+groups_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/436/trunk/speak/spec/controllers/groups_controller_spec.rb
+END
+speeches_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/481/trunk/speak/spec/controllers/speeches_controller_spec.rb
+END

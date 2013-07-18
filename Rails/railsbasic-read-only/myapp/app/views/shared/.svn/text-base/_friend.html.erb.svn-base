@@ -1,0 +1,16 @@
+<div id="friend_panel">
+
+  <h3>Friends</h3>
+  <% if user_signed_in? && current_user == @user %>
+    <p>
+      <span><%= link_to "Manage Friends", friend_url(current_user) %></span>
+    </p>
+  <% end %>
+
+  <% for friendship in @user.friendships %>
+    <%= link_to image_tag(avatar_url(friendship.friend), :title => friendship.friend.username), profile_url(friendship.friend) %>
+  <% end %>
+
+  
+  
+</div>

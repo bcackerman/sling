@@ -1,0 +1,37 @@
+<%= render(:partial => 'shared/ads') %>
+
+<div id="reply_frame">
+
+  <h2>Topic:</h2>
+
+  <div id="reply_topic">
+    <div class="echo_links">
+      <div class="echo_avatar"><%= link_to image_tag avatar_url(@topic.user), :title => "Play Voice", :voice => voice_url(@topic) %></div>
+      <div class="echo_topic"><%= link_to image_tag("links/forward.png", :title => "Topic View"), topic_show_path(@topic) %></div>
+    </div>
+    <div class="echo_text">
+      <p>
+        <%= link_to @topic.user.username, profile_url(@topic.user) %>
+        <%= image_tag("flags/#{@topic.language}_small.png", :title => @topic.language) %>
+        <%= @topic.text_entry %>
+        <em><%= l @topic.created_at %></em>
+      </p>
+    </div>
+  </div>
+
+  <div id="reply_title">
+    <h2>Echo:</h2>
+  </div>
+
+  <%= render 'form' %>
+
+  <div class="post_nav">
+    <%= link_to 'Back', posts_path %>
+  </div>
+
+</div>
+
+<div id="side_panel">
+  <%= render(:partial => 'shared/friend') %>
+</div>
+

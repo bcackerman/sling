@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/154/trunk/myapp/app/views/posts
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/154/trunk/myapp/app/views/posts/edit.html.erb
+END
+_front.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/154/trunk/myapp/app/views/posts/_front.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/154/trunk/myapp/app/views/posts/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/147/trunk/myapp/app/views/posts/new.html.erb
+END
+reply.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/154/trunk/myapp/app/views/posts/reply.html.erb
+END
+topic.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/154/trunk/myapp/app/views/posts/topic.html.erb
+END
+index.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/146/trunk/myapp/app/views/posts/index.js.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/137/trunk/myapp/app/views/posts/show.html.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/147/trunk/myapp/app/views/posts/_form.html.erb
+END

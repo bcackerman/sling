@@ -1,0 +1,7 @@
+<%= form_for @quote do |f| %>
+  <div><%= f.label :author %><%= f.text_area :author, :rows => 1, :placeholder => "", :class => "span4" %></div>
+  <div><%= f.label :quote %><%= f.text_area :content, :rows => 5,
+    :placeholder => "Enter quote here.", :class => "span7" %></div>
+  <div class="new-question-status"></div>
+  <div class="create-button"><%= f.submit "Create Quote", :class => "btn btn-inverse pull-left" %></div>
+<% end %>

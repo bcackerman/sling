@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/585/trunk/speak/app/views/ratings
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/582/trunk/speak/app/views/ratings/new.html.erb
+END
+_rate.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/582/trunk/speak/app/views/ratings/_rate.html.erb
+END
+metric.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/585/trunk/speak/app/views/ratings/metric.js.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/582/trunk/speak/app/views/ratings/_form.html.erb
+END
+_metric.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/585/trunk/speak/app/views/ratings/_metric.html.erb
+END

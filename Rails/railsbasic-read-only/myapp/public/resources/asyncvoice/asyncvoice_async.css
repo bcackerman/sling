@@ -1,0 +1,173 @@
+body {-x-system-font:none;font-family:arial,verdana,sans-serif,clean;font-size:75%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;font-size:13px;line-height:20px;color:#666666;}
+
+@media screen and (min-width: 481px){
+    .wrap { width:500px; margin:auto;}
+}
+
+@media screen and (max-width: 322px){
+    .wrap { width:100%;}
+}
+/*#async-input {border-bottom:solid 1px;padding-bottom:10px;margin-bottom:10px;}*/
+.async-entry {height:80px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;}
+.async-expand {height:400px;}
+.async-map-pin {height:12px;width:12px;margin-left:5px;}
+.async-record-bubble { width:60%; min-height:60px;}
+.async-entry-bubble {width:70%; min-height:60px;}
+#async-record-btn {border:none; width:64px; height:64px;margin-left:5px;}
+#async-record-btn:hover {cursor: pointer;}
+#async-record-container {float:left;}
+.async-profile-img {border:none; width:48px;height:48px;margin-left:0px;margin-top:5px}
+.async-user-img {border:none; width:48px;height:48px;margin-left:5px;}
+.async-map-img {border:solid;margin-top:10px; margin-left:10px;}
+.async-map-div {display:none;margin:10px;position:relative;top:10px;width:400px;height:282px;}
+
+@media screen and (max-width: 322px){
+    .async-entry {height:75px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;}
+    .async-expand {height:410px;}
+    .async-map-pin {height:32px;width:32px; margin-left:5px;margin-top:-14px;}
+    .async-record-bubble { width:40%; min-height:65px;}
+    .async-entry-bubble { height:60px;}
+    .async-record-img {border:none; width:32px; height:32px;margin-left:2px;}
+    .async-profile-img {border:none; width:48px;height:48px;margin-left:0px;margin-top:5px}
+    .async-user-img {border:none; width:48px;height:48px;margin-left:5px;}
+    .async-entry-w-map {height:90px;}
+}
+
+#logo {float:left;}
+#controls {float:right;}
+#divider {background:url(images/divider.png) repeat-x 0% 0%;height:4px;width:100%;}
+#autoplay_ctl_box {position:relative;top:3px;}
+#async-submit-btn {float:right; margin-right:188px;}
+
+input.audio-elem {margin-left:40%; margin-top:4px;}
+
+.async-hr{width:60%; background-color: #5A8F00; height:2px;}
+.async-fade {filter: alpha(opacity=10); -moz-opacity: 0.10; opacity: 0.10;}
+
+.async-floatingbar {height:110px; color:#666666; margin-bottom:10px;}
+
+.async-text {text-align:left;margin-left:13px;margin-top:4px;width:95%;overflow:auto}
+.async-no-entries {height: 80px; text-align: center; font-size: 1em; font-style:italic; color:#666666;margin-top:20px;}
+
+.async-new-entries {opacity:0; -moz-transition: opacity 1s 0s; -webkit-transition: opacity 2s 0s; transition: opacity 2s 0s;};
+.async-show {opacity:1;}
+.async-ajax-loader {width:64px; height:64px; margin-top:100px;margin-left:45%;}
+a:link, a:visited {text-decoration:none;}
+a:hover{text-decoration:underline;}
+a {color:#06B;outline-color:-moz-use-text-color;outline-style:none;outline-width:medium;}
+
+.async-user {margin:10px; width:50px;}
+.async-vert-content {float:left;}
+.async-submitted{font:9px arial, helvetica, clean, sans-serif;margin-left:10px;}
+
+#async-submit-text {width:50%;font-family:Arial;font-size:11px;margin-left:20px;margin-top:5px;}
+
+.async-button {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    -moz-border-radius-bottomleft:0.3em;
+    -moz-border-radius-bottomright:0.3em;
+    -moz-border-radius-topleft:0.3em;
+    -moz-border-radius-topright:0.3em;
+    background:transparent url(images/hborder.png) repeat-x scroll 0 -27px;
+    border:1px outset #CCCCCC;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:12px;
+    margin:3px;
+    padding:3px 5px;
+    text-decoration:none;
+}
+.async-button:active {border:1px inset #CCCCCC;}
+.async-button:hover {border-color:#99CCFF #6699EE #6699EE #77AAFF;}
+
+.async-menu-img {border:none; margin-top:10px; width:48px;height:48px;vertical-align:text-bottom;}
+
+.async-hover{background-color:#C0C0C0;}
+.async-align-left {float:right; margin-right:10px}
+.async-align-right {float:left;}
+
+.async-online-users {border:none; overflow:auto; margin-top:5px;margin-bottom:5px;}
+.async-online-user-img {width:20px; height:20px;margin-left:2px;margin-right:2px;}
+
+.async-speech-bubble {
+    position:relative;
+    margin-top:5px;
+    border:1px solid #787878;
+    background:#ffffff;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+
+
+/* creates the larger triangle */
+.async-speech-bubble:before {
+    content:"\00a0";
+    display:block; /* reduce the damage in FF3.0 */
+    position:absolute;
+    width:0;
+    height:0;
+}
+
+/* creates the smaller  triangle */
+.async-speech-bubble:after {
+    content:"\00a0";
+    display:block; /* reduce the damage in FF3.0 */
+    position:absolute;
+    width:0;
+    height:0;
+}
+
+.async-speech-bubble.left {
+    margin-left:8px;
+    -moz-box-shadow: 5px 5px 2px -1px #CCCCCC;
+    -webkit-box-shadow: 5px 5px 2px -1px #CCCCCC;
+    -box-shadow: 5px 5px 2px -1px #CCCCCC;
+}
+
+.async-speech-bubble.left:before {
+    border-color:transparent #787878 transparent transparent;
+    border-style:solid;
+    border-width:10px 16px;
+    bottom:auto;
+    left:-32px;
+    top:9px;
+}
+
+.async-speech-bubble.left:after {
+    border-color:transparent #ffffff transparent transparent;
+    border-style:solid;
+    border-width:8px 14px;
+    bottom:auto;
+    left:-28px;
+    top:11px;
+}
+
+.async-speech-bubble.right {
+    margin-left:8px;
+    -moz-box-shadow: -5px 5px 2px -1px #CCCCCC;
+    -webkit-box-shadow: -5px 5px 2px -1px #CCCCCC;
+    -box-shadow: -5px 5px 2px -1px #CCCCCC;
+}
+
+.async-speech-bubble.right:before {
+   border-color:transparent transparent transparent #787878;
+    border-style:solid;
+    border-width:10px 16px;
+    bottom:auto;
+    right:-32px;
+    top:9px;
+}
+.async-speech-bubble.right:after {
+    border-color:transparent transparent transparent #ffffff;
+    border-style:solid;
+    border-width:8px 14px;
+    bottom:auto;
+    right:-28px;
+    top:11px;
+}
+
+.bubble-share {float:right; margin-right:12px; margin-top:5px; font-size:12px;}
+

@@ -1,0 +1,33 @@
+<div id="masthead-signup-container">
+  <% if !user_signed_in? %>
+    <p>Start your impromptu speaking or ask questions for others to answer.</p>
+    <span class="button answer-button"><%= link_to "Speak", new_answer_path, :remote => true, :rel => "#modal-overlay-answer" %></span>
+    <span class="button question-button"><%= link_to "Ask Question", new_question_path, :remote => true, :rel => "#modal-overlay-question" %></span>
+    <span class="button evaluation-button"><%= link_to "Evaluate", new_evaluation_path, :remote => true, :rel => "#modal-overlay-evaluation" %></span>
+  <% else %>
+    <p>Join us for free, sharpen your impromptu speaking skills now.</p>
+    <span class="button demo-button"><%= link_to "Demo" %></span>
+    <span class="button speak-button"><%= link_to "Try It Now!", nil, :rel => "#modal-overlay-speak" %></span>
+  <% end %>
+</div>
+
+<!-- overlayed element -->
+<div class="apple_overlay apple_overlay_answer" id="modal-overlay-answer">
+  <div id="modal-answer-container">
+    <% if true %>
+      <%= render(:partial => 'answers/wave') %>
+    <% else %>
+      <%= render(:partial => 'answers/wami') %>
+    <% end %>
+  </div>
+</div>
+<div class="apple_overlay apple_overlay_question" id="modal-overlay-question">
+  <div id="modal-question-container">
+    <%= render(:partial => 'questions/form') %>
+  </div>
+</div>
+<div class="apple_overlay apple_overlay_evaluation" id="modal-overlay-evaluation">
+  <div id="modal-evaluation-container">
+    <%= render(:partial => 'evaluations/form') %>
+  </div>
+</div>

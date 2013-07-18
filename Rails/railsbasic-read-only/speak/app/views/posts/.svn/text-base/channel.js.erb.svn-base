@@ -1,0 +1,21 @@
+<% if params[:vid_process].present? %>
+  <% if @post_process.blank? %>
+    $("ul#watch-channel").html("<%= escape_javascript(render("process")) %><%= escape_javascript(render("blog")) %>");
+  <% else %>
+    <% if @post_process.processed == false %>
+      $("ul#watch-channel #video-blog-process").html("<%= escape_javascript(render("process")) %>");
+    <% else %>
+      VideoProcessPoller.poll();
+    <% end %>
+  <% end %>
+<% else %>  
+  <% if params[:cat_filter].present? %>
+    $("ul#watch-channel").html("<%= escape_javascript(render("process")) %><%= escape_javascript(render("blog")) %>");
+  <% else %>
+    $("ul#watch-channel").append("<%= escape_javascript(render("blog")) %>");
+  <% end %>
+<% end %>
+$('#watch-more-button').html("<%= escape_javascript(link_to_next_page @posts, 'Load More', :remote => true, :id=>"load_more_link", :class=>"btn", :style=>"width:470px;font-weight:bold;") %>");
+updatePostMetric();
+togglePostDesc();
+

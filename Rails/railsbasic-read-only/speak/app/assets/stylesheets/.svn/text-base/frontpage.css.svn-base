@@ -1,0 +1,123 @@
+#page-outer {
+height: 100%;
+}
+
+
+.front-page .front-container {
+display: block;
+}
+
+.front-container {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+min-height: 545px;
+max-height: 750px;
+}
+
+.front-bg {
+position: fixed;
+width: 200%;
+height: 100%;
+left: 0;
+background: #222;
+}
+
+.front-bg img {
+margin: auto;
+min-width: 50%;
+min-height: 50%;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+.front-card {
+position: absolute;
+left: 50%;
+width: 838px;
+}
+
+
+.front-card {
+top: 50%;
+height: 381px;
+width: 776px;
+margin: -154px 0 0 -418px;
+}
+
+.front-welcome {
+position: absolute;
+top: 0;
+left: 0;
+display: block;
+width: 520px;
+height: 328px;
+border: 0;
+}
+
+.front-signin {
+position: absolute;
+top: 0;
+left: 530px;
+width: 224px;
+}
+
+.front-signup {
+position: absolute;
+top: 180px;
+left: 530px;
+width: 224px;
+}
+
+.front-signin, .front-signup {
+padding: 10px;
+background: #fff;
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(100%,#ddd));
+background: -webkit-linear-gradient(top,#fff 0,#ddd 100%);
+background: -moz-linear-gradient(top,#fff 0,#ddd 100%);
+background: -ms-linear-gradient(top,#fff 0,#ddd 100%);
+background: -o-linear-gradient(top,#fff 0,#ddd 100%);
+background: linear-gradient(top,#fff 0,#ddd 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#dddddd',GradientType=0);
+border-left: solid 1px #eee;
+border-right: solid 1px #eee;
+border-bottom: solid 1px #ccc;
+-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+-moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+box-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+.front-welcome, .front-signin, .front-signup {
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+
+.front-welcome-text h1 {
+font-size: 32px;
+line-height: 40px;
+color: #888;
+}
+
+.front-welcome-text p {
+font-size: 16px;
+font-weight: 300;
+line-height: 22px;
+color: #888;
+}
+
+.front-welcome-text {
+position: absolute;
+top: 0;
+left: 0;
+width: 470px;
+padding: 20px;
+text-align: left;
+text-shadow: #000 0 1px 2px;
+}
+

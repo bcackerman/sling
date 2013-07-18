@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/285/trunk/shake/app/models
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/283/trunk/shake/app/models/user.rb
+END
+product.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/264/trunk/shake/app/models/product.rb
+END
+pub.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/285/trunk/shake/app/models/pub.rb
+END
+drink.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/285/trunk/shake/app/models/drink.rb
+END
+order.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/283/trunk/shake/app/models/order.rb
+END

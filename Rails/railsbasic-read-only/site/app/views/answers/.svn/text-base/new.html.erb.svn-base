@@ -1,0 +1,5 @@
+<% if true %>
+  <%= render 'wave' %>
+<% else %>
+  <%= render 'wami' %>
+<% end %>

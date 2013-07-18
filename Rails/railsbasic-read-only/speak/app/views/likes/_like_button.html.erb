@@ -1,0 +1,18 @@
+<% if user_signed_in? %>
+  <% if like = current_user.has_like?(@post) %>
+    <%= form_for like, :html => { :method =>:delete }, :remote => true do |f| %>
+      <button type="submit" class="btn btn-small" style="width:142px;font-weight:bold;color:darkred;margin-bottom:4px;">
+        <i class="icon-thumbs-down"></i> Unlike
+      </button>
+    <% end %>
+  <% else %>
+    <%= form_for current_user.likes.build(:post_id => @post.id), :remote => true do |f| %>
+      <%= f.hidden_field :post_id %>
+      <%= f.hidden_field :user_id %>
+      <button type="submit" class="btn btn-small" style="width:142px;font-weight:bold;color:green;margin-bottom:4px;">
+        <i class="icon-thumbs-up"></i> Like
+      </button>
+    <% end %>
+  <% end %>
+<% end %>
+

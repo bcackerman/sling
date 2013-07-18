@@ -1,0 +1,2 @@
+$("#user-main-audio-container").html("<%= escape_javascript(render("users/"+params[:guide_select].downcase)) %>");
+$("#user-main-audio-container").pageless({ totalPages: <%= @posts.num_pages %>, currentPage: 1 });

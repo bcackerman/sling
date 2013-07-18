@@ -1,0 +1,11 @@
+<li class="dropdown">
+  <%= link_to '#', :class=>"dropdown-toggle", :data => {:toggle=>"dropdown"} do %>
+    <i class="icon-th-list icon-white"></i>
+    Browse
+    <b class="caret"></b>
+  <% end %>
+  <ul class="dropdown-menu pull-right" id="browse-dropdown">
+    <li><%= link_to 'Browse Posts', posts_path %></li>
+    <li><%= link_to 'Browse Groups', groups_path %></li>
+  </ul>
+</li>

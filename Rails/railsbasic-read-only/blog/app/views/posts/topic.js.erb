@@ -1,0 +1,5 @@
+$("#post_list").html("<%= escape_javascript(render("shared/post")) %>");
+$("#post_list").pageless({ totalPages: <%= @post.num_pages %>
+  , currentPage: 1 
+  , loaderMsg: 'Loading more echoes'
+  });

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/173/trunk/blog/spec/views/evaluations
+END
+new.html.erb_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/173/trunk/blog/spec/views/evaluations/new.html.erb_spec.rb
+END
+show.html.erb_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/173/trunk/blog/spec/views/evaluations/show.html.erb_spec.rb
+END
+edit.html.erb_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/173/trunk/blog/spec/views/evaluations/edit.html.erb_spec.rb
+END
+index.html.erb_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/173/trunk/blog/spec/views/evaluations/index.html.erb_spec.rb
+END

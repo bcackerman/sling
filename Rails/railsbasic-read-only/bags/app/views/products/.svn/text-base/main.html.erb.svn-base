@@ -1,0 +1,43 @@
+<div id="service-container">
+  <div id="search-pane">
+    <span id="make-dropdown">Designer: <%= select_tag "make",
+      "<option></option>
+      <option>Burberry</option>
+      <option>Chanel</option>
+      <option>Chloe</option>
+      <option>Coach</option>
+      <option>Dior</option>
+      <option>Fendi</option>
+      <option>Gucci</option>
+      <option>Hermes</option>
+      <option>LV</option>
+      <option>Prada</option>".html_safe %>
+    </span>
+    <span id="serial-input">Serial: <%= text_field_tag 'query', 'Enter serial number here' %></span>
+  </div>
+  <div id="search-button" class="button"><%= link_to 'Authenticate Bag Now' %></div>
+  <div id="result-pane">
+    <div id="result-status">
+      <h3>This bag is NEW</h3>
+      <h3>It's located at "Hello World", Austin Texas, USA</h3>
+      <h3>Contact number is 1-512-8888888</h3>
+    </div>
+    <div id="manufactory-info">
+      </br>
+      <h3>Designer: Louis Vuitton. Model: MVP1413</h3>
+      <h3>Introduced: 2011. Manufactured: 2012</h3>
+      <h3>Made in: USA</h3>
+    </div>
+    <div id="retailer-history">
+      </br>
+      <h3>Retailer: Hello World</h3>
+      <h3>Address: 101 1st Austin Texas 78701</h3>
+      <h3>Contact: 1-512-8888888</h3>
+      <h3>Website: helloworld.com</h3>
+    </div>
+    <div id="result-photo">
+      <%= image_tag('show/louis-vuitton.jpg') %>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/257/trunk/bags/db/migrate
+END
+20120719133718_create_stores.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/257/trunk/bags/db/migrate/20120719133718_create_stores.rb
+END
+20120719123223_create_products.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/257/trunk/bags/db/migrate/20120719123223_create_products.rb
+END
+20120719140357_create_queries.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/257/trunk/bags/db/migrate/20120719140357_create_queries.rb
+END

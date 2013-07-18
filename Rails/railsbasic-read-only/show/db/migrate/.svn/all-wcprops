@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/434/trunk/show/db/migrate
+END
+20121011211843_devise_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/295/trunk/show/db/migrate/20121011211843_devise_create_users.rb
+END
+20121018162021_create_topics.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/305/trunk/show/db/migrate/20121018162021_create_topics.rb
+END
+20121018142928_create_delayed_jobs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/303/trunk/show/db/migrate/20121018142928_create_delayed_jobs.rb
+END
+20121018152954_create_people.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/304/trunk/show/db/migrate/20121018152954_create_people.rb
+END
+20121011212601_devise_create_admins.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/295/trunk/show/db/migrate/20121011212601_devise_create_admins.rb
+END
+20121229180438_create_categories.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/412/trunk/show/db/migrate/20121229180438_create_categories.rb
+END
+20121226043214_revise_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/409/trunk/show/db/migrate/20121226043214_revise_posts.rb
+END
+20121021211120_drop_admins_table.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/311/trunk/show/db/migrate/20121021211120_drop_admins_table.rb
+END
+20121018163239_add_ids_to_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/305/trunk/show/db/migrate/20121018163239_add_ids_to_posts.rb
+END
+20121021213708_rolify_create_roles.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/311/trunk/show/db/migrate/20121021213708_rolify_create_roles.rb
+END
+20121011192542_create_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/294/trunk/show/db/migrate/20121011192542_create_posts.rb
+END
+20130122170251_create_groups.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/434/trunk/show/db/migrate/20130122170251_create_groups.rb
+END
+20121230040820_add_valid_to_category_skill.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/414/trunk/show/db/migrate/20121230040820_add_valid_to_category_skill.rb
+END
+20121229180654_create_skills.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/412/trunk/show/db/migrate/20121229180654_create_skills.rb
+END
+20121211034143_add_avatar_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/392/trunk/show/db/migrate/20121211034143_add_avatar_to_users.rb
+END
+20121229181901_change_category_skill_in_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/412/trunk/show/db/migrate/20121229181901_change_category_skill_in_posts.rb
+END
+20121105203400_add_title_category_to_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/336/trunk/show/db/migrate/20121105203400_add_title_category_to_posts.rb
+END
+20121021212932_add_name_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/311/trunk/show/db/migrate/20121021212932_add_name_to_users.rb
+END

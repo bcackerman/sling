@@ -1,0 +1,68 @@
+<div id="watch-top-container" class="row">
+  <div id="watch-featured-left" >
+    <span class="label">Popular</span>
+  </div>
+  <div id="watch-featured-carousel" class="carousel slide">
+    <div class="carousel-inner">
+      <% if @quotes.present? %>
+        <% @quotes.each_with_index do |quote, index| %>
+        <% if index == 0 %>
+          <div class="item active">
+        <% else %>
+          <div class="item">
+        <% end %>
+
+            <div class="watch-featured-quote" style="width:642px;height:94px;padding:6px 50px;color:#eee;">
+              <h5 style="margin:4px 0;">
+                <%= quote.content %>
+              </h5>
+              <h6 class="pull-right" style="margin:4px 0;"><em>- <%= quote.author %></em></h6>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+    <a class="carousel-control left" href="#watch-featured-carousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#watch-featured-carousel" data-slide="next">&rsaquo;</a>
+  </div>
+  <div id="watch-featured-right" >
+    <span class="label pull-right">Quotes</span>
+  </div>
+</diV>
+
+<div id="watch-main-container" class="row">
+  <div id="watch-main">
+    <div id="watch-guide">
+      <%= form_tag url_for(:action => "index"), :remote => true do |f| %>
+        <%= render 'guide' %>
+      <% end %>
+      <div id="watch-filter-about">
+        This is questions index page. Questions are used in developing the ability to organize thoughts quickly while giving an impromptu answer. To make it more challenging, try not taking too much time preparing for the answer.
+      </div>
+    </div>
+    <div id="watch-panel">
+      <div id="watch-tab-container" class="spinner">
+        <%= form_tag url_for(:action => "index"), :remote => true do |f| %>
+          <script type="text/javascript" charset="utf-8">
+            $(document).ready(function() {
+              $('#watch-pager').html('<%= escape_javascript(paginate(@questions, :remote => true, :theme => 'twitter-bootstrap').to_s) %>');
+            })
+          </script>
+          <ul id="watch-pager">
+            <!--%= paginate @questions, :remote => true, :theme => 'twitter-bootstrap' %-->
+          </ul>
+          <ul id="watch-tab" class="nav nav-tabs bk-black" data-tabs="tabs">
+            <li rel="Newest Posts" class="active"><%= link_to "Newest", {}, :data => {:toggle=>"tabs"} %></li>
+            <li rel="Most Answered"><%= link_to "Most Answered", {}, :data => {:toggle=>"tabs"} %></li>
+            <span class="watch-tab-spinner"><%= image_tag "spinner.gif" %></span>
+          </ul>
+        <% end %>
+      </div>
+      <div id="watch-post-container" class="watch-panel-body" rel="questions">
+        <%= render 'question' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="clear"></div>

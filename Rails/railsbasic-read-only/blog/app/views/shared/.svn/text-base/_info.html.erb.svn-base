@@ -1,0 +1,5 @@
+<div id="sign_up">
+  <p>Start your impromptu speaking now or ask questions if you want.</p>
+  <span class="button"><%= link_to "Speak", new_answer_path %></span>
+  <span class="button"><%= link_to "Ask Questions", new_question_path %></span>
+</div>

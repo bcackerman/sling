@@ -1,0 +1,28 @@
+<div class="guide-container">
+  <div id="guide-builder-promo">
+  </div>
+
+  <div class="guide">
+    <div id="channel">
+      <div class="channel-user-avatar">
+        <%= image_tag user_avatar_url(@user) %>
+      </div>
+
+    </div>
+
+    <div class="guide-section">
+      <ul class="guide-section-item-container">
+        <li class="selected guide-item-fltr-disabled" alt="Answers">
+          <%= link_to content_tag(:span, image_tag("next_arrow.png") + 'Answers'), {}, :class=>"guide-item selected" %>
+        </li>
+        <li class="guide-item-fltr-link" alt="Questions">
+          <%= link_to content_tag(:span, image_tag("next_arrow.png") + 'Questions'), {}, :class=>"guide-item" %>
+        </li>
+        <li class="guide-item-fltr-link" alt="Evaluations">
+         <%= link_to content_tag(:span, image_tag("next_arrow.png") + 'Evaluations'), {}, :class=>"guide-item" %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+

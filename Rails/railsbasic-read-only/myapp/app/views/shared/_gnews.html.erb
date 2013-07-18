@@ -1,0 +1,33 @@
+<div id="global_news">
+  <% gnews = @gnews %>
+  <% if !gnews %>
+    <% gnews = Post.find(3) %>
+  <% end %>
+
+  <div id="news_image">
+    <div id="news_avatar">
+      <%= link_to image_tag("global_news.png", :title => 'Global News'), "#{root_url}GlobalNews" %>
+    </div>
+    <div id="news_info">
+      <strong>Global News</strong>
+      <em><%= l gnews.created_at %></em>
+    </div>
+  </div>
+  <div id="topic_news">
+    <div class="news_text">
+      <p>
+        <%= image_tag("flags/#{gnews.language}_small.png", :title => gnews.language) %>
+        <%= gnews.text_entry %>
+      </p>
+    </div>
+  </div>
+  <div id="reply_news">
+    <div class="news_text">
+      <p>
+        <%= image_tag("flags/#{gnews.language}_small.png", :title => gnews.language) %>
+        <%= gnews.text_entry %>
+      </p>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,27 @@
+
+/* the overlayed element */
+.apple_overlay {
+  display:none;
+  width: 500px;
+  padding: 35px;
+  font-size: 11px;
+}
+
+.apple_overlay_answer {
+  background-image: url(overlay/gray.png);
+}
+
+.apple_overlay_question, .apple_overlay_evaluation {
+  background-image: url(overlay/white.png);
+}
+
+/* default close button positioned on upper right corner */
+.apple_overlay .close {
+  background-image: url(overlay/close.png);
+  position: absolute;
+  right: 5px; top: 5px;
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+}
+

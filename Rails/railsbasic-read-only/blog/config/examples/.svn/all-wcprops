@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/162/trunk/blog/config/examples
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/162/trunk/blog/config/examples/database.yml
+END
+app_config.yml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/161/trunk/blog/config/examples/app_config.yml
+END

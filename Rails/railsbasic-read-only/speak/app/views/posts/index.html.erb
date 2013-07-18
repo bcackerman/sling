@@ -1,0 +1,83 @@
+<%= hidden_field_tag "watch_id", "post_index" %>
+
+<div class="watch-featured-dropdown">
+  <!--%= render(:partial => 'posts/popover') %-->
+</div>
+
+<div id="watch-top-container" class="row">
+  <div id="watch-featured-left" >
+    <span class="label">Featured</span>
+  </div>
+  <div id="watch-featured-carousel" class="carousel slide">
+    <div class="carousel-inner">
+      <% @featured.in_groups_of(7, false).each_with_index do |speeches, index| %>
+        <% if index == 0 %>
+          <div class="item active">
+        <% else %>
+          <div class="item">
+        <% end %>
+          <ul class="thumbnails">
+            <% speeches.each do |speech| %>
+              <li>
+                <div style="margin:5px;">
+                  <%= image_tag(speaker_avatar_url(speech), :size=>"96x96", :class=>"img-rounded", :alt=>speech.id) %>
+                </div>
+              </li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    </div>
+    <a class="carousel-control left" href="#watch-featured-carousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#watch-featured-carousel" data-slide="next">&rsaquo;</a>
+  </div>
+  <div id="watch-featured-right" >
+    <span class="label pull-right">Speaker</span>
+  </div>
+</diV>
+
+<div id="watch-main-container" class="row">
+  
+  <div id="watch-main">
+    <div id="watch-guide">
+      <div class="watch-guide-top">
+        <span class="label label-important">Browse Posts</span>
+      </div>
+      <%= form_tag url_for(:action => "index"), :remote => true do |f| %>
+        <%= render 'guide' %>
+      <% end %>
+      <div class="watch-guide-top">
+        <span class="label label-success">Info</span>
+      </div>
+      <div id="watch-filter-about">
+        This is posts index page. Three type of video posts are listed - speech, evaluation and answer.
+      </div>
+    </div>
+    <div id="watch-panel">
+      <div id="watch-tab-container" class="spinner">
+        <%= form_tag url_for(:action => "index"), :remote => true do |f| %>
+          <script type="text/javascript" charset="utf-8">
+            $(document).ready(function() {
+              $('#watch-pager').html('<%= escape_javascript(paginate(@posts, :remote => true, :theme => 'twitter-bootstrap').to_s) %>');
+            })
+          </script>
+          <ul id="watch-pager">
+            <!--%= paginate @posts, :remote => true, :theme => 'twitter-bootstrap' %-->
+          </ul>
+          <ul id="watch-tab" class="nav nav-tabs bk-black" data-tabs="tabs">
+            <li rel="Newest Posts" class="active"><%= link_to "Newest", {}, :data => {:toggle=>"tabs"} %></li>
+            <li rel="Most Viewed"><%= link_to "Most Viewed", {}, :data => {:toggle=>"tabs"} %></li>
+            <li rel="Most Liked"><%= link_to "Most Liked", {}, :data => {:toggle=>"tabs"} %></li>
+            <span class="watch-tab-spinner"><%= image_tag "spinner.gif" %></span>
+          </ul>
+        <% end %>
+      </div>
+      <div id="watch-post-container" class="watch-panel-body" rel="posts">
+        <%= render 'post' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="clear"></div>
+

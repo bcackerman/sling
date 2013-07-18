@@ -1,0 +1,135 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+    showSlides();
+  });
+</script>
+
+<div class="section-detail">
+
+  <div class="section-detail-photo">
+    <!--img src="img/new-ribbon.png" width="112" height="112" alt="New Ribbon" id="ribbon"-->
+    <div id="slides">
+      <div class="slides_container">
+        <div class="slide">
+          <%= image_tag "pubs/texas/austin/photo/TheGingerMan_front.png" %>
+          <div class="caption" style="bottom:0">
+            <p>The Ginger Man Pub</p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <%= image_tag "pubs/texas/austin/photo/TheGingerMan_tapwall.jpg" %>
+          <div class="caption" style="bottom:0">
+            <p>The Ginger Man - Tap Wall</p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <%= image_tag "pubs/texas/austin/photo/TheGingerMan_tables.jpg" %>
+          <div class="caption" style="bottom:0">
+            <p>The Ginger Man - Tables</p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <%= image_tag "pubs/texas/austin/photo/TheGingerMan_Clem-Blondie-Kathy-GoGos.jpg" %>
+          <div class="caption" style="bottom:0">
+            <p>Clem Blondie Kathy GoGos</p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <%= image_tag "pubs/texas/austin/photo/TheGingerMan_Camper-Van-B.jpg" %>
+          <div class="caption" style="bottom:0">
+            <p>Camper Van B</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section-detail-info">
+    <div class="section-detail-info-desc">
+      <h2>The Ginger Man</h2>
+      <p>An American pub in Houston, Dallas, Austin, Ft. Worth and Plano, Texas featuring fine imported and domestic draught and bottled beers.</p>
+      </br>
+    </div>
+    <div class="section-detail-info-address">
+      <p>301 Lavaca Street, Austin, TX 78701</p>
+      <p>(512) 473-8801</p>
+      <p>2-9pm, happy hour 4-5pm</p>
+      <p></p>
+    </div>
+    <div class="section-detail-info-set">
+   
+    </div>
+  </div>
+</div>
+
+
+<div class="section-social">
+
+  <h2>Drink specials</h2>
+  <h2>Music or Events</h2>
+</div>
+
+<div class="section-gallery">
+
+  <div id="slides_two">
+    
+    <div class="slides_container">
+      <div class="slide">
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/MalagaTapasBar_logo.jpg" %>
+        </div>
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/DraughtHousePub_logo.jpg" %>
+        </div>
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/ShakerspearesPub_logo.jpg" %>
+        </div>
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/FadoIrishPub_logo.jpg" %>
+        </div>
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/BDRileysPub_logo.png" %>
+        </div>
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/MohawkGreenRoomBar_logo.png" %>
+        </div>
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/TheGingerMan_logo.jpg" %>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/ShakerspearesPub_logo.jpg" %>
+        </div>
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/TheGingerMan_logo.jpg" %>
+        </div>
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/MalagaTapasBar_logo.jpg" %>
+        </div>
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/FadoIrishPub_logo.jpg" %>
+        </div>
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/BDRileysPub_logo.png" %>
+        </div>
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/MohawkGreenRoomBar_logo.png" %>
+        </div>
+        <div class="section-pub-logos">
+          <%= link_to image_tag "pubs/texas/austin/logo/DraughtHousePub_logo.jpg" %>
+        </div>
+      </div>
+
+    </div>
+    <div class="prev"><%= link_to image_tag "arrow-prev.png" %></div>
+    <div class="next"><%= link_to image_tag "arrow-next.png" %></div>
+  </div>
+</div>
+

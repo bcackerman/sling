@@ -1,0 +1,49 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#front_list").find(".echo_text_front").each(function() {
+      if (this.scrollHeight > $(this).height()) {
+        $(this).next('.ellipsis').show();
+      } else {
+        $(this).next('.ellipsis').hide();
+      }
+    });
+  });
+</script>
+
+<% if @answers.present? %>
+
+  <% for answer in @answers %>
+
+    <div id="front_widget">
+      <div class="topic_widget">
+        <div class="echo_links">
+          <div class="user_avatar">
+            <%= image_tag user_avatar_url(answer.user) %>
+          </div>
+          <div class="speech_icon">
+            <%= image_tag "speech.png", :size => "16x16" %>
+          </div>
+        </div>
+        <div class="echo_content">
+          <div class="echo_status">
+            <%= link_to answer.user.username, user_profile_url(answer.user) %>
+            <span class="echo_date"><%= time_ago_in_words(answer.created_at) %> ago</span>
+            <span class="echo_like">
+              <%= answer.liked %>
+              <%= image_tag "thumb_up.png" %>
+            </span>
+          </div>
+          <div class="echo_text_front">
+            <span class="question_image"><%= link_to image_tag user_avatar_url(answer.question.user) %></span>
+            <%= answer.question.content %>
+          </div>
+          <div class="ellipsis">...</div>
+        </div>
+      </div>
+    </div>
+
+  <% end %>
+
+  <%= paginate @answers %>
+
+<% end %>

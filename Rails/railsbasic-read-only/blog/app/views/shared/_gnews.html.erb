@@ -1,0 +1,41 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#global_news").find(".news_text").each(function() {
+      if (this.scrollHeight > $(this).height()) {
+        $(this).next('.ellipsis').show();
+      } else {
+        $(this).next('.ellipsis').hide();
+      }
+    });
+  });
+</script>
+
+<div id="news_info">
+  <strong><%= link_to "Famous Speakers", gnews_index_path %></strong>
+</div>
+
+<div id="topic_news">
+  <div class="famous_avatar">
+    <%= image_tag "reporter.jpg" %>
+  </div>
+  <div class="news_content">
+    <div class="news_text">
+      <%= @gnews_left.text_entry %>
+    </div>
+    <div class="ellipsis">...</div>
+  </div>
+</div>
+
+<div id="reply_news">
+  <div class="famous_avatar">
+    <%= image_tag "obama.jpg" %>
+  </div>
+  <div class="news_content">
+    <div class="news_text">
+      <%= @gnews_right.text_entry %>
+    </div>
+    <div class="ellipsis">...</div>
+  </div>
+</div>
+
+

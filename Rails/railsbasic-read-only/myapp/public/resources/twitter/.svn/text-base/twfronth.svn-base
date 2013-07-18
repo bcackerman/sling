@@ -1,0 +1,166 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="en-us" http-equiv="Content-Language">
+  <meta content="Twitter is without a doubt the best way to share and discover what is happening right now." name="description">
+  <link href="twfrontc.css" media="screen" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript" src="twfrontj.js"></script>
+</head>
+<body class="timeline front" id="front">
+  <div id="header">
+    <div class="background">
+      <div class="inner">
+        <div id="logo-search">
+          <a href="/" id="logo"><img alt="Twitter" height="55" src="../images/globe-icon.jpg" width="200"></a>
+          <p id="tag">
+            The social network way of learning a new language.
+          </p>
+        </div>
+        <div id="mission-testmony">
+          <p>If you still learn language the old school way, it's time to switch to Secho - a social echo language network.</p>
+          <p>-- Michael Zhang, founder of Secho</p>
+        </div>
+        <div id="topnav">
+          <div id="signin-c">
+            <div id="signin_controls">
+              <span id="have_an_account">
+              <div id="signin_menu" class="common-form standard-form offscreen">
+  
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="trends">
+      <div class="inner">
+        <ul class="trendscontent" style="zoom: 1; width: 3066px; left: 0; ">
+          <li class="trend-label">Headline News</li>
+          <li>
+          <a href="/" class="search_link" name="" rel="nofollow">ATP Tennis</a>
+          <em class="description"></em>
+          </li>
+        </ul>
+      </div>
+      <span class="fade fade-left">&nbsp;</span><span class="fade fade-right">&nbsp;</span>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div id="content" class="homepage">
+      <div class="section clearfix">
+        <div class="aside">
+          <div id="sources">
+            <div class="lang-pan">
+              <h2>Top Languages<a id="pan-clear" href="#" onclick="clearPanFilter()">Clear</a></h2>
+              <ul id="pan-filter">
+                <li><a title="English" href="#" onclick="setPanFilter(0)"><img id="pan-flag-0" src="../images/flags/United States of America(USA).png"></a></li>
+                <li><a title="Chinese" href="#" onclick="setPanFilter(1)"><img id="pan-flag-1" src="../images/flags/China.png"></a></li>
+                <li><a title="French" href="#" onclick="setPanFilter(2)"><img id="pan-flag-2" src="../images/flags/France.png"></a></li>
+                <li><a title="Spanish" href="#" onclick="setPanFilter(3)"><img id="pan-flag-3" src="../images/flags/Spain.png"></a></li>
+                <li><a title="Russian" href="#" onclick="setPanFilter(4)"><img id="pan-flag-4" src="../images/flags/Russian Federation.png"></a></li>
+                <li><a title="Arabic" href="#" onclick="setPanFilter(5)"><img id="pan-flag-5" src="../images/flags/Arab League.png"></a></li>
+                <li><a title="German" href="#" onclick="setPanFilter(6)"><img id="pan-flag-6" src="../images/flags/Germany.png"></a></li>
+                <li><a title="Japanese" href="#" onclick="setPanFilter(7)"><img id="pan-flag-7" src="../images/flags/Japan.png"></a></li>
+                <li><a title="Portuguese" href="#" onclick="setPanFilter(8)"><img id="pan-flag-8" src="../images/flags/Portugal.png"></a></li>
+                <li><a title="Korean" href="#" onclick="setPanFilter(9)"><img id="pan-flag-9" src="../images/flags/South Korea.png"></a></li>
+                <li><a title="Italian" href="#" onclick="setPanFilter(10)"><img id="pan-flag-10" src="../images/flags/Italy.png"></a></li>
+                <li><a title="Hindi" href="#" onclick="setPanFilter(11)"><img id="pan-flag-11" src="../images/flags/India.png"></a></li>
+              </ul>
+              <div class="explained">Select the languages you are interested to hear the echoes from people around the world.</div>
+            </div>
+          </div>
+        </div>
+        <div class="article">
+          <form action="/search" method="post">
+            <p style="opacity: 0.6; ">
+              <input accesskey="/" class="round-left" id="quzzform_q" name="q" size="30" tabindex="8" type="text"><input class="submit round-right" id="quzzform_submit" name="commit" tabindex="9" type="submit" value="Echo">
+            </p>
+          </form>
+          <div id="tweets" data="{timeout:8000}">
+            <h2>Popular Echoes <a id="view_all_top_tweets" href="toptweets/favorites" tabindex="11">View all</a></h2>
+            
+            <div id="tweet-id-246" class="twtr-tweet" style="height: 90px; -webkit-transition-property: opacity; -webkit-transition-duration: 0.5s; -webkit-transition-timing-function: ease-out; -webkit-transition-delay: initial; opacity: 1; ">
+              <div class="twtr-tweet-wrap">         
+                <div class="twtr-avatar">           
+                  <div class="twtr-img">
+                    <a target="_blank" href="http://twitter.com/ellengpage"><img alt="ellengpage profile" src="http://a2.twimg.com/profile_images/1250932120/Ellen_Sprout_normal.jpg"></a>
+                  </div>         
+                
+                </div>         
+                
+                <div class="twtr-tweet-text">           
+                  <p>             
+                  <a target="_blank" href="http://twitter.com/ellengpage" class="twtr-user">secho</a>
+                  This is the first secho message, it is in English.             
+                  <em><a target="_blank" class="twtr-timestamp" time="Tue Feb 22 18:40:58 +0000 2011" href="http://twitter.com/ellengpage/status/40118868760477696">2 hours ago</a></em>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="lang-bar">
+              <ul>
+                <li><a id="bar-flag-0" title="English" href="#" onmouseover="setEchoText(0)" onclick="playEchoVoice(0)"><img src="../images/flags_16/United States of America.png"></a></li>
+                <li><a id="bar-flag-1" title="Chinese" href="#" onmouseover="setEchoText(1)" onclick="playEchoVoice(1)"><img src="../images/flags_16/China.png"></a></li>
+                <li><a id="bar-flag-3" title="Spanish" href="#" onmouseover="setEchoText(3)" onclick="playEchoVoice(3)"><img src="../images/flags_16/Spain.png"></a></li>
+              </ul>
+              </ul>
+              </ul>
+              </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="overlay">
+          <div class="newuser">
+            <p><strong>Ever spent years on a new language but can not speak for even a few minutes?</strong></p>
+            <h2>Sign up for free and become multilingual now.</h2>
+            
+            <p id="signup-btn"><a href="/signup" id="signup_submit" tabindex="10"><span>Join Secho</span></a></p>
+            <!--h2>Introduction video</h2-->
+            <p><strong>Introduction video</strong></p>
+            <!--p>Watch the introduction video.</p-->
+            <p><a href="/newtwitter?autoplay=true" id="video-thumb"><img alt="Video-sample-ss" height="140" src="http://a0.twimg.com/a/1298064126/images/whatsnew/video-sample-ss.png" width="200"></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-wrapper">
+    <div id="footer" class="round wide">
+      <h3 class="offscreen">Footer</h3>
+      <ul class="language-select"><li>Language:</li><li><a href="#" class="locale" tabindex="23">English</a>&nbsp;<a href="#" class="arrow" tabindex="24">?</a></li></ul>
+      <ol class="language-menu round">
+        <li id="it">Italian - Italiano</li>
+        <li id="es">Spanish - Español</li>
+        <li id="en">English</li>
+        <li id="ko">Korean - ???</li>
+        <li id="fr">French - français</li>
+        <li id="de">German - Deutsch</li>
+        <li id="ja">Japanese - ???</li>
+      </ol>
+     
+      <ul class="footer-nav">
+        <li class="first">© 2011 Secho</li>
+        <li><a href="/about" tabindex="12">About Us</a></li>
+        <li><a href="/about/contact" tabindex="13">Contact</a></li>
+        <li><a href="http://blog.twitter.com" tabindex="14">Blog</a></li>
+        <li><a href="http://status.twitter.com" tabindex="15">Status</a></li>
+        <li><a href="/about/resources" tabindex="16">Resources</a></li>
+        <li><a href="http://dev.twitter.com/" tabindex="17">API</a></li>
+        <li><a href="http://twitter.com/business" tabindex="18">Business</a></li>
+        <li><a href="http://support.twitter.com" tabindex="19">Help</a></li>
+        <li><a href="/jobs" tabindex="20">Jobs</a></li>
+        <li><a href="/tos" tabindex="21">Terms</a></li>
+        <li><a href="/privacy" tabindex="22">Privacy</a></li>
+      </ul>
+    </div>
+  </div>
+</body></html>
+

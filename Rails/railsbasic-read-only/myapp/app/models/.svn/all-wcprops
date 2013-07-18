@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/143/trunk/myapp/app/models
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/143/trunk/myapp/app/models/user.rb
+END
+post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/137/trunk/myapp/app/models/post.rb
+END
+admin.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/24/trunk/myapp/app/models/admin.rb
+END
+friendship.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/140/trunk/myapp/app/models/friendship.rb
+END

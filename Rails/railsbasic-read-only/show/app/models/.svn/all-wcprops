@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/431/trunk/show/app/models
+END
+category.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/413/trunk/show/app/models/category.rb
+END
+ability.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/312/trunk/show/app/models/ability.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/393/trunk/show/app/models/user.rb
+END
+skill.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/413/trunk/show/app/models/skill.rb
+END
+topic.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/305/trunk/show/app/models/topic.rb
+END
+role.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/311/trunk/show/app/models/role.rb
+END
+post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/431/trunk/show/app/models/post.rb
+END
+person.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/392/trunk/show/app/models/person.rb
+END
+group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/420/trunk/show/app/models/group.rb
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/173/trunk/blog/spec/controllers
+END
+answers_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/173/trunk/blog/spec/controllers/answers_controller_spec.rb
+END
+questions_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/173/trunk/blog/spec/controllers/questions_controller_spec.rb
+END
+evaluations_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/173/trunk/blog/spec/controllers/evaluations_controller_spec.rb
+END

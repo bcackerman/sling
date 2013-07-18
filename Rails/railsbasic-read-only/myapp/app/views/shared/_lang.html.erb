@@ -1,0 +1,20 @@
+<div id="lang_panel">
+
+  <h2>Top Languages</h2>
+
+  <div id="lang_reset">
+    <%= link_to 'Reset', :remote => true %>
+  </div>
+ 
+  <div class="lang_flag">
+    <% config.lang_selects.each do |lang, sel| %>
+      <%= link_to image_tag("flags/#{lang}.png", :title => lang, :alt => lang), :remote => true %>
+    <% end %>    
+  </div>
+
+  <p>
+    Select the language pair you are interested to filter the popular echoes and search results.
+  </p>
+
+</div>
+

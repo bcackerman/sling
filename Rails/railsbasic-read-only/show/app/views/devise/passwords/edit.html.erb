@@ -1,0 +1,17 @@
+<div class="page-canvas">
+  <div class="setting-header">
+    <h4><span class="setting-header-status-text">Change your password</span></h4>
+  </div>
+  <div class="setting-main">
+    <div class="setting-wrapper">
+      <%= form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :put }) do |f| %>
+        <%= f.hidden_field :reset_password_token %>
+
+        <div><%= f.password_field :password, :placeholder=>"Password" %></div>
+        <div><%= f.password_field :password_confirmation, :placeholder=>"Confirm Password" %></div>
+
+        <div><%= f.submit "Change password", :class => "btn btn-danger pull-left" %></div>
+      <% end %>
+    </div>
+  </div>
+</div>

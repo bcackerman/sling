@@ -1,0 +1,68 @@
+Installation:
+
+  http://blog.bigrocksoftware.com/2011/01/07/rvm-nginx-passenger-rails-3/
+  http://ryanbigg.com/2010/12/ubuntu-ruby-rvm-rails-and-you/
+  http://railgaadi.wordpress.com/2012/04/29/hosting-a-rails-website-on-linode-using-mysql-nginx-and-passenger/
+  https://github.com/joshfng/railsready/blob/master/railsready.sh
+
+Deployment:
+  http://stackoverflow.com/questions/9774062/capistrano-rails-3-2-standard-recipes
+  https://github.com/capistrano/capistrano/wiki/2.x-From-The-Beginning
+  http://teachmetocode.com/screencasts/basic-deployment-with-capistrano
+  https://moocode.com/posts/1-deploying-a-rails-3-1-application-to-production
+  http://www.dabl.co.nz/blog/deploying-rails-3-capistrano
+  http://riccardotacconi.blogspot.com/2010/01/rails-deployment-with-capistrano-and.html
+  http://www.pastbedti.me/2011/06/change-path-environment-with-rails-and-capistrano/
+
+
+Gotchas:
+  SSH to Unbuntu with Putty:
+    Set up two profiles, one for root and another for deploy
+
+  Bash not default shell:
+    $ useradd -s /bin/bash
+
+  Deploy super user setup:
+    $ usermod -a -G sudo example_user
+
+  Rvm useful commands:
+    $ type rvm | head -1                        # check if rvm is functioning
+    $ rvm notes
+    $ rvm requirements                          # check dependencies
+    $ rvm --create use ruby-1.9.2p194@rails328
+    $ rvm --default use ruby-1.9.2p194@rails328
+    $ ruby -v                                   # check ruby version
+
+  Nginx useful commands:
+    $ rvmsudo passenger-install-nginx-module    # access error to /opt
+    $ sudo vim /etc/init/nginx.conf             # create init config file
+    $ sudo initctl list | grep nginx            # verify nginx is up running
+    $ sudo service nginx start/stop/restart
+
+  Rails no Javascript runtime:
+    $ sudo apt-get install python-software-properties
+    $ sudo add-apt-repository ppa:chris-lea/node.js
+    $ sudo apt-get update
+    $ sudo apt-get install nodejs
+
+  Svn not found when deploy:
+    Install SlikSvn client on Win7
+
+  Bundle not found with deploy:
+    Set "set :default_environment"
+
+Todo:
+  Asset precompile
+    load assets - rake assets:precompile
+
+  Production database
+     - 
+
+  Bundle install
+    require "bundler/capistrano" - bundle install
+
+  Links
+
+
+  Restart
+

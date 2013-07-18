@@ -1,0 +1,4 @@
+<div id="sign_up">
+  <p>John for free, start to learn a new language now.</p>
+  <%= link_to "Sign Up", new_user_registration_path %>
+</div>

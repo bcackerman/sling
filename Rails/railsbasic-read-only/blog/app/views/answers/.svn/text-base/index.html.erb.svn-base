@@ -1,0 +1,24 @@
+<% title "Front Page" %>
+
+<%= render(:partial => 'shared/lang') %>
+
+<div id="front_frame">
+  
+
+    <div class="frame_top">
+      <ul class="front_tab_fltr">
+        <li class="selected front_fltr_disabled">
+          <%= link_to "Popular Now" =%>
+          <span class="front_progress"><%= image_tag("progress.gif") %></span>
+        </li>
+        <li class="front_fltr_link"><%= link_to "Newest" =%></li>
+        <li class="front_fltr_link"><%= link_to "Most Listened" =%></li>
+
+      </ul>
+    </div>
+
+  
+  <div id="front_list"><%= render 'front' %></div>
+  
+</div>
+

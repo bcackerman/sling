@@ -1,0 +1,26 @@
+  1. Copy files to server
+      bundle exec cap deploy
+
+  2. Copy settings to current
+      #cp carrierwave.rb        - for fog
+      #cp s3_direct_load.rb     - for jfu
+
+  3. Install gems
+      cd /var/www/sitename/current
+      bundle
+
+  4. Compile the assets
+      rake assets:precompile
+
+  5. Restart the web server
+      sudo service nginx start/stop/restart
+
+
+Useful:
+
+  1. Clean up releases
+      cap deploy:cleanup
+
+  2. Rails reset database in console
+      ActiveRecord::Base.connection.execute("DELETE from sqlite_sequence where name = 'posts'")
+

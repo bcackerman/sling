@@ -1,0 +1,37 @@
+<div class="form-main-wrapper">
+  <div class="form-main-header form-main-header-red">
+    <h4><span class="form-main-header-status">Users Listing</span></h4>
+  </div>
+  <div class="form-main-container form-main-container-wide">
+    <table class="table table-condensed table-striped">
+	    <thead>
+        <tr>
+          <th>ID</th>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Registered</th>
+          <th>Role</th>
+          <th></th>
+          <th></th>                                      
+        </tr>
+      </thead>   
+      <tbody>
+      <% @users.each do |user| %>
+        <tr>
+          <td><%= user.id %></td>
+          <td><%= link_to user.name, post_channel_path(user.name) %></td>
+          <td><%= user.email %></td>
+          <td><%= user.created_at.to_date %></td>
+          <td><%= user.roles unless user.roles.nil? %></td>
+          <td>
+            <a data-toggle="modal" href="#role-options-<%= user.id %>" class="btn btn-mini" type="button">Change role</a>
+            <%= render user %>
+          </td>
+          <td><%= link_to("Delete user", user_path(user), :data => { :confirm => "Are you sure?" }, :method => :delete, :class => 'btn btn-mini btn-inverse') unless user == current_user %></td>                                       
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>
+

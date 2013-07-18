@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row-fluid">
+    <div class="span12">
+      <div id="all-clips">
+        <%= @clips.each_slice(4) do |slice| %>
+          <div class="row-fluid">
+            <% slice.each do |c| %>
+              <div class="span3 clip">
+                <%= link_to image_tag(c.screenshot, alt: ""), show_clip_path(shortlink: c.shortlink), target: "_blank" if c.screenshot? %>
+                <h5 class="thin"><%= c.try(:name) %></h5>
+                <%= link_to c.shortlink, show_clip_path(shortlink: c.shortlink), target: "_blank", class: "shortlink" %>
+                <div class="clearfix"></div>
+                <small class="muted"><%= time_ago_in_words(c.created_at) %> ago &#8211; <%= c.impressions_count %> views</small>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+

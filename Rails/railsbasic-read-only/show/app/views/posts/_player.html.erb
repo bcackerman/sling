@@ -1,0 +1,12 @@
+<div id="watch-lights-off" class="overlay"></div>
+
+<div id="watch-video" class="container">
+  <div id="watch-player" style="overflow: hidden">
+    <video id="movie_player" class="video-js vjs-default-skin"
+      poster=<%= @post.video_url(:poster) %>
+      controls preload="auto" width="800" height="450" 
+      data-setup="{}">
+      <source src=<%= @post.video_url(:mp4) %> type='video/mp4'>
+    </video>
+  </div>
+</div>

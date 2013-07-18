@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/605/trunk/speak/app/uploaders
+END
+video_uploader.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/605/trunk/speak/app/uploaders/video_uploader.rb
+END
+avatar_uploader.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/572/trunk/speak/app/uploaders/avatar_uploader.rb
+END

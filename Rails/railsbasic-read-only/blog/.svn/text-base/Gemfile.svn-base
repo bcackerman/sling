@@ -1,0 +1,41 @@
+source 'http://rubygems.org'
+
+gem "rails", "3.0.9"
+gem "jquery-rails"
+gem "devise"
+gem "simple_form"
+gem "meta_where"
+gem "meta_search"
+gem "kaminari"
+gem "carrierwave"
+gem "client_side_validations"
+gem "exception_notification", :require => "exception_notifier"
+gem "yaml_db"
+
+group :development, :test do
+  gem 'sqlite3'
+  gem 'sqlite3-ruby', :require => 'sqlite3'
+  gem "rspec-rails"
+  gem "launchy"
+end
+
+group :test do
+  gem "factory_girl_rails"
+  gem "capybara"
+  # gem "capybara-webkit"
+  gem "database_cleaner"
+  gem "guard"
+  gem "guard-rspec"
+  gem "fakeweb"
+  gem "simplecov", :require => false
+end
+
+group :development do
+  gem "pry"
+  gem "nifty-generators"
+  gem "capistrano"
+end
+
+group :production do
+  gem "mysql2", "0.2.13"
+end

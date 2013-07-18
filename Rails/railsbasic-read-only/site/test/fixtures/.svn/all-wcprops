@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/182/trunk/site/test/fixtures
+END
+answers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/182/trunk/site/test/fixtures/answers.yml
+END
+.gitkeep
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/181/trunk/site/test/fixtures/.gitkeep
+END
+questions.yml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/182/trunk/site/test/fixtures/questions.yml
+END
+evaluations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/182/trunk/site/test/fixtures/evaluations.yml
+END

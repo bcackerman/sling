@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/285/trunk/shake/app/views/products
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/264/trunk/shake/app/views/products/edit.html.erb
+END
+_pub.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/285/trunk/shake/app/views/products/_pub.html.erb
+END
+_drink.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/285/trunk/shake/app/views/products/_drink.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/278/trunk/shake/app/views/products/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/264/trunk/shake/app/views/products/new.html.erb
+END
+_meet.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/278/trunk/shake/app/views/products/_meet.html.erb
+END
+index.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/278/trunk/shake/app/views/products/index.js.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/264/trunk/shake/app/views/products/show.html.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/264/trunk/shake/app/views/products/_form.html.erb
+END
+_main.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/278/trunk/shake/app/views/products/_main.html.erb
+END
+main.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/274/trunk/shake/app/views/products/main.html.erb
+END
+_play.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/278/trunk/shake/app/views/products/_play.html.erb
+END

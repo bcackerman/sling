@@ -1,0 +1,3 @@
+$("#watch-post-container").html("<%= escape_javascript(render("question")) %>");
+$('#watch-pager').html('<%= escape_javascript(paginate(@questions, :remote => true, :theme => 'twitter-bootstrap').to_s) %>');
+showQuestionLink();

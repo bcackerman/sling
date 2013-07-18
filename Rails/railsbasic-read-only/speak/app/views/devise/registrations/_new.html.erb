@@ -1,0 +1,21 @@
+<ul class="dropdown-menu dropdown-form" id="signup-dropdown">
+  <li class="dropdown-caret right">
+    <span class="caret-outer"></span>
+    <span class="caret-inner"></span>
+  </li>
+
+  <li>
+    <%= form_for("user", :url => user_registration_path) do |f| %>
+      <div class="signup-inputs">
+        <%= f.text_field :name, :placeholder=>"Username" %>
+        <%= f.email_field :email, :placeholder=>"Email" %>
+        <%= f.password_field :password, :placeholder=>"Password" %>
+        <%= f.password_field :password_confirmation, :placeholder=>"Confirm Password" %>
+      </div>
+      <div class="signup-links">
+        <%= f.submit "Sign up", :class => "btn btn-warning pull-right" %>
+      </div>
+    <% end %>
+  </li>
+</ul>
+

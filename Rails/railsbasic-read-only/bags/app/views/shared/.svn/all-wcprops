@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/263/trunk/bags/app/views/shared
+END
+_sidebar.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/263/trunk/bags/app/views/shared/_sidebar.html.erb
+END
+_partner.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/262/trunk/bags/app/views/shared/_partner.html.erb
+END
+app.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/263/trunk/bags/app/views/shared/app.html.erb
+END

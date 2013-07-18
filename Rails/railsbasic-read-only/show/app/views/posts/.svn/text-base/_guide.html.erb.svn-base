@@ -1,0 +1,25 @@
+<div id="watch-guide-top">
+  <span class="label label-success">Categories - Skills</span>
+</div>
+
+<div id="watch-filter-container" class="spinner">
+  <ul id="watch-filter" class="nav nav-tabs nav-stacked" data-tabs="tabs">
+    <li rel="All" class="active"><%= link_to "All", {}, :data => {:toggle=>"tabs"} %></li>
+    <% @post_category.each do |category| %>
+      <li rel=<%= category.id %>>
+        <%= link_to '#', :data => {:toggle=>"tabs"} do %>
+          <i class="icon-chevron-down icon-white pull-right"></i>
+          <%= category.name %>
+        <% end %>
+        <ul class="watch-filter-subtab" rel=<%= category.id %>>
+          <% category.skills.each do |skill| %>
+            <% if skill.is_valid %>
+              <li rel=<%= skill.id %>><%= skill.name %></li>
+            <% end %>
+          <% end %>
+        </ul>
+      </li>
+    <% end %>
+    <li rel="End"><%= link_to "More...", {}, :data => {:toggle=>"tabs"} %></li>
+  </ul>
+</div>

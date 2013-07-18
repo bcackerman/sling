@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quid</title>
+  <%= stylesheet_link_tag "clip-show", :media => "all" %>
+  
+  <%= csrf_meta_tags %>
+
+  <%= render 'layouts/partials/meta-stuff' %>
+
+</head>
+<body>
+  <% flash.each do |key, value| %>
+    <div id="alert">
+      <%= content_tag :div, value, :class => "alert flash #{key}" unless value.blank? %>
+    </div>
+  <% end %>
+
+  <%= yield %>
+
+  <%= javascript_include_tag "application" %>
+</body>
+</html>

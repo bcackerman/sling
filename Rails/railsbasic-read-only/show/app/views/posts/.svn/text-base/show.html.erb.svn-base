@@ -1,0 +1,49 @@
+<style type="text/css">
+#carousel_inner {
+  float:left; /* important for inline positioning */
+  width:960px; /* important (this width = width of list item(including margin) * items shown */
+  height: 110px;
+  overflow: hidden;  /* important (hide the items outside the div) */
+  /* non-important styling bellow */
+}
+
+#carousel_ul {
+  position:relative;
+  /*left:-480px;  important (this should be negative number of list items width(including margin) */
+  list-style-type: none; /* removing the default styling for unordered list items */
+  margin: 0px;
+  padding: 0px;
+  width:9999px; /* important */
+  /* non-important styling bellow */
+}
+
+#carousel_ul li{
+  float: left; /* important for inline positioning of the list items */
+  width:120px;  /* fixed width, important */
+  /* just styling bellow*/
+  padding:0px;
+  height:90px;
+  margin:8px;
+}
+
+#carousel_ul li img {
+  width: 120px;
+  height: 90px;
+}
+</style>
+
+<div id="watch-featured-container" class="row">
+
+</div>
+
+<div id="watch-video-container" class="row">
+  <%= render 'player' %>
+</div>
+
+<div id="watch-slide-container" class="row">
+  <div id="watch-slide">
+
+  </div>
+</div>
+<div class="clear"></div>
+

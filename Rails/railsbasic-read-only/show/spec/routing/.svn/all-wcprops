@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/420/trunk/show/spec/routing
+END
+groups_routing_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/420/trunk/show/spec/routing/groups_routing_spec.rb
+END
+users_routing_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/312/trunk/show/spec/routing/users_routing_spec.rb
+END

@@ -1,0 +1,10 @@
+if (nav_select == 'nav-pub') {
+  $("#section").html("<%= escape_javascript(render("pub")) %>");
+} else if (nav_select == 'nav-drink') { 
+  $("#section").html("<%= escape_javascript(render("drink")) %>");
+} else if (nav_select == 'nav-meet') { 
+  $("#section").html("<%= escape_javascript(render("meet")) %>");
+} else if (nav_select == 'nav-play') { 
+  $("#section").html("<%= escape_javascript(render("play")) %>");
+}  
+

@@ -1,0 +1,24 @@
+
+</br>
+<% for post in @post %>
+  <div class="post_widget">
+    <div class="echo_links">
+      <div class="echo_avatar"><%= link_to image_tag avatar_url(post.user), :title => "Play Voice", :voice => voice_url(post) %></div>
+      <div class="echo_topic"><%= link_to image_tag("links/forward.png", :title => "Topic View"), topic_show_path(post.topic_id) %></div>
+    </div>
+    <div class="echo_text">
+      <p>
+        <%= link_to post.user.username, profile_url(post.user) %>
+        <%= image_tag("flags/#{post.language}_small.png", :title => post.language) %>
+        <%= post.text_entry %>
+        <em><%= l post.created_at %></em>
+        <% if !post.is_reply %>
+          <span class="echo_reply"><%= link_to 'echo', reply_post_path(post) %></span>
+        <% end %>
+      </p>
+    </div>
+  </div>
+  </br>
+<% end %>
+
+<%= paginate @post %>

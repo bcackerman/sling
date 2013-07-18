@@ -1,0 +1,16 @@
+<div class="form-main-wrapper">
+  <div class="form-main-header form-main-header-blue">
+    <h4><span class="form-main-header-status">Sign in to <%= site_name_no_space %></span></h4>
+  </div>
+  <div class="form-main-container">
+    <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+      <div><%= f.email_field :email, :placeholder=>"Email" %></div>
+      <div><%= f.password_field :password, :placeholder=>"Password" %></div>
+      <div class="signin-remember">
+        <%= f.check_box :remember_me %>
+        <%= f.label :remember_me %>
+      </div>
+      <div><%= f.submit "Sign in", :class => "btn btn-primary pull-left" %></div>
+    <% end %>
+  </div>
+</div>

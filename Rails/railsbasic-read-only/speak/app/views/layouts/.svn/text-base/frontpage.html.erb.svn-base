@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= content_for?(:title) ? yield(:title) : site_name_with_space %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : site_name_with_space %>">
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+    <%= yield(:head) %>
+  </head>
+  <body>
+    <header id="header-container" class="navbar navbar-inverse navbar-fixed-top">
+      <nav class="navbar-inner">
+        <div id="nav-container" class="container">
+          <%= link_to site_name_no_space+"(beta)", root_path, :class => 'brand' %>
+          <div>
+            <% if user_signed_in? %>
+              <ul class="nav">
+                <%= render 'layouts/browse' %>
+              </ul>
+            <% end %>
+
+            <ul class="nav actions pull-right">
+              <% if user_signed_in? %>
+                <li class="dropdown">
+                  <%= link_to user_channel_url(current_user, "posts") do %>
+                    <i class="icon-user icon-white"></i>
+                    <%= current_user.name %>
+                  <% end %>
+                </li>
+              <% else %>
+                <%= render 'layouts/browse' %>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="page-container" class=" wrapper-front white">
+      <div class="front-container front-container-full-signup" id="front-container">
+
+        <div class="front-bg">
+          <%= image_tag "front_bg.jpg", :class=>"front-image" %>
+        </div>
+
+        <div class="front-card">
+          <div class="front-welcome">
+            <div class="front-welcome-text">
+              <h2>Welcome to SpeakMirror.</h2>
+              <p>
+                SpeakMirror is a video based speaking skill development site where you can post speech videos,
+                evaluate other speakers, answer questions and more.
+              </p>
+              <p>Join and start to improve your speaking and presentation skills now!</p>
+            </div>
+          </div>
+          <div class="front-signin js-front-signin">
+
+            <%= form_for("user", :url => user_session_path) do |f| %>
+              <div class="signin-inputs">
+                <%= f.email_field :email, :placeholder=>"Email" %>
+                <%= f.password_field :password, :placeholder=>"Password" %>
+                <div class="signin-remember">
+                  <%= f.check_box :remember_me %>
+                  <%= f.label :remember_me %>
+                </div>
+              </div>
+              <div class="signin-links">
+                <%= f.submit "Sign in", :class => "btn btn-primary pull-right" %>
+                <%= link_to "Forgot password?", new_password_path('user'), :class=>"pull-left" %>
+              </div>
+            <% end %>
+
+          </div>
+          <div class="front-signup js-front-signup">
+    
+            <%= form_for("user", :url => user_registration_path) do |f| %>
+              <div class="signup-inputs">
+                <%= f.text_field :name, :placeholder=>"Username" %>
+                <%= f.email_field :email, :placeholder=>"Email" %>
+                <%= f.password_field :password, :placeholder=>"Password" %>
+                <%= f.password_field :password_confirmation, :placeholder=>"Confirm Password" %>
+              </div>
+              <div class="signup-links">
+                <%= f.submit "Sign up for free", :class => "btn btn-warning pull-right" %>
+              </div>
+            <% end %>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

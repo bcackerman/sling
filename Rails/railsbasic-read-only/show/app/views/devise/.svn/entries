@@ -1,0 +1,49 @@
+10
+
+dir
+605
+http://railsbasic.googlecode.com/svn/trunk/show/app/views/devise
+http://railsbasic.googlecode.com/svn
+
+
+
+2013-01-24T23:31:38.423118Z
+422
+mpengz@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+950e4a67-1729-6560-252b-532fff5b6ec6
+
+passwords
+dir
+
+sessions
+dir
+
+shared
+dir
+
+mailer
+dir
+
+confirmations
+dir
+
+registrations
+dir
+
+unlocks
+dir
+

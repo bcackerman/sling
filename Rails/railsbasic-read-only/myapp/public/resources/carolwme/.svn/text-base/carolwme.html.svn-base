@@ -1,0 +1,49 @@
+ 
+<div id="lyrics-container">
+<audio id="deckthehalls" preload="preload"> 
+  <source src="/system/storage/17/18/4/11/deck.ogg"> 
+  <source src="/system/storage/17/ba/8/10/deck.mp3"> 
+  audio tag demo requires HTML 5 (try Firefox 3.5+)
+</audio> 
+
+
+<div id="carol_save_form" style="display: block; ">
+  <form action="" enctype="multipart/form-data" id="carol_form" method="post">
+    <input name="authenticity_token" type="hidden" value="pBM3qXrniy7WoiedAYQDtX1ntS5I/h7OTzD+3QEtaRk=">
+    <h2> Your Caroller's Name: 
+      <input class="text_field_input text_field" id="carol_name" name="carol[name]" size="20" type="text">
+    </h2>
+
+    <p>Please wait after pressing save (uploading and encoding can take some time)</p>
+  </form>
+</div>
+
+<div id="recorder">
+  <div id="carol-warning" style="display: none; ">
+     <h2>To record, allow flash to use the Microphone and then press record again.<br>
+        <br>
+        Please use headphones to prevent feedback while recording.
+     </h2>
+  </div>
+  <object type="application/x-shockwave-flash" id="audio-recorder" name="audio-recorder" data="/components/carol/recorder.swf" width="118px" height="67px"><param name="flashvars" value="wmode=transparent&amp;event_handler=microphone_recorder_events&amp;upload_image=/components/carol/images/carol_save.png"></object>
+  <script>Recorder.embedSwf();</script>
+</div>
+
+<div id="controls-container">
+  <span id="carol_play" style="display: inline; ">
+    <a href="javascript:void(0);" onclick="CarolWithMe.play();"><img src="/system/storage/17/21/7/32/play.png">play</a>
+  </span>
+  <span id="carol_stop" style="display: none; ">
+    <a href="javascript:void(0);" onclick="CarolWithMe.stop();"><img src="/system/storage/17/a5/3/28/stop.png">stop</a>
+  </span>
+  
+  <span id="recording_controls" style="">
+    <span id="carol_record" style="display: inline; ">
+      <a href="javascript:void(0);" onclick="CarolWithMe.record();"><img src="/system/storage/17/f1/9/31/record.png">record</a>
+    </span>
+    <span id="carol_save" style="display: inline; ">
+      <a href="javascript:void(0);" onclick="CarolWithMe.save();"><img src="/system/storage/17/33/e/76/save.png">save</a>
+    </span>
+  </span>
+</div>
+

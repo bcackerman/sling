@@ -1,0 +1,46 @@
+<%= hidden_field_tag "watch_id", "speech_show" %>
+<%= hidden_field_tag "speech_id", @speech.id %>
+
+<div id="watch-top-container" class="row">
+  <div id="watch-featured-left" >
+    <span class="label">Featured</span>
+  </div>
+  <div id="watch-featured-main">
+    <div class="watch-top-wrap">
+      <div class="watch-top-left">
+        <div class="watch-top-avatar">
+          <%= image_tag(speaker_avatar_url(@speech), :class=>"img-rounded") %>
+        </div>
+        <div class="post-top-info">
+          <div class="post-top-info-inner">
+            <span class="label label-info" style="margin-right: 5px;">
+              <%= @speech.objective %>
+            </span>
+            <span class="video-user-name">
+              <%= @speech.speaker %>
+            </span>
+            <span class="watch-top-post-date"><%= @speech.delivered_by %></span>
+          </div>
+          <div class="watch-top-content">
+            <%= @speech.title %>
+          </div>
+          <div class="watch-top-stat">
+            <span class="watch-top-view"><%= number_with_delimiter(@speech.views) %> views</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="watch-top-right">
+
+      </div> 
+    </div>
+  </div>
+  <div id="watch-featured-right" >
+    <span class="label pull-right">Speaker</span>
+  </div>
+</div>
+
+<div id="watch-video-container" class="row">
+  <%= render 'player' %>
+</div>
+

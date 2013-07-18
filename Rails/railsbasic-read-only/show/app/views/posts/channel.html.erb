@@ -1,0 +1,46 @@
+<%= hidden_field_tag "watch_id", "channel" %>
+
+<div id="user-profile-container" class="row">
+  <div class="user-profile-avatar">
+    <% if current_user.present? and @post_user.id == current_user.id %>
+      <%= link_to(image_tag(user_avatar_url(@post_user), :class=>"img-rounded"), avatar_users_path) %>     
+    <% else %>
+      <%= image_tag(user_avatar_url(@post_user), :class=>"img-rounded") %>
+    <% end %>
+  </div>
+  <div class="user-profile-info" style="color: #eee;">
+    <h4><%= @post_user.name %></h3>
+    <h5>Age: 10</h5>
+    <h5>Austin TX</h5>
+    <h5>Videos: 233, Groups: 6</h5>
+
+  </div>
+  <div class="user-profile-skillset" style="color: #eee;">
+    <h3>Skill sets</h3>
+  </div>
+</div>
+
+<div id="user-main-container" class="row">
+  
+  <div id="user-main">
+    <%= form_tag url_for(:action => "channel"), :remote => true do |f| %>
+
+      <div id="watch-guide">
+        <%= render 'guide' %>
+      </div>
+
+      <div id="watch-blog">
+        <div id="watch-channel-container" class="watch-panel-body">
+          <%= render 'blog' %>
+        </div>
+      </div>
+
+      <div id="watch-sidebar">
+
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<div class="clear"></div>
+

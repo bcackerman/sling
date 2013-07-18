@@ -1,0 +1,40 @@
+<% if @gnews_topic.present? %>
+  <% for gnews_topic in @gnews_topic %>
+    <% gnews_reply_all = Gnews.where("removed_at IS NULL").where(:topic_id => gnews_topic.id) %>
+    <div class="gnews_widget">
+      <div class="gnews_links">
+        <div class="gnews_avatar"><%= link_to image_tag "globe.png", :title => "Play News", :newsid => gnews_topic.id, :voice => gnews_voice_url(gnews_topic) %></div>
+        <div class="gnews_date"><%= l gnews_topic.topic_date %></div>
+      </div>
+      <div class="gnews_content">
+        <%= image_tag("flags/#{gnews_topic.language}_small.png", :title => gnews_topic.language) %>
+        <%= gnews_topic.text_entry %>
+        <span class="echo_reply"><%= link_to 'echo', reply_gnews_path(gnews_topic) %></span>
+        <span class="echo_edit">
+          <% if gnews_topic.published_at.blank? %>
+            <%= link_to 'publish', publish_gnews_path(gnews_topic), :confirm => "Publish it?" %>
+          <% end %>
+          <%= link_to 'remove', remove_gnews_path(gnews_topic), :confirm => "Removing topic: are you sure?" %>
+        </span>
+      </div>
+    </div>
+    <% if gnews_reply_all.present? %>
+      <% for gnews_reply in gnews_reply_all %>
+        <div class="gnews_widget">
+          <div class="gnews_links">
+            <div class="gnews_avatar"><%= link_to image_tag "globe.png", :title => "Play News", :newsid => gnews_reply.id, :voice => gnews_voice_url(gnews_reply) %></div>
+            <div class="gnews_date"><%= l gnews_topic.topic_date %></div>
+          </div>
+          <div class="gnews_content">
+            <%= image_tag("flags/#{gnews_reply.language}_small.png", :title => gnews_reply.language) %>
+            <%= gnews_reply.text_entry %>
+            <span class="echo_edit">
+              <%= link_to 'remove', remove_gnews_path(gnews_reply), :confirm => "Are you sure?" %>
+            </span>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  <% end %>
+  <%= paginate @gnews_topic %> 
+<% end %>

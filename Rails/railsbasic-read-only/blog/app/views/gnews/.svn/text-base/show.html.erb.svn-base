@@ -1,0 +1,19 @@
+<%= render(:partial => 'shared/left') %>
+
+<div id="show_frame">
+  <div class="frame_top">
+    <span class="post_title">News View</span>
+  </div>
+  <div class="gnews_widget">
+    <div class="gnews_links">
+      <div class="gnews_avatar"><%= link_to image_tag "globe.png", :title => "Play News", :newsid => @gnews.id, :voice => gnews_voice_url(@gnews) %></div>
+      <div class="gnews_date"><%= l @gnews.topic_date %></div>
+    </div>
+    <div class="gnews_content">
+      <%= image_tag("flags/#{@gnews.language}_small.png", :title => @gnews.language) %>
+      <%= @gnews.text_entry %>
+    </div>
+  </div>
+</div>
+
+<%= render(:partial => 'shared/right') %>

@@ -1,0 +1,33 @@
+<div id="watch-top-container" class="row">
+
+</diV>
+
+<div id="watch-main-container" class="row">
+  <div id="watch-main">
+    <div id="watch-guide">
+      <%= form_tag url_for(:action => "index"), :remote => true do |f| %>
+        <%= render 'guide' %>
+      <% end %>
+    </div>
+    <div id="watch-panel">
+      <div id="watch-tab-container" class="spinner">
+        <%= form_tag url_for(:action => "index"), :remote => true do |f| %>
+          <ul id="watch-pager">
+            <%= paginate @groups, :remote => true, :theme => 'twitter-bootstrap' %>
+          </ul>
+          <ul id="watch-tab" class="nav nav-tabs bk-black" data-tabs="tabs">
+            <li rel="Newest Posts" class="active"><%= link_to "Newest", {}, :data => {:toggle=>"tabs"} %></li>
+            <li rel="Most Visited"><%= link_to "Most Visited", {}, :data => {:toggle=>"tabs"} %></li>
+            <li rel="Most Liked"><%= link_to "Most Liked", {}, :data => {:toggle=>"tabs"} %></li>
+            <span class="watch-tab-spinner"><%= image_tag "spinner.gif" %></span>
+          </ul>
+        <% end %>
+      </div>
+      <div id="watch-post-container" class="watch-panel-body">
+        <!--%= render 'group' %-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="clear"></div>

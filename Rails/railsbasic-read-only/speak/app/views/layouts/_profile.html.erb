@@ -1,0 +1,30 @@
+  <div class="user-profile-avatar">
+    <% if is_owner? @post_user %>
+      <%= link_to(image_tag(user_avatar_url(@post_user), :class=>"img-rounded"), avatar_users_path) %>     
+    <% else %>
+      <%= image_tag(user_avatar_url(@post_user), :class=>"img-rounded") %>
+    <% end %>
+  </div>
+  <div class="user-profile-info" style="color:#eee; width:450px; float:left; margin-right:8px;">
+    <h4 style="margin: 0;"><%= @post_user.name %></h4>
+    <div style="color:#888; margin-bottom: 5px;">Joined <%= @post_user.created_at.strftime("%Y-%m-%d") %></div>
+    <div  style="color:#eee; font-size:13px; font-weight:bold; line-height:17px; height:85px; overflow:hidden;">
+      <%= best_in_place_if is_owner?(@post_user), @post_user, :memo, :type => :textarea %>
+    </div>
+    
+  </div>
+
+  <div style="color:#eee; width:160px; float:left;">
+    <div class="user-profile-label"><span class="label label-info">Speeches:</span> <%= @speech_count %></div>
+    <div class="user-profile-label"><span class="label label-info">Evaluations:</span> <%= @eval_count %></div>
+    <div class="user-profile-label"><span class="label label-info">Answers:</span> <%= @answer_count %></div>
+    <div class="user-profile-label"><span class="label label-info">Questions:</span> <%= @question_count %></div>
+
+  </div>
+  <div style="color:#eee; width:180px; height:128px; float:left;">
+    <%= link_to "Most Liked Speech", @best_speech, :class=>"btn btn-small", :style=>"width:150px;font-weight:bold;margin:3px;" %>
+    <%= link_to "Most Liked Evaluation", @best_eval, :class=>"btn btn-small", :style=>"width:150px;font-weight:bold;margin:3px;" %>
+    <%= link_to "Most Liked Answer", @best_answer, :class=>"btn btn-small", :style=>"width:150px;font-weight:bold;margin:3px;" %>
+    <%= link_to "Most Answered Question", @best_question, :class=>"btn btn-small", :style=>"width:150px;font-weight:bold;margin:3px;" %>
+  </div>
+

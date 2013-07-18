@@ -1,0 +1,37 @@
+<% title "Topic" %>
+
+<%= hidden_field_tag("language_id", "Post_Topic") %>
+<%= hidden_field_tag("hd_topic_id", @topic.id) %>
+<%= render(:partial => 'shared/lang') %>
+
+<div id="post_frame">
+  <div class="frame_top">
+    <span class="post_title">Topic View</span>
+    <span class="post_new"><%= link_to 'New Topic', new_post_path %></span>
+    <span class="front_progress"><%= image_tag("progress.gif") %></span>
+  </div>
+  <div id="topic_list">
+    <div class="topic_item">
+      <div class="echo_links">
+        <div class="echo_avatar"><%= link_to image_tag user_avatar_url(@topic.user), :title => "Play Voice", :postid => @topic.id, :voice => post_voice_url(@topic) %></div>
+        <div class="echo_topic">
+          <%= link_to image_tag("links/forward.png", :title => "Topic View"), topic_show_path(@topic) %>
+        </div>
+      </div>
+      <div class="echo_content">
+        <div class="echo_status">
+          <%= link_to @topic.user.username, user_profile_url(@topic.user) %>
+          <span class="echo_date"><em><%= l @topic.created_at %></em></span>
+          <span class="echo_reply"><%= link_to 'echo', reply_post_path(@topic) %></span>
+        </div>
+        <div class="echo_text">
+          <%= @topic.text_entry %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="post_list"><%= render 'shared/post' %></div>
+  <%= pageless("#post_list", @post.num_pages, topic_show_path(@topic)) %>
+</div>
+
+<%= render(:partial => 'shared/right') %>

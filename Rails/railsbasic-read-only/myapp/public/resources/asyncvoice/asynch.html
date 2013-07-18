@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Wiki</title>
+
+<link type="text/css" href="asyncc.css" rel="stylesheet" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="audioj.js"></script>
+<script type="text/javascript" src="convej.js"></script>
+</head>
+
+<body>
+
+<h2>Testing Async Voice Recording Here</h2>
+
+<script type="text/javascript">
+
+  window.onload = AudioManager.init({flashLocation: "webVoiceRec.swf"});
+
+</script>
+
+<div id="async-record-container">
+  <img src="record_enabled.png" alt="" id="async-record-btn" />
+  <span class="record-timer"></span>
+</div>
+
+<p>Change this text to Audio data for test</p>
+
+</body></html>
+

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/598/trunk/speak/app/models
+END
+ability.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/531/trunk/speak/app/models/ability.rb
+END
+quote.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/597/trunk/speak/app/models/quote.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/598/trunk/speak/app/models/user.rb
+END
+subject.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/536/trunk/speak/app/models/subject.rb
+END
+rating.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/582/trunk/speak/app/models/rating.rb
+END
+feedback.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/562/trunk/speak/app/models/feedback.rb
+END
+like.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/543/trunk/speak/app/models/like.rb
+END
+post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/597/trunk/speak/app/models/post.rb
+END
+speech.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/597/trunk/speak/app/models/speech.rb
+END
+question.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/597/trunk/speak/app/models/question.rb
+END
+objective.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/457/trunk/speak/app/models/objective.rb
+END
+group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/436/trunk/speak/app/models/group.rb
+END

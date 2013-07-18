@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/436/trunk/speak/script
+END
+delayed_job
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/436/trunk/speak/script/delayed_job
+END
+rails
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/436/trunk/speak/script/rails
+END

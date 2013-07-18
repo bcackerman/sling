@@ -1,0 +1,51 @@
+<%= hidden_field_tag "watch_id", "post_channel" %>
+
+<div id="user-profile-container" class="row">
+  <%= render 'layouts/profile' %>
+</div>
+
+<div id="user-main-container" class="row">
+  <div id="user-main">
+    <div id="watch-guide">
+      <div class="watch-guide-top">
+        <span class="label label-important"><%= truncate(@post_user.name, :length => 15) %>'s Posts</span>
+      </div>
+
+      <%= form_tag url_for(:action => "channel"), :remote => true do |f| %>
+        <%= render 'guide' %>
+      <% end %>
+
+      <div style="margin-top: 15px;">
+        <span class="label label-success">Links</span>
+      </div>
+      <div style="color:#eee; margin:10px; float:left;">
+        <%= link_to "Questions Page", question_channel_path(@post_user.name), :class=>"btn btn-small", :style=>"width:112px;font-weight:bold;margin:3px;" %>
+      </div>
+    </div>
+    <div id="watch-blog">
+      <div id="watch-channel-container" class="watch-panel-body">
+        <ul id="watch-channel" class="video-list">
+          <%= render 'process' %>
+          <%= render 'blog' %>
+        </ul>
+      </div>
+      <div id="watch-more-button">
+        <%= link_to_next_page @posts, 'Load More', :remote => true, :id=>"load_more_link", :class=>"btn", :style=>"width:470px;font-weight:bold;" %>
+      </div>
+    </div>
+
+    <div id="watch-sidebar">
+
+    </div>
+  
+  </div>
+</div>
+
+<div id="watch-metric" class="watch-metric-bar" style="top: 180px;">
+  <% if @metric_bar.present? %>
+    <%= render 'ratings/metric' %>
+  <% end %>
+</div>
+
+<div class="clear"></div>
+

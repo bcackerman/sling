@@ -1,0 +1,3 @@
+$("#global_news").html("<%= escape_javascript(render("shared/gnews")) %>");
+$(".news_content").hide();
+$("#global_news").ajaxComplete(function() { $(".news_content").fadeIn('slow'); });

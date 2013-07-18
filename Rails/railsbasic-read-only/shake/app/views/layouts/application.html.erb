@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ShakeHour</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <!-- begin page -->
+    <div id="page">
+      <div id="logo-bg">
+        <%= image_tag "shake_bg.jpg" %>
+      </div>
+
+      <div id="sharePanel" class="gd-shareLinks">
+        <ul>
+          <li><%= link_to "Facebook", {}, :class=>"gd-shareLinks-link-facebook gd-shareLinks-link", :target=>"_blank", :title=>"Facebook" %></li>
+          <li><%= link_to "Twitter", {}, :class=>"gd-shareLinks-link-twitter gd-shareLinks-link", :target=>"_blank", :title=>"Twitter" %></li>
+          <li><%= link_to "Delicious", {}, :class=>"gd-shareLinks-link-delicious gd-shareLinks-link", :target=>"_blank", :title=>"Del.icio.us" %></li>
+          <li><%= link_to "Stumbleupon", {}, :class=>"gd-shareLinks-link-stumbleupon gd-shareLinks-link", :target=>"_blank", :title=>"StumbleUpon" %></li>
+        </ul>
+      </div>
+
+      <div id="sidebar-container">
+        <%= render(:partial => 'shared/sidebar') %>
+      </div>
+
+      <div id="content-container">
+        <!-- begin content -->
+        <div id="content">
+          <%= yield %>
+        </div>
+        <!-- end content -->
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/593/trunk/speak/app/helpers
+END
+speeches_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/481/trunk/speak/app/helpers/speeches_helper.rb
+END
+groups_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/436/trunk/speak/app/helpers/groups_helper.rb
+END
+users_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/436/trunk/speak/app/helpers/users_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/593/trunk/speak/app/helpers/application_helper.rb
+END
+ratings_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/587/trunk/speak/app/helpers/ratings_helper.rb
+END
+feedbacks_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/560/trunk/speak/app/helpers/feedbacks_helper.rb
+END
+posts_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/436/trunk/speak/app/helpers/posts_helper.rb
+END
+questions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/445/trunk/speak/app/helpers/questions_helper.rb
+END

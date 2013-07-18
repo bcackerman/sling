@@ -1,0 +1,31 @@
+<% title "Profile" %>
+
+<%= form_for @flt_post, :remote => true do |f| %>
+  <%= render(:partial => 'shared/ads') %>
+
+  <div id="post_frame">
+    
+    <div id="post_user">
+      <%= link_to image_tag avatar_url(@user), :title => "Play Introduction" %>
+      <span id="post_title"><%= @user.username %></span>
+      <% if user_signed_in? && current_user != @user %>
+        <span id="add_friend"><%= link_to "Add Friend", friendships_path(:friend_id => @user.id), :method => :post %></span>
+      <% end %>  
+    </div>
+
+    <div id="post_list"><%= render 'post' %></div>
+    
+    <% if user_signed_in? && current_user == @user %>
+      <div class="post_nav">
+        <%= link_to 'New Topic', new_post_path %>
+      </div>
+    <% end %>
+  </div>
+
+<% end %>
+
+<div id="side_panel">
+  <%= render(:partial => 'shared/friend') %>
+  <%= render(:partial => 'shared/setting') %>
+</div>
+

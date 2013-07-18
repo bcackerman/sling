@@ -1,0 +1,18 @@
+<%= render(:partial => 'shared/left') %>
+
+<div id="speech-front-audio-list">
+
+  <%= form_tag url_for(:action => "index"), :remote => true do |f| %>
+    <div id="speech-front-audio-tab">
+      <ul class="speech-front-tab-fltr">
+        <li class="selected speech-tab-fltr-disabled" alt="Popular"><%= link_to "Popular Now" =%></li>
+        <li class="speech-tab-fltr-link" alt="Newest"><%= link_to "Newest" =%></li>
+        <li class="speech-tab-fltr-link" alt="Listened"><%= link_to "Most Listened" =%></li>
+      </ul>
+      <span class="speech-front-progress-spinner"><%= image_tag "progress.gif" %></span>
+    </div>
+
+    <div id="speech-front-audio-container"><%= render 'front' %></div>
+  <% end %>
+
+</div>

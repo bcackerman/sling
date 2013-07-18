@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/257/trunk/bags/test/unit
+END
+product_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/257/trunk/bags/test/unit/product_test.rb
+END
+query_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/257/trunk/bags/test/unit/query_test.rb
+END
+store_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/257/trunk/bags/test/unit/store_test.rb
+END

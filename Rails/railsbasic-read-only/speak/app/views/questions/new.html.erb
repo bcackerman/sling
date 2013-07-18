@@ -1,0 +1,34 @@
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".new-question-inputs textarea").maxlength({
+      maxCharacters: 200,
+      statusClass: "new-question-status",
+      statusText: "character left"
+    });
+    //$(".new-question-inputs textarea").autoResize({}).trigger('change');
+  });
+</script>
+
+<div class="form-main-wrapper">
+  <div class="form-main-header form-main-header-black">
+    <h4><span class="form-main-header-status">Have a question? Ask here.</span></h4>
+  </div>
+  <div class="form-main-container">
+    <div class="new-question-hint">Question is in open-ended format with limit of 200 characters</div>
+    <div class="new-question-status"></div>
+    <%= simple_form_for @question, :validate => true do |f| %>
+      <div>
+        <%= f.label "Subject" %>
+        <%= f.collection_select :subject_id, Subject.order(:name), :id, :name %>
+      </div>
+      <div class="control-group">
+        <%= f.label "Content" %>
+        <div class="controls">
+          <%= f.text_area :content, :rows => 5, :placeholder => "Enter question here.", :class => "span7" %>
+        </div>
+      </div>
+      
+      <div><%= f.submit "Ask Question", :class => "btn btn-inverse pull-left" %></div>
+    <% end %>
+  </div>
+</div>

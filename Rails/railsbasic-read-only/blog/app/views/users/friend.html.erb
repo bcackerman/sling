@@ -1,0 +1,34 @@
+<%= render(:partial => 'shared/left') %>
+
+<div id="friend_frame">
+  <% if current_user == @user %>
+    <h2>Manage Friends</h2>
+  <% else %>
+    <h2>Friends List</h2>
+  <% end %>
+  
+  <div class="friend_list">
+    <% for friendship in @friendship %>
+      <div class="friend_widget">
+        <%= link_to image_tag user_avatar_url(friendship.friend), :title => "Play Introduction" %>
+
+        <div class="friend_status">
+          <%= link_to friendship.friend.username, user_profile_url(friendship.friend) %>
+          <div class="friend_edit">
+            <% if user_signed_in? && current_user == @user %>
+              <span class="friend_refresh"><%= link_to 'refresh', friendships_path(:friend_id => friendship.friend), :method => :post %></span>
+              <span class="friend_remove"><%= link_to 'remove', friendship, :confirm => "Are you sure?", :method => :delete %></span>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+    <%= paginate @friendship %>
+  </div>
+</div>
+
+<div id="side_panel">
+  <%= render(:partial => 'shared/friend') %>
+  <%= render(:partial => 'shared/setting') %>
+</div>
+

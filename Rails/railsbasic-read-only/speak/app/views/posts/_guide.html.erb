@@ -1,0 +1,15 @@
+
+<div id="watch-filter-container" class="spinner">
+  <ul id="watch-filter" class="nav nav-tabs nav-stacked" data-tabs="tabs">
+    <li rel="All" class="active"><%= link_to "All", {}, :data => {:toggle=>"tabs"} %></li>
+    <% ["Speech", "Evaluation", "Answer"].each do |category| %>
+      <li rel=<%= category %>>
+        <%= link_to '#', :data => {:toggle=>"tabs"} do %>
+          <i class="icon-chevron-right icon-white pull-right"></i>
+          <%= category %>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+</div>
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/562/trunk/speak/config/locales
+END
+devise.en.yml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/531/trunk/speak/config/locales/devise.en.yml
+END
+en.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/562/trunk/speak/config/locales/en.yml
+END
+simple_form.en.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/515/trunk/speak/config/locales/simple_form.en.yml
+END

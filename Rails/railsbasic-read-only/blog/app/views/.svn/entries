@@ -1,0 +1,58 @@
+10
+
+dir
+605
+http://railsbasic.googlecode.com/svn/trunk/blog/app/views
+http://railsbasic.googlecode.com/svn
+
+
+
+2012-01-13T00:29:42.382023Z
+180
+mpengz@gmail.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+950e4a67-1729-6560-252b-532fff5b6ec6
+
+devise
+dir
+
+layouts
+dir
+
+users
+dir
+
+answers
+dir
+
+gnews
+dir
+
+shared
+dir
+
+feedbacks
+dir
+
+posts
+dir
+
+evaluations
+dir
+
+questions
+dir
+

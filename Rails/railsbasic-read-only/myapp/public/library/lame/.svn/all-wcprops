@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/94/trunk/myapp/public/library/lame
+END
+examples.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/94/trunk/myapp/public/library/lame/examples.html
+END
+basic.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/94/trunk/myapp/public/library/lame/basic.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/94/trunk/myapp/public/library/lame/index.html
+END
+lame_enc.dll
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/94/trunk/myapp/public/library/lame/lame_enc.dll
+END
+lame.exe
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/94/trunk/myapp/public/library/lame/lame.exe
+END

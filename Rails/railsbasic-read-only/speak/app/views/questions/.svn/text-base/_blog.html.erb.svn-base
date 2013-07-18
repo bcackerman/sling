@@ -1,0 +1,32 @@
+<% for @question in @questions %>
+  <li class="question-blog-item" alt="<%= @question.id %>">
+    <div class="question-info-wrap" style="width:480px;">
+      <div class="question-info">
+        <div class="question-list-avatar">
+          <%= link_to image_tag(user_avatar_url(@question.user)), question_channel_path(@question.user.name) %>
+        </div>
+        <div class="question-blog-info">
+          <div class="question-post-info-inner">
+            <span class="question-user-name"><%= link_to @question.user.name, question_channel_path(@question.user.name) %></span>
+            <span class="question-post-date"><%= time_ago_in_words(@question.created_at) %> ago</span>
+          </div>
+          <div class="question-blog-content" title=""><%= @question.content %></div>
+
+          <div class="question-blog-stat">
+            <span class="question-view"><%= number_with_delimiter(@question.posts.size) %> answers</span>
+            <span class="question-links pull-right">
+              <span><%= link_to 'Show Page', question_path(@question) %></span>
+              <% if user_signed_in? and current_user != @question.user %>
+                <span>&middot</span>
+                <span><%= link_to "Answer It", {:controller => "posts", :action => "upload", :cat_select => "Answer", :link_id => @question.id } %></span>
+              <% end %>
+            </span>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </li>
+<% end %>
+
+

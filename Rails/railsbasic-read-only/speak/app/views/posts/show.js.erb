@@ -1,0 +1,2 @@
+$("ul#watch-channel").append("<%= escape_javascript(render("blog")) %>");
+$('#watch-more-button').html("<%= escape_javascript(link_to_next_page(@posts, 'Load More', :remote => true, :id=>'load_more_link', :class=>"btn", :style=>"width:470px;font-weight:bold;"))%>");

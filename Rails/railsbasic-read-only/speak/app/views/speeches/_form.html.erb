@@ -1,0 +1,12 @@
+<%= form_for @speech do |f| %>
+  <div><%= f.label :speaker %><%= f.text_area :speaker, :rows => 1, :placeholder => "", :class => "span4" %></div>
+  <div><%= f.label :delivered_by %><%= f.text_area :delivered_by, :rows => 1, :placeholder => "", :class => "span4" %></div>
+  <div><%= f.label :objective %><%= f.text_area :objective, :rows => 1, :placeholder => "", :class => "span4" %></div>
+  <div><%= f.label :length %><%= f.text_area :length, :rows => 1, :placeholder => "", :class => "span4" %></div>
+  <div><%= f.label :title %><%= f.text_area :title, :rows => 2, :placeholder => "", :class => "span6" %></div>
+  <div><%= f.label :description %><%= f.text_area :content, :rows => 5, :placeholder => "", :class => "span6" %></div>
+  <div><%= f.label :avatar_url %><%= f.text_area :avatar_url, :rows => 1, :placeholder => "", :class => "span6" %></div>
+  <div><%= f.label :video_url %><%= f.text_area :video_url, :rows => 1, :placeholder => "", :class => "span6" %></div>
+  <div><%= f.label :poster_url %><%= f.text_area :poster_url, :rows => 1, :placeholder => "", :class => "span6" %></div>
+  <div class="create-button"><%= f.submit "Create Speech", :class => "btn btn-inverse pull-left" %></div>
+<% end %>

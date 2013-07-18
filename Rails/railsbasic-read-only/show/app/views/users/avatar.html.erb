@@ -1,0 +1,22 @@
+<div class="page-canvas">
+  <div class="setting-header">
+    <h4><span class="setting-header-status-text">Update <%= current_user.name %>'s avatar</span></h4>
+  </div>
+  <div class="setting-main">
+    <div class="setting-wrapper">
+      <div>
+        <%= image_tag(user_avatar_url(current_user), :class=>"img-rounded") %>
+        <p>The avatar image is size of 128 x 128.</p>
+        <p>You can crop the uploaded image in next page.</p>
+      </div>
+      <%= form_for @user do |f| %>
+        <div class="field">
+          <%= f.file_field(:avatar, :class => "well") %>
+        </div>
+        <div class="actions">
+          <%= f.submit "Upload", :class => "btn btn-primary pull-left" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

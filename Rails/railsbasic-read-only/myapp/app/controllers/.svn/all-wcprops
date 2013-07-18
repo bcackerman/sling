@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/151/trunk/myapp/app/controllers
+END
+friendships_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/116/trunk/myapp/app/controllers/friendships_controller.rb
+END
+users_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/144/trunk/myapp/app/controllers/users_controller.rb
+END
+application_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/121/trunk/myapp/app/controllers/application_controller.rb
+END
+posts_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/151/trunk/myapp/app/controllers/posts_controller.rb
+END

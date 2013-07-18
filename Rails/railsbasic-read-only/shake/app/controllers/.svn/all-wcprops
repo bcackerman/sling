@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/278/trunk/shake/app/controllers
+END
+drinks_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/277/trunk/shake/app/controllers/drinks_controller.rb
+END
+users_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/277/trunk/shake/app/controllers/users_controller.rb
+END
+products_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/278/trunk/shake/app/controllers/products_controller.rb
+END
+application_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/264/trunk/shake/app/controllers/application_controller.rb
+END
+pubs_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/277/trunk/shake/app/controllers/pubs_controller.rb
+END

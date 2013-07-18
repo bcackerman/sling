@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/188/trunk/site/db/migrate
+END
+20120113232952_create_questions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/183/trunk/site/db/migrate/20120113232952_create_questions.rb
+END
+20120118024402_add_username_avatar_to_user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/188/trunk/site/db/migrate/20120118024402_add_username_avatar_to_user.rb
+END
+20120114002527_create_answers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/183/trunk/site/db/migrate/20120114002527_create_answers.rb
+END
+20120114075126_devise_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/183/trunk/site/db/migrate/20120114075126_devise_create_users.rb
+END
+20120118024459_add_username_avatar_to_admin.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/188/trunk/site/db/migrate/20120118024459_add_username_avatar_to_admin.rb
+END
+20120114075201_devise_create_admins.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/183/trunk/site/db/migrate/20120114075201_devise_create_admins.rb
+END
+20120114002556_create_evaluations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/183/trunk/site/db/migrate/20120114002556_create_evaluations.rb
+END

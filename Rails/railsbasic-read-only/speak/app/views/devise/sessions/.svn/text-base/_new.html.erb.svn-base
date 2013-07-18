@@ -1,0 +1,23 @@
+<ul class="dropdown-menu dropdown-form" id="signin-dropdown">
+  <li class="dropdown-caret right">
+    <span class="caret-outer"></span>
+    <span class="caret-inner"></span>
+  </li>
+
+  <li>
+    <%= form_for("user", :url => user_session_path) do |f| %>
+      <div class="signin-inputs">
+        <%= f.email_field :email, :placeholder=>"Email" %>
+        <%= f.password_field :password, :placeholder=>"Password" %>
+        <div class="signin-remember">
+          <%= f.check_box :remember_me %>
+          <%= f.label :remember_me %>
+        </div>
+      </div>
+      <div class="signin-links">
+        <%= link_to "Forgot password?", new_password_path('user'), :class=>"pull-left" %>
+        <%= f.submit "Sign in", :class => "btn btn-primary pull-right" %>
+      </div>
+    <% end %>
+  </li>
+</ul>

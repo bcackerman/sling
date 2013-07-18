@@ -1,0 +1,5 @@
+$("#post_list").html("<%= escape_javascript(render("front")) %>");
+$("#post_list").pageless({ totalPages: <%= @gnews_reply.num_pages %>
+  , currentPage: 1 
+  , loaderMsg: 'Loading more echoes'
+  });

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/481/trunk/speak/spec/requests
+END
+groups_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/436/trunk/speak/spec/requests/groups_spec.rb
+END
+speeches_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/481/trunk/speak/spec/requests/speeches_spec.rb
+END
+users_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/436/trunk/speak/spec/requests/users_spec.rb
+END

@@ -1,0 +1,52 @@
+<% if @best.present? %>
+  <li class="video-blog-item active" alt="<%= @best.id %>" style="background-color:#FAF8CC;">
+    <div class="video-blog-left">
+      <div class="video-thumb-wrap">
+        <span class="video-thumb">
+          <%= link_to image_tag(post_poster_url(@best)), @best %>
+        </span>
+        <span class="video-time"><%= Time.at(@best.length).gmtime.strftime('%-M:%S') %></span>
+      </div>
+      <div class="video-blog-label">
+        <span class="label">Most Liked</span>
+      </div>
+    </div>
+
+    <div class="video-info-wrap">
+      <div class="video-info">
+        <div class="video-user-avatar">
+          <%= link_to image_tag(user_avatar_url(@best.user)), post_channel_path(@best.user.name) %>
+        </div>
+        <div class="video-post-info">
+          <div class="video-post-info-inner">
+            <span class="video-user-name"><%= link_to @best.user.name, post_channel_path(@best.user.name) %></span>
+            <span class="video-post-date"><%= time_ago_in_words(@best.created_at) %> ago</span>
+          </div>
+          <div class="video-theme-group">
+            <%= @best.category %>
+            <%= post_subject_value(@best) %>
+          </div>
+        </div>
+      </div>
+      <div class="video-title" title="">
+        <% if @best.category != "Speech" %>@ <% end %><%= @best.title %>
+      </div>
+      <div class="video-stat">
+        <span class="video-view"><%= number_with_delimiter(@best.views) %> views</span>
+        <span class="video-like">
+          <%= number_with_delimiter(@best.likes.size) %>
+          <%= image_tag "thumb_up.png" %>
+        </span>
+      </div>
+      <div class="video-description">
+        <div class="collapse-group">
+          <span>Description: <%= truncate(@best.content, :length => 25) %></span>
+          <div class="video-desc-details">
+            <%= link_to "View More &raquo;".html_safe %>
+          </div>
+          <div class="collapse"><%= @best.content %></div>
+        </div>
+      </div>
+    </div>
+  </li>
+<% end %>

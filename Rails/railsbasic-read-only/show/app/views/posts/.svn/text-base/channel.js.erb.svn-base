@@ -1,0 +1,3 @@
+$("#watch-channel-container").html("<%= escape_javascript(render("blog")) %>");
+$('#watch-pager').html('<%= escape_javascript(paginate(@posts, :remote => true, :theme => 'twitter-bootstrap').to_s) %>');
+

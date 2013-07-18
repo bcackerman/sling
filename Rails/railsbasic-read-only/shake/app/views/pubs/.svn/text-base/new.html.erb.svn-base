@@ -1,0 +1,7 @@
+<div class="pubs-editor">
+
+  <h1>New pub</h1>
+
+  <%= render 'form' %>
+
+</div>  

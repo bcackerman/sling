@@ -1,0 +1,8 @@
+<% if @post.description.blank? %>
+  alert("Failed to upload video");
+<% else %>
+  $('.upload-header-status-text').html("Uploading completed");
+  alert("Uploading completed successfully");
+<% end %>
+
+

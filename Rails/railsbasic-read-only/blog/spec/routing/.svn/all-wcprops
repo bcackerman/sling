@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/173/trunk/blog/spec/routing
+END
+answers_routing_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/173/trunk/blog/spec/routing/answers_routing_spec.rb
+END
+evaluations_routing_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/173/trunk/blog/spec/routing/evaluations_routing_spec.rb
+END
+questions_routing_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/173/trunk/blog/spec/routing/questions_routing_spec.rb
+END

@@ -1,0 +1,56 @@
+Upload to AWS S3
+    https://github.com/WayneHoover/s3_direct_upload
+    https://github.com/railscasts/383-uploading-to-amazon-s3
+    https://github.com/dwilkie/carrierwave_direct
+    https://github.com/blueimp/jQuery-File-Upload
+    http://stackoverflow.com/questions/12724826/direct-uploads-to-s3-using-carrierwave
+    http://pjambet.github.com/blog/direct-upload-to-s3/
+
+
+Encoding with Zencoder
+    http://www.nickdesteffen.com/blog/video-encoding-with-uploadify-carrierwave-and-zencoder
+
+
+FFMpeg
+    http://www.longtailvideo.com/support/forums/addons/using-plugins/628/extracting-poster-frame
+        - ffmpeg -i VideoFile.flv -ss 00:00:01.00 -vcodec mjpeg -vframes 1 -f image2 VideoFile.jpg
+    http://stackoverflow.com/questions/9582327/how-to-create-thumb-image-while-uploading-video?lq=1
+    http://rodrigopolo.com/ffmpeg/cheats.html#Other_FFmpeg_Options
+    http://www.danielfischer.com/2007/06/27/how-to-use-ffmpeg-to-convert-video-via-ruby-on-rails
+    http://stackoverflow.com/questions/1503900/best-practices-for-developing-scalable-video-transcoding-server-on-amazon-web-se
+    https://github.com/streamio/streamio-ffmpeg
+    http://forum.videohelp.com/threads/322328-libfaac-encoding-with-ffmpeg
+    https://ffmpeg.org/trac/ffmpeg/wiki/UbuntuCompilationGuide
+    http://askubuntu.com/questions/148554/installingffmpeg-libx264-and-libavfilter
+
+RMagick
+    http://rmagick.rubyforge.org/install-faq.html
+    http://stackoverflow.com/questions/4989097/rmagick-under-windows
+
+VideoJS
+    http://stackoverflow.com/questions/9642196/html5-video-with-video-js-and-ajax
+    http://jsfiddle.net/swinginsam/NWbUG/
+
+Bootstrap
+    https://github.com/RailsApps/rails3-bootstrap-devise-cancan
+    http://www.9lessons.info/2012/04/bootstrap-registration-form-tutorial.html
+    http://stackoverflow.com/questions/11010947/changing-devise-for-bootstrap-modal
+    http://stackoverflow.com/questions/10808923/getting-devise-sign-in-form-into-twitter-bootstrap-modal?rq=1
+    http://stackoverflow.com/questions/10318949/link-to-another-page-using-twitter-bootstrap-jquery-modal-in-rails
+
+Jquery File Upload
+    https://github.com/blueimp/jQuery-File-Upload/wiki/Basic-plugin
+    https://github.com/n0ne/Rails-Carrierwave-jQuery-File-Upload/blob/master
+    https://github.com/yortz/carrierwave_jquery_file_upload/blob/master
+    https://github.com/jalagrange/bootstrap_uploader/blob/master
+    
+Carrierwave Video
+    http://stackoverflow.com/questions/13202992/carrierwave-with-custom-processor-not-registering
+    https://github.com/rheaton/carrierwave-video
+    https://github.com/evrone/carrierwave-video-thumbnailer
+    
+AWS
+    http://aws.amazon.com/sdkforruby/
+    https://github.com/aws/aws-sdk-ruby
+    http://www.techdarkside.com/getting-started-with-the-aws-elastic-transcoder-api-in-rails
+

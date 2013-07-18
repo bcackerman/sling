@@ -1,0 +1,14 @@
+<%= render(:partial => 'shared/left') %>
+
+<div id="user-main-audio-list">
+
+    <div id="user-main-audio-title">
+      <h2>Question Main Page</h2>
+    </div>
+
+    <div id="user-main-audio-container"><%= render 'questions/post' %></div>
+    <%= pageless("#user-main-audio-container", @answers.num_pages, question_path(@question)) %>
+
+</div>
+
+<%= render(:partial => 'shared/right') %>

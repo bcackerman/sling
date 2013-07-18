@@ -1,0 +1,63 @@
+<%= hidden_field_tag "watch_id", "index" %>
+
+<div class="watch-featured-dropdown">
+  <!--%= render(:partial => 'posts/popover') %-->
+</div>
+
+<div id="watch-featured-container" class="row">
+  <div id="watch-featured-carousel" class="carousel slide">
+    <div class="carousel-inner">
+      <% @featured.in_groups_of(9, false).each_with_index do |posts, index| %>
+        <% if index == 0 %>
+          <div class="item active">
+        <% else %>
+          <div class="item">
+        <% end %>
+          <ul class="thumbnails">
+            <% posts.each do |post| %>
+              <li>
+                <div style="margin:5px;">
+                  <%= image_tag user_avatar_url(post.user), :size=>"96x96", :class=>"img-rounded", :alt=>post.id %>
+                </div>
+              </li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    </div>
+    <a class="carousel-control left" href="#watch-featured-carousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#watch-featured-carousel" data-slide="next">&rsaquo;</a>
+  </div>
+</diV>
+
+<div id="watch-main-container" class="row">
+  
+  <div id="watch-main">
+    <div id="watch-guide">
+      <%= form_tag url_for(:action => "index"), :remote => true do |f| %>
+        <%= render 'guide' %>
+      <% end %>
+    </div>
+    <div id="watch-panel">
+      <div id="watch-tab-container" class="spinner">
+        <%= form_tag url_for(:action => "index"), :remote => true do |f| %>
+          <ul id="watch-pager">
+            <%= paginate @posts, :remote => true, :theme => 'twitter-bootstrap' %>
+          </ul>
+          <ul id="watch-tab" class="nav nav-tabs bk-black" data-tabs="tabs">
+            <li rel="Newest Videos" class="active"><%= link_to "Newest Videos", {}, :data => {:toggle=>"tabs"} %></li>
+            <li rel="Most Viewed"><%= link_to "Most Viewed", {}, :data => {:toggle=>"tabs"} %></li>
+            <li rel="Most Liked"><%= link_to "Most Liked", {}, :data => {:toggle=>"tabs"} %></li>
+            <span class="watch-tab-spinner"><%= image_tag "spinner.gif" %></span>
+          </ul>
+        <% end %>
+      </div>
+      <div id="watch-post-container" class="watch-panel-body">
+        <%= render 'post' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="clear"></div>
+

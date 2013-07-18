@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/277/trunk/shake/test/unit
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/277/trunk/shake/test/unit/user_test.rb
+END
+pub_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/277/trunk/shake/test/unit/pub_test.rb
+END
+drink_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/277/trunk/shake/test/unit/drink_test.rb
+END

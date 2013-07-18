@@ -1,0 +1,22 @@
+<div class="page-canvas">
+  <div class="setting-header">
+    <h4><span class="setting-header-status-text">Sign in to SkillDeveloping</span></h4>
+  </div>
+  <div class="setting-main">
+    <div class="setting-wrapper">
+      <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+        <div class="signin-inputs">
+          <div><%= f.email_field :email, :placeholder=>"Email" %></div>
+          <div><%= f.password_field :password, :placeholder=>"Password" %></div>
+          <div class="signin-remember">
+            <%= f.check_box :remember_me %>
+            <%= f.label :remember_me %>
+          </div>
+        </div>
+        <div class="signin-links">
+          <div><%= f.submit "Sign in", :class => "btn btn-primary pull-left" %></div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

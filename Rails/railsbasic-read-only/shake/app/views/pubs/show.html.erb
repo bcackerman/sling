@@ -1,0 +1,72 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+    showSlides();
+  });
+</script>
+
+<div class="section">
+
+<div class="section-detail">
+
+  <div class="section-detail-photo">
+
+    <div id="slides">
+      <div class="slides_container">
+        <div class="slide">
+          <%= image_tag @pub.photo1_url %>
+          <div class="caption" style="bottom:0">
+            <p><%= @pub.caption1 %></p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <%= image_tag @pub.photo2_url %>
+          <div class="caption" style="bottom:0">
+            <p><%= @pub.caption2 %></p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <%= image_tag @pub.photo3_url %>
+          <div class="caption" style="bottom:0">
+            <p><%= @pub.caption3 %></p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <%= image_tag @pub.photo4_url %>
+          <div class="caption" style="bottom:0">
+            <p><%= @pub.caption4 %></p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <%= image_tag @pub.photo5_url %>
+          <div class="caption" style="bottom:0">
+            <p><%= @pub.caption5 %></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section-detail-info">
+    <div class="section-detail-info-desc">
+      <h2><%= @pub.name %></h2>
+      <p><%= @pub.info1 %></p>
+      </br>
+    </div>
+    <div class="section-detail-info-address">
+      <p><%= @pub.address %>, <%= @pub.city %>, <%= @pub.state %></p>
+      <p><%= @pub.phone %></p>
+      <p><%= link_to @pub.website %></p>
+      <p></p>
+    </div>
+    <div class="section-detail-info-set">
+   
+    </div>
+  </div>
+
+</div>
+</div>

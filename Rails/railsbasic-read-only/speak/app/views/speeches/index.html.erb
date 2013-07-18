@@ -1,0 +1,33 @@
+<div class="form-main-wrapper">
+  <div class="form-main-header form-main-header-red">
+    <h4><span class="form-main-header-status">Speeches Listing</span></h4>
+  </div>
+  <div class="form-main-container form-main-container-wide">
+    <div>
+      <button type="button" class="btn">
+        <span><%= link_to 'New Speech', new_speech_path %></span>
+      </button>
+    </div>
+
+    <% @speeches.each do |speech| %>
+      <div class="span9 well" style="margin: 5px 0; position: relative; line-height: 20px;">
+      
+        <div style="float: left; width: 600px;">
+          <div>
+
+          </div>
+        </div>
+        
+        <div  style="float: left; width: 150px;  padding-left: 20px;">
+          <div>@ <%= time_ago_in_words(speech.created_at) %> ago</div>
+          <div><%= link_to 'Edit', edit_speech_path(speech) %></div>
+          <div><%= link_to 'Publish', edit_speech_path(speech) %></div>
+          <div><%= link_to 'Remove', edit_speech_path(speech) %></div>
+        </div>
+
+      </div>
+    <% end %>
+  </div>
+</div>
+
+

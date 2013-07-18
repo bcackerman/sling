@@ -1,0 +1,57 @@
+
+<%= link_to site_name_no_space+"(beta)", root_path, :class => 'brand' %>
+<div>
+  <ul class="nav">
+    <%= render 'layouts/browse' %>
+    <% if user_signed_in? %>
+      <li><%= link_to upload_posts_path do %><i class="icon-upload icon-white"></i> Upload<% end %></li>
+      <li id="nav-question"><%= link_to new_question_path do %><i class="icon-question-sign icon-white"></i> Ask<% end %></li>
+    <% end %>
+  </ul>
+
+  <%= search_form_for @posts_search, :html => {:class => "navbar-search pull-left"} do |f| %>
+    <%= f.text_field :title_cont, :class => "input-large search-query", :placeholder => "Search Posts" %>
+    <span id="post-search" class="search-icon">
+      <i class="icon-search" tabindex="0"></i>
+    </span>
+  <% end %>
+
+  <ul class="nav actions pull-right">
+
+    <% if user_signed_in? %>
+      <li class="dropdown">
+        <%= link_to '#', :class=>"dropdown-toggle", :data => {:toggle=>"dropdown"} do %>
+          <i class="icon-user icon-white"></i>
+          <%= truncate(current_user.name, :length => 15) %>
+          <b class="caret"></b>
+        <% end %>
+        <ul class="dropdown-menu" id="setting-dropdown">
+          <% if current_user.has_role? :admin %>
+            <li><%= link_to 'Admin', users_path %></li>
+          <% else %>
+            <li><%= link_to 'My Posts', user_channel_url(current_user, "posts") %></li>
+            <li><%= link_to 'My Questions', user_channel_url(current_user, "questions") %></li>
+            <!--li><!%= link_to 'My Groups', user_channel_url(current_user, "groups") %></li-->
+          <% end %>
+          <li><%= link_to 'My Account', edit_user_registration_path %></li>
+          <li class="divider"></li>
+          <li><%= link_to 'Sign out', destroy_user_session_path, :method=>'delete' %></li>
+        </ul>
+      </li>
+
+    <% else %>
+      <li class="dropdown">
+        <%= link_to '#', :class=>"dropdown-toggle", :data => {:toggle=>"dropdown"} do %>
+          Sign up<b class="caret"></b>
+        <% end %>
+        <%= render 'devise/registrations/new'%>
+      </li>
+      <li class="dropdown">
+        <%= link_to '#', :class=>"dropdown-toggle", :data => {:toggle=>"dropdown"} do %>
+          Sign in<b class="caret"></b>
+        <% end %>
+        <%= render 'devise/sessions/new'%>
+      </li>
+    <% end %>
+  </ul>
+</div>

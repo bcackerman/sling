@@ -1,0 +1,26 @@
+<div id="show_frame">
+
+  <h2>Post:</h2>
+
+  <div id="show_post">
+    <div class="topic_widget">
+      <div class="echo_avatar">  
+        <div class="echo_img"><%= link_to image_tag avatar_url(@post.user), :voice => voice_url(@post) %></div>
+      </div>
+      <div class="echo_text">
+        <p>
+          <%= link_to @post.user.username, @post.user.username %>
+          <%= image_tag("flags/#{@post.language}_small.png", :title => @post.language) %>
+          <%= @post.text_entry %>
+          <em><%= l @post.created_at %></em>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <% if user_signed_in? && @post.user == current_user %>
+    <%= link_to 'Edit', edit_post_path(@post) %> |
+  <% end %>
+  <%= link_to 'Back', posts_path %>
+
+</div>

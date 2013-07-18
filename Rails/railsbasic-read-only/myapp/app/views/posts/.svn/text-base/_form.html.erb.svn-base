@@ -1,0 +1,51 @@
+<%= javascript_include_tag 'swfobject.js' %>
+<%= javascript_include_tag 'recorder.js' %>
+
+<%= simple_form_for(@post, :url => {:action => 'create'}, :html => {:multipart => true}) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="post_inputs">
+    <% if @topic %>
+      <%= f.hidden_field :topic_id, :value => @topic.topic_id %>
+    <% end %>
+
+    <%= f.input :language, :collection => %w[English Chinese French Spanish Russian Arabic German Japanese Portuguese Korean Italian Vietnamese], :selected => 'English', :hint => 'Please select your input language.' %>
+    <%= f.input :text_entry, :label => "Text", :input_html => {:cols => 42, :rows => 6}, :hint => 'Maximum number of words is 32.' %>
+
+    <% if false %>
+      <p><%= f.label :Upload %><%= f.file_field :voice %></p>
+      <p><%= f.button :submit %></p>
+    <% end %>
+  </div>
+<% end %>
+
+<div id="record_voice">
+  <span>Record</span>
+  <div id="record_container">
+    <%= link_to image_tag("recorder/record_enabled.png", :title => "Record"), {}, :id => "record_button" %>
+    <span id="record_count"></span>
+    <%= link_to image_tag("recorder/play_enabled.png", :title => "Playback"), {}, :id => "play_button", :style => "display:none;" %>
+    <span id="save_button">
+      <span id="flashcontent">
+        <p>Your browser must have JavaScript enabled and the Adobe Flash Player installed.</p>
+      </span>
+    </span>
+    <div id="status_info">
+      <p><span id="record_status">
+        Press record button to start...
+      </span></p>
+    </div>
+    <div id="upload_info">
+      <p><span id="upload_status"></span></p>
+    </div>
+  </div>
+</div>
+
+<div id="upload_post">
+  <span></span>
+  <div id="upload_container">
+    
+    
+  </div>
+</div>
+

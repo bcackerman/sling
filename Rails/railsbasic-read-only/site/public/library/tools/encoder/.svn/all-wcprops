@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/219/trunk/site/public/library/tools/encoder
+END
+libmp3lame.dll
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/219/trunk/site/public/library/tools/encoder/libmp3lame.dll
+END
+libgomp-1.dll
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/219/trunk/site/public/library/tools/encoder/libgomp-1.dll
+END
+oggenc.exe
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/219/trunk/site/public/library/tools/encoder/oggenc.exe
+END
+libmad.dll
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/219/trunk/site/public/library/tools/encoder/libmad.dll
+END
+sox.exe
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/219/trunk/site/public/library/tools/encoder/sox.exe
+END
+pthreadgc2.dll
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/219/trunk/site/public/library/tools/encoder/pthreadgc2.dll
+END
+lame_enc.dll
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/219/trunk/site/public/library/tools/encoder/lame_enc.dll
+END
+lame.exe
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/219/trunk/site/public/library/tools/encoder/lame.exe
+END

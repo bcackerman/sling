@@ -1,0 +1,30 @@
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".new-question-inputs textarea").maxlength({
+      maxCharacters: 200,
+      statusClass: "hint",
+      statusText: "character left"
+    });
+    //$(".new-question-inputs textarea").autoResize({}).trigger('change');
+  });
+</script>
+
+<div class="speech-new-question-pane">
+  <div class="speech-new-question-user">
+    <!--%= image_tag user_avatar_url(current_user) =%-->
+    <%= image_tag user_avatar_url(@user) =%>
+  </div>
+  <div class="new-question-inputs">
+    <% if @question.present? %>
+      <%= form_for @question, :remote => true do |f| %>
+        <p><%= f.label 'Type your question here' %></p>
+        <p><%= f.text_area :content %></p>
+        <p><%= f.submit 'Ask Question' %></p>
+      <% end %>
+    <% end %>
+  </div>
+  <div class="new-question-status">
+
+  </div>
+</div>
+

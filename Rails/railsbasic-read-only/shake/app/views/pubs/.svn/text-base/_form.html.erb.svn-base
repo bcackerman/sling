@@ -1,0 +1,124 @@
+<%= form_for @pub, :html => {:multipart => true} do |f| %>
+  <% if @pub.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@pub.errors.count, "error") %> prohibited this pub from being saved:</h2>
+
+      <ul>
+      <% @pub.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :address %>
+    <%= f.text_field :address %>
+  </div>
+  <div class="field">
+    <%= f.label :city %>
+    <%= f.text_field :city %>
+  </div>
+  <div class="field">
+    <%= f.label :state %>
+    <%= f.text_field :state %>
+  </div>
+  <div class="field">
+    <%= f.label :phone %>
+    <%= f.text_field :phone %>
+  </div>
+  <div class="field">
+    <%= f.label :website %>
+    <%= f.text_field :website %>
+  </div>
+  <div class="field">
+    <%= f.label :logo %>
+    <%= f.file_field :logo %>
+  </div>
+
+  <div class="field">
+    <%= f.label :event %>
+    <%= f.text_field :event %>
+  </div>
+  <div class="field">
+    <%= f.label :special %>
+    <%= f.text_field :special %>
+  </div>
+
+
+  <div class="field">
+    <%= f.label :photo1 %>
+    <%= f.file_field :photo1 %>
+  </div>
+  <div class="field">
+    <%= f.label :caption1 %>
+    <%= f.text_field :caption1 %>
+  </div>
+  <div class="field">
+    <%= f.label :info1 %>
+    <%= f.text_area :info1, :size => "50x8" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :photo2 %>
+    <%= f.file_field :photo2 %>
+  </div>
+  <div class="field">
+    <%= f.label :caption2 %>
+    <%= f.text_field :caption2 %>
+  </div>
+  <div class="field">
+    <%= f.label :info2 %>
+    <%= f.text_area :info2, :size => "50x8" %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :photo3 %>
+    <%= f.file_field :photo3 %>
+  </div>
+  <div class="field">
+    <%= f.label :caption3 %>
+    <%= f.text_field :caption3 %>
+  </div>
+  <div class="field">
+    <%= f.label :info3 %>
+    <%= f.text_area :info3, :size => "50x8" %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :photo4 %>
+    <%= f.file_field :photo4 %>
+  </div>
+  <div class="field">
+    <%= f.label :caption4 %>
+    <%= f.text_field :caption4 %>
+  </div>
+  <div class="field">
+    <%= f.label :info4 %>
+    <%= f.text_area :info4, :size => "50x8" %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :photo5 %>
+    <%= f.file_field :photo5 %>
+  </div>
+  <div class="field">
+    <%= f.label :caption5 %>
+    <%= f.text_field :caption5 %>
+  </div>
+  <div class="field">
+    <%= f.label :info5 %>
+    <%= f.text_area :info5, :size => "50x8" %>
+  </div>
+
+
+
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

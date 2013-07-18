@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/277/trunk/shake/test/functional
+END
+users_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/277/trunk/shake/test/functional/users_controller_test.rb
+END
+pubs_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/277/trunk/shake/test/functional/pubs_controller_test.rb
+END
+drinks_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/277/trunk/shake/test/functional/drinks_controller_test.rb
+END

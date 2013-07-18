@@ -1,0 +1,5 @@
+if (front_display_mode == "Search") {
+  $("#front_list").html("<%= escape_javascript(render("search")) %>");
+} else {
+  $("#front_list").html("<%= escape_javascript(render("front")) %>");
+}

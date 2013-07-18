@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/175/trunk/blog/db/migrate
+END
+20110428043839_create_friendships.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110428043839_create_friendships.rb
+END
+20110826160009_devise_add_confirmable_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110826160009_devise_add_confirmable_to_users.rb
+END
+20120101193725_create_questions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/175/trunk/blog/db/migrate/20120101193725_create_questions.rb
+END
+20120101194918_create_evaluations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/175/trunk/blog/db/migrate/20120101194918_create_evaluations.rb
+END
+20110318052236_add_is_reply_to_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110318052236_add_is_reply_to_posts.rb
+END
+20110905200358_add_removed_at_to_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110905200358_add_removed_at_to_posts.rb
+END
+20110429185236_remove_avatar_url_from_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110429185236_remove_avatar_url_from_users.rb
+END
+20110429185356_remove_voice_url_from_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110429185356_remove_voice_url_from_posts.rb
+END
+20110901160825_create_feedbacks.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110901160825_create_feedbacks.rb
+END
+20110920203824_fix_syntax_error_in_gnews.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110920203824_fix_syntax_error_in_gnews.rb
+END
+20110308201449_devise_create_admins.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110308201449_devise_create_admins.rb
+END
+20110314235153_remove_view_from_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110314235153_remove_view_from_posts.rb
+END
+20110907131600_add_visited_at_to_friendships.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110907131600_add_visited_at_to_friendships.rb
+END
+20110210210420_devise_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110210210420_devise_create_users.rb
+END
+20110310215843_change_data_format_in_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110310215843_change_data_format_in_posts.rb
+END
+20110308195308_add_avatar_url_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110308195308_add_avatar_url_to_users.rb
+END
+20110826233839_add_username_to_admins.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110826233839_add_username_to_admins.rb
+END
+20110905203641_add_edit_control_to_gnews.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110905203641_add_edit_control_to_gnews.rb
+END
+20110503231138_add_voice_to_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110503231138_add_voice_to_posts.rb
+END
+20110309164619_create_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110309164619_create_posts.rb
+END
+20120101194534_create_answers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/175/trunk/blog/db/migrate/20120101194534_create_answers.rb
+END
+20110912124408_add_refreshed_at_to_friendships.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110912124408_add_refreshed_at_to_friendships.rb
+END
+20110715162927_rename_is_reply_in_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110715162927_rename_is_reply_in_posts.rb
+END
+20110711142751_create_gnews.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110711142751_create_gnews.rb
+END
+20110315000026_rename_col_name_in_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110315000026_rename_col_name_in_posts.rb
+END
+20110915181135_add_gravatar_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110915181135_add_gravatar_to_users.rb
+END
+20110916211606_add_is_avatar_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110916211606_add_is_avatar_to_users.rb
+END
+20110310175045_add_username_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110310175045_add_username_to_users.rb
+END
+20110309215245_insert_user_in_all_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110309215245_insert_user_in_all_posts.rb
+END
+20110429215620_add_avatar_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/162/trunk/blog/db/migrate/20110429215620_add_avatar_to_users.rb
+END

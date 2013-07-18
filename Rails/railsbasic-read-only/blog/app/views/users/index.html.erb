@@ -1,0 +1,41 @@
+<div id="admin_frame">
+
+<h1>Listing Users</h1>
+
+<%= form_for @search do |f| %>
+  <p>
+    <%= f.label :email_add %>
+    <%= f.text_field :email_contains %>
+    <%= f.submit "Search" %>
+  </p>
+  <p>
+    <%= f.label :username %>
+    <%= f.text_field :username_contains %>
+    <%= f.submit "Search" %>
+  </p>
+
+<% end %>
+
+<table class="user_list">
+  <tr>
+    <th><%= sort_link @search, :id %></th>
+    <th><%= sort_link @search, :username %></th>
+    <th><%= sort_link @search, :email %></th>
+    <th><%= sort_link @search, :created_at %></th>
+    <th><%= sort_link @search, :updated_at %></th>
+  </tr>
+  <% for user in @users %>
+    <tr>
+      <td><%= user.id %></td>
+      <td><%= link_to user.username, user.username %></td>
+      <td><%= user.email %></td>
+      <td><%= l user.created_at %></td>
+      <td><%= l user.updated_at %></td>
+    </tr>
+  <% end %>
+</table>
+</br>
+
+<%= paginate @users %>
+
+</div>

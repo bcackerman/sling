@@ -1,0 +1,83 @@
+Finishing up
+
+Must
+  Update rails and all gems to latest
+  All forms in line validation with simple_form and csv
+  Devise username add up in signup
+  MVC role and authorization
+  Pretty urls with friendly_id  
+  Reserve cloud for post (video,poster) user (avatar)
+  Add subjects into questions
+  Add objective and subject into categories
+  Post likes, Post and Speech views
+  Layout toggle for post description
+  Post visibility public member private
+  Question answers and sort
+  Question links more - answer rename
+  Friendly Id and Devise reserved words
+  Feedback form from users
+  Video input file name size validation
+  Reroute Speech into Featured path
+  Post privacy modal with ajax
+  Rescue FFMPEG from invalid input file
+  Carrierwave + Backgrounder + Fog to S3
+  Hook up async job processing/error/complete
+  Verify both working and nonworking video processing
+  Verify the privacy setting still work
+  Verify the channel ajax load still work
+  Move rating into rating MVC and clean up metric 
+  Fix the metric creation to include speech metric
+  Modify the supported video format list
+  Fix the play view counters with html5 events
+  Add a new Amazon s3 bucket for site
+  Fix the mime type of the video poster image
+  Fix the video length due to background job
+  Fix all most liked links and best eval post
+  Create  the default user image to use
+  Revise the most liked answer in question page
+
+----------
+  Kick start the production database
+  
+  Verify all links, buttons, names
+  Verify all functionalities
+
+  Deploy simlinks for database and assets
+  Reserve some test users
+  Add in more subjects and objectives
+  Create the first 100 posts and questions
+
+==========
+Beta Online
+==========
+
+Enhancement
+  Multiple uploads processing and progress
+  Relax the error to 3 upload attemps
+  Devise, video notification action mailer
+  Facebook and twitter omni signin
+  Add user profile under username path
+  User award point earning system
+  Growth metric and suggestions
+  Move production database to mysql
+  Move to Amazon S3 + Transcoder
+  Code rewrite with convention
+  Code MVC optimazes for performance
+  User counter cache columns for performance
+  User admin page, edit roles
+  Switch to Sidekiq for background job
+  Upgrade to Ruby 2.0 on Rails 4
+  Switch to DigitialOcean SSD cloud server
+
+Features
+  Group
+  Mentors
+  Friends
+  Messaging
+  Payment
+  KidOnly
+  
+==========
+1.0 Online
+==========
+

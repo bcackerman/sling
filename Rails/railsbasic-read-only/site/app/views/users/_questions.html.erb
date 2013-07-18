@@ -1,0 +1,33 @@
+<% if @posts.present? %>
+
+  <% for question in @posts %>
+
+    <div class="user-main-audio-item">
+
+      <div class="speech-answer-user-links">
+        <div class="speech-answer-user-avatar">
+          <%= image_tag user_avatar_url(question.user) %>
+        </div>
+      </div>
+      <div class="speech-answer-question-content">
+        <div class="speech-answer-front-status">
+          <%= link_to question.user.username, user_profile_url(question.user) %>
+          <span class="speech-answer-date"><%= time_ago_in_words(question.created_at) %> ago</span>
+          <span class="speech-answer-like">
+            <%= question.liked %>
+            <%= image_tag "thumb_up.png" %>
+          </span>
+        </div>
+        <div class="speech-question-question-content">
+          <%= question.content %>
+        </div>
+        <div class="speech-question-front-status">
+          <span class="ellipsis" title="<%= question.content %>">...</span>
+        </div>
+      </div>
+
+    </div>
+
+  <% end %>
+
+<% end %>

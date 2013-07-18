@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/544/trunk/speak/app/views/likes
+END
+toggle.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/544/trunk/speak/app/views/likes/toggle.js.erb
+END
+_like_button.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/544/trunk/speak/app/views/likes/_like_button.html.erb
+END

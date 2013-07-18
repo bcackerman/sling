@@ -1,0 +1,52 @@
+10
+
+dir
+605
+http://railsbasic.googlecode.com/svn/trunk/show/app
+http://railsbasic.googlecode.com/svn
+
+
+
+2013-02-15T22:40:07.088681Z
+435
+mpengz@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+950e4a67-1729-6560-252b-532fff5b6ec6
+
+helpers
+dir
+
+assets
+dir
+
+models
+dir
+
+controllers
+dir
+
+mailers
+dir
+
+workers
+dir
+
+views
+dir
+
+uploaders
+dir
+

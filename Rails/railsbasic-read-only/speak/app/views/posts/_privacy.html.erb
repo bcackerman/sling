@@ -1,0 +1,32 @@
+<div>
+    <% if @post.privacy == "Public" %>
+      <span class="label label-success">Public</span>
+    <% elsif @post.privacy == "Members" %>
+      <span class="label label-warning">Members</span>
+    <% elsif @post.privacy == "Private" %>
+      <span class="label label-important">Private</span>
+    <% else %>
+    <% end %>
+    <span class="privacy-edit-link" title="Edit Privacy">
+      <%= link_to "#privacy-form-"+@post.id.to_s, :data => {:toggle=>"modal"} do %>
+        <i class="icon-edit"></i>
+      <% end %>
+    </span>
+
+    <div id="privacy-form-<%= @post.id %>" class="privacy-change modal hide">
+      <%= simple_form_for @post, :url => post_path(@post), :html => {:method => :put, :class => 'privacy-form form-horizontal' }, :remote => true do |f| %>
+        <div class="modal-header">
+          <a class="close" data-dismiss="modal">&times;</a>
+          <h4>Change Privacy Setting?</h4>
+        </div>
+        <div class="modal-body">
+          <%= f.input :privacy, :as => :radio_buttons, :label => false, :collection => ["Public", "Members", "Private"] %>
+        </div>
+        <div class="modal-footer">
+          <%= f.submit "Change", :class => "btn btn-inverse privacy-submit" %>
+          <a class="btn" data-dismiss="modal" href="#">Close</a>
+        </div>
+      <% end %>
+    </div>
+</div>
+

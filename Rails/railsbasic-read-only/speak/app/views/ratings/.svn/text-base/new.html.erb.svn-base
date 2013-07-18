@@ -1,0 +1,22 @@
+<div class="form-main-wrapper">
+  <div class="form-main-header form-main-header-black">
+    <h4><span class="form-main-header-status">
+      Rate the answer video.
+    </span></h4>
+  </div>
+  <div class="form-main-container form-main-container-widest">
+    <div class="upload-inner">
+      <div class="upload-input-form">
+        <% if user_signed_in? %>
+          <% if rate = current_user.has_rate?(@post) %>
+            <div class="progress-save" style="width:360px; margin-bottom:20px;">
+              <strong>You have rated this already, thanks.</strong>
+            </div>
+          <% else %>
+            <%= render 'ratings/form', :post => @post %>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

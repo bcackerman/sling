@@ -1,0 +1,24 @@
+<% title "Global News" %>
+
+<%= hidden_field_tag("language_id", "Gnews_Index") %>
+<%= render(:partial => 'shared/lang') %>
+
+<div id="post_frame">
+  <div class="frame_top">
+    <span class="post_title">Global News</span>
+    <% if admin_signed_in? %>
+      <span class="manage_news"><%= link_to 'Manage News', manage_gnews_index_path %></span>
+    <% end %>
+    <span class="front_progress"><%= image_tag("progress.gif") %></span>
+  </div>
+
+  <div id="post_list"><%= render 'front' %></div>
+  <%= pageless("#post_list", @gnews_reply.num_pages, gnews_index_path) %>
+</div>
+
+<div id="right_panel">
+  <h2>Video News</h2>
+  <p>
+    Coming soon...
+  </p>
+</div>

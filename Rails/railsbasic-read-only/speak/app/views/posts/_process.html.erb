@@ -1,0 +1,50 @@
+<% if @watch == "Channel" and @post_process.present? and is_owner?(@post_process.user) %>
+<div id="video-blog-process">
+  <li class="video-blog-item" alt="<%= @post_process.id %>">
+    <div class="video-blog-left">
+      <div class="video-thumb-wrap">
+        <span class="video-process">
+          <% if @post_process.processed == false %>
+            <%= image_tag('video_error.jpg') %>
+          <% else %>
+            <span id="video-process-pending"><h5> Processing... Please wait.</h5></span>
+            <span class="video-process-spinner"><%= image_tag "spinner.gif" %></span>
+          <% end %>
+        </span>
+      </div>
+    </div>
+    <div class="video-info-blog-wrap">
+      <div class="video-info">
+        <div class="video-user-avatar">
+          <%= image_tag(user_avatar_url(@post_process.user)) %>
+        </div>
+        <div class="video-post-info">
+          <div class="video-post-info-inner">
+            <span class="video-user-name"><%= @post_process.user.name %></span>
+            <span class="video-post-date"><%= time_ago_in_words(@post_process.created_at) %> ago</span>
+          </div>
+          <div class="video-theme-group">
+            <%= @post_process.category %>
+            <%= post_subject_value(@post_process) %>
+          </div>
+        </div>
+      </div>
+      <div class="video-title" title="">
+        <% if @post_process.category != "Speech" %>@ <% end %><%= @post_process.title %>
+      </div>
+      <div class="video-stat">
+        <span class="video-view"><%= number_with_delimiter(@post_process.views) %> views</span>
+        <span class="video-like">
+          <%= number_with_delimiter(@post_process.likes.size) %>
+          <%= image_tag "thumb_up.png" %>
+        </span>
+      </div>
+      <div class="video-description">
+        <div class="collapse-group">
+          <span>Description: <%= truncate(@post_process.content, :length => 25) %></span>
+        </div>
+      </div>
+    </div>
+  </li>
+</div>
+<% end %>

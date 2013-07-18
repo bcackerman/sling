@@ -1,0 +1,10 @@
+<% if admin_signed_in? %>
+  <%= link_to "Sign Out", destroy_admin_session_path %>
+<% elsif user_signed_in? %>
+  <%= image_tag user_avatar_url(current_user) =%>
+  <%= link_to "Sign Out", destroy_user_session_path %>
+<% else %>
+  <%= image_tag user_avatar_url(current_user) =%>
+  <span id="masthead-signin-facebook"><%= link_to image_tag('links/login-with-facebook.png'), new_user_session_path %></span>
+<% end %>
+

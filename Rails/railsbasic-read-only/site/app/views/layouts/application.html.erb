@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Echowee</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <%= stylesheet_link_tag    "http://fonts.googleapis.com/css?family=Open+Sans:300" %>
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <!-- begin page -->
+    <div id="page">
+      <div id="masthead-container">
+        <!-- begin masthead -->
+        <div id="masthead">
+          <div id="logo-container">
+            <%= link_to image_tag('logo.png', :alt => 'Echowee'), root_path %>
+            <p>What are your going to say in 140 seconds?</p>
+          </div>
+          <div id="masthead-userbar-container">
+            <div id="masthead-signin-container">
+              <%= render(:partial => 'shared/signin') %>
+            </div>
+            <%= render(:partial => 'shared/start') %>
+          </div>
+        </div>
+        <!-- end masthead -->
+      </div>
+
+      <div id="content-container">
+        <!-- begin content -->
+        <div id="content">
+          <div id="speech-featured-container">
+            <%= render(:partial => 'shared/featured') %>
+          </div>
+          <div id="speech-main-container">
+            <% flash.each do |name, msg| %>
+              <%= content_tag :div, msg, :class => "flash_#{name}" unless msg.blank? %>
+            <% end %>
+
+            <%= yield %>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <!-- end content -->
+      </div>
+
+      <div id="footer-container">
+        <!-- begin footer -->
+        <div id="footer">
+          <ul id="footer-links">
+            <li>&copy; 2012 Echowee</li>
+            <li><%= link_to "About" %></li>
+            <li><%= link_to "Feedback" %></li>
+          </ul>
+        </div>
+        <!-- end footer -->
+      </div>
+      <!-- end page -->
+  </body>
+</html>

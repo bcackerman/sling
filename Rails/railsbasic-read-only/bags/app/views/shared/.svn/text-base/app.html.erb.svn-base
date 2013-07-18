@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Bags</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <!-- begin page -->
+    <div id="page">
+      <div id="company-container">
+        <!-- begin company -->
+        <div id="company">
+          <div id="logo">
+            <%= link_to image_tag('site_logo.png'), root_path %>
+          </div>  
+          <div id="company-links">
+            <ul>
+              <li><%= link_to "About" %></li>
+              <li><%= link_to "Privacy" %></li>
+              <li>&copy; 2012 Bags Check</li>
+            </ul>
+          </div>
+          <h1>Is your designer handbag authentic?</h1>
+        </div>
+        <!-- end company -->
+      </div>
+
+      <div id="content-container">
+        <!-- begin content -->
+        <div id="content">
+          <%= yield %>
+        </div>
+        <!-- end content -->
+      </div>
+
+      <div id="sidebar-container">
+        <!-- begin showcase -->
+        <%= render(:partial => 'shared/sidebar') %>
+        <!-- end showcase -->
+      </div>
+
+      <div id="partners-container">
+        <!-- begin partners -->
+        <%= render(:partial => 'shared/partner') %>
+        <!-- end partners -->
+      </div>
+</body>
+</html>

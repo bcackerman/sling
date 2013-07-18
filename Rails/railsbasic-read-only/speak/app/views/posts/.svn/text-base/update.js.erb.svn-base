@@ -1,0 +1,3 @@
+$("#video-privacy-<%= @post.id %>").html("<%= escape_javascript(render("privacy")) %>");
+$('body').removeClass('modal-open');
+$('.modal-backdrop').remove();

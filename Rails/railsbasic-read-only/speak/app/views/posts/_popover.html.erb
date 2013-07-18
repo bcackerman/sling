@@ -1,0 +1,26 @@
+<% @speech = @popover %>
+<div>
+  <p>
+  <span class="video-user-name"><%= @speech.speaker %></span>
+  <span class="video-post-date"><%= @speech.delivered_by %></span>
+  <span class="label pull-right">Featured</span>
+  </p>
+</div>
+<div class="video-featured-item">
+  <div class="video-thumb-wrap">
+    <span class="video-thumb">
+      <%= link_to image_tag(speech_poster_url(@speech)), featured_path(@speech) %>
+    </span>
+    <span class="video-time"><%= Time.at(@speech.length).gmtime.strftime('%-M:%S') %></span>
+  </div>
+  <div class="video-theme-group" style="color: #ad4;"></div>
+  <div>
+    <span class="label label-info "><%= @speech.objective %></span>
+  </div>
+  <div class="video-title" title="">
+    <%= @speech.title %>
+  </div>
+  <div class="watch-top-stat">
+    <span class="watch-top-view"><%= number_with_delimiter(@speech.views) %> views</span>
+  </div>
+</div>

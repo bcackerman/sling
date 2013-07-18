@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/602/trunk/speak/app/controllers
+END
+questions_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/602/trunk/speak/app/controllers/questions_controller.rb
+END
+groups_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/531/trunk/speak/app/controllers/groups_controller.rb
+END
+speeches_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/546/trunk/speak/app/controllers/speeches_controller.rb
+END
+quotes_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/531/trunk/speak/app/controllers/quotes_controller.rb
+END
+users_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/551/trunk/speak/app/controllers/users_controller.rb
+END
+application_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/558/trunk/speak/app/controllers/application_controller.rb
+END
+likes_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/543/trunk/speak/app/controllers/likes_controller.rb
+END
+feedbacks_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/563/trunk/speak/app/controllers/feedbacks_controller.rb
+END
+ratings_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/585/trunk/speak/app/controllers/ratings_controller.rb
+END
+posts_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/599/trunk/speak/app/controllers/posts_controller.rb
+END

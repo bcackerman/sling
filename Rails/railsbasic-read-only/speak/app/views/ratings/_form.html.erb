@@ -1,0 +1,22 @@
+<%= form_for current_user.ratings.build(:post_id => @post.id) do |f| %>
+  <div class="progress-save" style="width:360px; margin-bottom:20px;">
+    <strong>Rating is from 1 to 10, 10 is the highest</strong>
+  </div>
+  <fieldset>
+    <div class="rate-item"><%= f.label "Clear Purpose", :class => "rate-label" %><%= f.select :purpose, (1..10), :selected => 5 %></div>
+    <div class="rate-item"><%= f.label "Organization", :class => "rate-label" %><%= f.select :organization, (1..10), :selected => 5 %></div>
+    <div class="rate-item"><%= f.label "Body Language", :class => "rate-label" %><%= f.select :body, (1..10), :selected => 5 %></div>
+    <div class="rate-item"><%= f.label "Vocal Variety", :class => "rate-label" %><%= f.select :voice, (1..10), :selected => 5 %></div>
+    <div class="rate-item"><%= f.label "Usage of Humor", :class => "rate-label" %><%= f.select :humor, (1..10), :selected => 5 %></div>
+    <div class="rate-item"><%= f.label "Speech Value", :class => "rate-label" %><%= f.select :value, (1..10), :selected => 5 %></div>
+    <div class="rate-item"><%= f.label "Power of Delivery", :class => "rate-label" %><%= f.select :power, (1..10), :selected => 5 %></div>
+    <div class="rate-item"><%= f.label "Overall Score", :class => "rate-label" %><%= f.select :overall, (1..10), :selected => 5 %></div>
+  </fieldset>
+  <div>
+    <%= f.hidden_field :post_id %>
+    <%= f.hidden_field :user_id %>
+  </div>
+  <div class="create-post-button">
+    <%= f.submit "Rate Post", :class => "btn btn-inverse pull-left" %>
+  </div>
+<% end %>

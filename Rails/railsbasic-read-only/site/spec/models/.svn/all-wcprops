@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/183/trunk/site/spec/models
+END
+admin_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/183/trunk/site/spec/models/admin_spec.rb
+END
+user_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/183/trunk/site/spec/models/user_spec.rb
+END

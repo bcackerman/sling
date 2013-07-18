@@ -1,0 +1,65 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  datetime:
+    distance_in_words:
+      about_x_months:
+        # The defaults are "about 1 month" and "%{count} months"
+        one: "1 month"
+        other: "%{count} months"
+      about_x_hours:
+        # The defaults are "about 1 hour" and "about %{count} hours"
+        one: "1 hour"
+        other: "%{count} hours"
+      less_than_x_minutes:
+        one: "1 minute"
+        other: "%{count} minutes"
+
+  views:  
+    pagination:  
+      previous: "&laquo; Prev"  
+      next: "Next &raquo;"
+
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: "Please enter your email address here."
+              invalid: "Please enter a valid email address."
+              taken: "This email has already been taken."
+            name:
+              blank: "Username required, you can change it later."
+              invalid: "Invalid username! Alphanumerics only."
+              taken: "This username has already been taken."
+              too_short: "Username is 6 to 20 characters long."
+              too_long: "Username is 6 to 20 characters long."
+            password:
+              too_short: "Password is 6 to 20 characters long."
+              too_long: "Password is 6 to 20 characters long."
+
+        post:
+          attributes:
+            title:
+              blank: "This field is required."
+              too_short: "Please enter at least %{count} characters."
+              too_long: "The maximum limit is %{count} characters."
+            content:
+              blank: "This field is required."
+              too_short: "Please enter at least %{count} characters."
+              too_long: "The maximum limit is %{count} characters."
+        question:
+          attributes:
+            content:
+              blank: "This field is required."
+              too_short: "Please enter at least %{count} characters."
+              too_long: "The maximum limit is %{count} characters."
+        feedback:
+          attributes:
+            content:
+              blank: "Please enter your feedbacks."
+              too_short: "Please enter at least %{count} characters."
+              too_long: "The maximum limit is %{count} characters."
+

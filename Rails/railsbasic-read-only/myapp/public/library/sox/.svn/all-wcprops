@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/97/trunk/myapp/public/library/sox
+END
+libmp3lame.dll
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/97/trunk/myapp/public/library/sox/libmp3lame.dll
+END
+libgomp-1.dll
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/97/trunk/myapp/public/library/sox/libgomp-1.dll
+END
+libmad.dll
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/97/trunk/myapp/public/library/sox/libmad.dll
+END
+sox.exe
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/97/trunk/myapp/public/library/sox/sox.exe
+END
+pthreadgc2.dll
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/97/trunk/myapp/public/library/sox/pthreadgc2.dll
+END

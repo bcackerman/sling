@@ -1,0 +1,50 @@
+//////////////////FLASH
+
+import flash.external.ExternalInterface;
+import flash.events.Event;
+
+function getTextFromJavaScript(str:String):void {
+    received_ti.text = "From JavaScript: " + str;
+}
+
+ExternalInterface.addCallback("sendTextToFlash", getTextFromJavaScript);
+
+function clickSend(event:Event):void {
+    var jsArgument:String = sending_ti.text;
+    var result:Object = ExternalInterface.call("getTextFromFlash", jsArgument);
+    received_ti.text = "Returned: " + result;
+}
+
+send_button.addEventListener("click", clickSend); 
+
+
+//////////////////JAVASCRIPT
+
+<script >
+    function getFlashMovie(movieName) {
+        var isIE = navigator.appName.indexOf("Microsoft") != -1;
+        return (isIE) ? window[movieName] : document[movieName];
+    }
+
+    function formSend() {
+        var text = document.htmlForm.sendField.value;
+        getFlashMovie("ExternalInterfaceExample").sendTextToFlash(text);
+    }
+ 
+    function getTextFromFlash(str) {
+        document.htmlForm.receivedField.value = "From Flash: " + str;   return str + " received";
+    }
+</script> 
+
+
+//////////////////HTML
+
+<form name="htmlForm" method="POST" action="javascript:formSend();">Sending to ActionScript:<br />
+    <input type="text" name="sendField" value="" /><br />
+    <input type="submit" value="Send" /><br />
+    <br />Received from ActionScript:<br />
+    <input type="text" name="receivedField">
+</form> 
+
+
+//////////////////

@@ -1,0 +1,19 @@
+<% title "Front" %>
+
+<%= form_for @flt_post, :remote => true do |f| %>
+  <%= render(:partial => 'shared/lang') %>
+
+  <div id="front_frame">
+    <p>
+      <span id="front_title">Popular Echoes</span>
+      <span id="front_find"><%= f.text_field :text_entry_contains %><%= f.submit "Search" %></span>
+    </p>
+
+    <div id="front_list"><%= render 'front' %></div>
+
+    <div class="post_nav">
+      <%= link_to 'New Topic', new_post_path %>
+    </div>
+  </div>
+<% end %>
+

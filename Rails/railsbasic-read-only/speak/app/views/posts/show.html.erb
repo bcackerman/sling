@@ -1,0 +1,130 @@
+<%= hidden_field_tag "watch_id", "post_show" %>
+<%= hidden_field_tag "post_id", @post.id %>
+
+<div id="watch-top-container" class="row">
+  <div class="watch-top-main">
+    <div class="watch-top-wrap">
+      <div class="watch-top-left">
+        <div class="watch-top-avatar">
+          <%= link_to image_tag(user_avatar_url(@post.user), :class=>"img-rounded"), post_channel_path(@post.user.name) %>
+        </div>
+        <div class="post-top-info">
+          <div class="post-top-info-inner">
+            <span class="label label-info" style="margin-right: 5px;">
+              <%= @post.category %>
+              <%= post_subject_value(@post) %>
+            </span>
+            <span class="video-user-name">
+              <%= link_to @post.user.name, post_channel_path(@post.user.name) %>
+            </span>
+            <span class="watch-top-post-date"><%= time_ago_in_words(@post.created_at) %> ago</span>
+          </div>
+          <div class="watch-top-content">
+            <% if @post.category != "Speech" %>@ <% end %><%= @post.title %>
+          </div>
+
+          <div class="watch-top-stat">
+            <span class="watch-top-view"><%= number_with_delimiter(@post.views) %> views</span>
+            <span class="watch-top-like">
+              <%= number_with_delimiter(@post.likes.size) %> likes
+              <!--%= image_tag "thumb_up.png" %-->
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="watch-top-middle">
+        <div>
+          <div id="watch-top-like">
+	          <%= render 'likes/like_button', :post => @post %>
+          </div>
+          <% if @post.category=="Speech" %>
+            <% if user_signed_in? %>
+              <%= link_to({:controller => "posts", :action => "upload", :cat_select => "Evaluation", :link_id => @post.id},
+                          html_options = {:class=>"btn btn-small", :style=>"width:120px;font-weight:bold;margin-bottom:4px;"}) do %>
+                <i class="icon-upload"></i> Upload Evaluation
+              <% end %>
+            <% end %>
+          <% elsif @post.category=="Evaluation" %>
+            <%= link_to(post_path(Post.find(@post.speech_id)),
+                        html_options = {:class=>"btn btn-small", :style=>"width:120px;font-weight:bold;margin-bottom:4px;"}) do %>
+              <i class="icon-film"></i> View the Speech
+            <% end %>
+
+          <% elsif @post.category=="Answer" %>
+            <%= link_to(question_path(Question.find(@post.question_id)),
+                        html_options = {:class=>"btn btn-small", :style=>"width:120px;font-weight:bold;margin-bottom:4px;"}) do %>
+              <i class="icon-film"></i> View the Question
+            <% end %>
+
+            <% if user_signed_in? %>
+              <%= link_to({:controller => "ratings", :action => "new", :link_id => @post.id},
+                          html_options = {:class=>"btn btn-small", :style=>"width:120px;font-weight:bold;margin-bottom:4px;"}) do %>
+                <i class="icon-check"></i> Rate this Answer
+              <% end %>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
+      <div class="watch-top-right">
+        <div class="watch-metric-col">
+          <div id='post-metric-col'></div>
+          <%= render_chart(@metric_col, 'post-metric-col') %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="watch-video-container" class="row">
+  <%= render 'player' %>
+</div>
+
+<% if @post.category=="Speech" %>
+<div id="user-main-container" class="row">
+  
+  <div id="user-main">
+    <div id="watch-guide">
+      <div class="watch-guide-top">
+        <span class="label label-important">
+          Speech Page
+        </span>
+      </div>
+
+      <div id="watch-filter-container">
+      </div>
+
+      <div class="watch-guide-top">
+        <span class="label label-success">Info</span>
+      </div>
+      <div id="watch-filter-about">
+        This is the speech page - with all the evaluation videos to this speech.
+      </div>
+    </div>
+
+    <div id="watch-blog">
+      <div id="watch-channel-container" class="watch-panel-body">
+        <%= render 'evaluation' %>
+      </div>
+      <div id="watch-more-button">
+        <%= link_to_next_page @posts, 'Load More', :remote => true, :id=>"load_more_link", :class=>"btn", :style=>"width:470px;font-weight:bold;" %>
+      </div>
+    </div>
+
+    <div id="watch-sidebar">
+
+    </div>
+
+  </div>
+</div>
+
+<div id="watch-metric" class="watch-metric-bar" style="top: 600px;">
+  <% if @metric_bar.present? %>
+    <%= render 'ratings/metric' %>
+  <% end %>
+</div>
+
+<% end %>
+
+<div class="clear"></div>
+

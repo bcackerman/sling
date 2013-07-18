@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/95/trunk/myapp/public/library/vorbis
+END
+vcut.exe
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/95/trunk/myapp/public/library/vorbis/vcut.exe
+END
+oggenc.exe
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/95/trunk/myapp/public/library/vorbis/oggenc.exe
+END
+vorbiscomment.exe
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/95/trunk/myapp/public/library/vorbis/vorbiscomment.exe
+END
+oggdec.exe
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/95/trunk/myapp/public/library/vorbis/oggdec.exe
+END
+ogginfo.exe
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/95/trunk/myapp/public/library/vorbis/ogginfo.exe
+END

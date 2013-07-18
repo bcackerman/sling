@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/420/trunk/show/spec/controllers
+END
+users_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/312/trunk/show/spec/controllers/users_controller_spec.rb
+END
+groups_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/420/trunk/show/spec/controllers/groups_controller_spec.rb
+END

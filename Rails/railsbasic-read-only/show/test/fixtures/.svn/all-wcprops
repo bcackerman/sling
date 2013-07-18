@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/305/trunk/show/test/fixtures
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/295/trunk/show/test/fixtures/users.yml
+END
+topics.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/305/trunk/show/test/fixtures/topics.yml
+END
+people.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/304/trunk/show/test/fixtures/people.yml
+END
+posts.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/294/trunk/show/test/fixtures/posts.yml
+END
+admins.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/295/trunk/show/test/fixtures/admins.yml
+END

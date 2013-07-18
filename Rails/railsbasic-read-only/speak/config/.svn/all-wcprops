@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/605/trunk/speak/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/586/trunk/speak/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/603/trunk/speak/config/database.yml
+END
+application.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/436/trunk/speak/config/application.rb
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/436/trunk/speak/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/436/trunk/speak/config/environment.rb
+END
+deploy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/570/trunk/speak/config/deploy.rb
+END

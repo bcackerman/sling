@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/175/trunk/blog/app/models
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/175/trunk/blog/app/models/user.rb
+END
+answer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/175/trunk/blog/app/models/answer.rb
+END
+gnews.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/162/trunk/blog/app/models/gnews.rb
+END
+feedback.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/162/trunk/blog/app/models/feedback.rb
+END
+post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/162/trunk/blog/app/models/post.rb
+END
+evaluation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/175/trunk/blog/app/models/evaluation.rb
+END
+question.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/175/trunk/blog/app/models/question.rb
+END
+admin.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/162/trunk/blog/app/models/admin.rb
+END
+friendship.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/162/trunk/blog/app/models/friendship.rb
+END

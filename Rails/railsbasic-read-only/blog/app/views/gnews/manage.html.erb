@@ -1,0 +1,15 @@
+<% title "Global News" %>
+
+<%= render(:partial => 'shared/left') %>
+
+<div id="post_frame">
+  <div class="frame_top">
+    <span class="post_title">Manage News</span>
+    <span class="post_new"><%= link_to 'Create News', new_gnews_path %></span>
+  </div>
+  <div id="post_list"><%= render 'main' %></div>
+</div>
+
+<div id="right_panel">
+  <h2>Video News</h2>
+</div>

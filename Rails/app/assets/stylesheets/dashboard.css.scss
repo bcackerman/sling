@@ -1,0 +1,12 @@
+@import "mixins";
+
+#all-clips{
+  .clip{
+    h5{
+      margin-bottom:0;
+    }
+    .shortlink{
+      font-weight:600;
+    }
+  }
+}

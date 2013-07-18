@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/156/trunk/myapp/app/views/shared
+END
+_friend.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/144/trunk/myapp/app/views/shared/_friend.html.erb
+END
+_ads.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/130/trunk/myapp/app/views/shared/_ads.html.erb
+END
+_info.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/156/trunk/myapp/app/views/shared/_info.html.erb
+END
+_setting.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/154/trunk/myapp/app/views/shared/_setting.html.erb
+END
+_lang.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/130/trunk/myapp/app/views/shared/_lang.html.erb
+END
+_gnews.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/131/trunk/myapp/app/views/shared/_gnews.html.erb
+END
+_signup.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/118/trunk/myapp/app/views/shared/_signup.html.erb
+END

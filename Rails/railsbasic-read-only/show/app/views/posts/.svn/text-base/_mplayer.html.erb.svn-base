@@ -1,0 +1,17 @@
+<div id="player-popup" class="modal-container fade hide">
+  <div class="modal" id="player-modal">
+    <a class="close" data-dismiss="modal"></a>
+    <div class="caption"></div>
+    <div id="watch-video" class="container">
+      <div id="watch-player" style="overflow: hidden">
+        <video id="video_player" class="video-js vjs-default-skin"
+          controls preload="auto" width="800" height="450" 
+          data-setup="{}">
+          <source src=""  type="video/mp4">
+          <source src=""  type="video/ogg">
+          <source src=""  type="video/webm">
+        </video>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,73 @@
+<%= hidden_field_tag("recorder_id", "#new_answer", :id => "recorder_id") %>
+
+<% if @answer.present? %>
+  <%= form_for(@answer, :url => {:action => 'create'}, :html => {:multipart => true}) do |f| %>
+
+  <% end %>
+<% end %>
+
+<div id="save_button">
+  <div id="flashcontent">
+  </div>
+</div>
+
+<div id="record_privacy"><%= link_to "flash setting", "http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager06.html", :target => "_blank" %></div>
+
+<div id="status_info">
+  <p><span id="record_status">Press to start</span></p>
+  <h3>Test voice recorder here</h3>
+</div>
+
+<div id="speech-new-answer-pane">
+  <div id="speech-new-answer-test-container">
+    <div id="record_voice">
+      <div id="record_container">
+        <%= link_to image_tag("recorder/play_enabled.png", :title => "Playback"), nil, :id => "play_button", :style => "display:none;" %>
+        <%= link_to image_tag("recorder/record_enabled.png", :title => "Record"), nil, :id => "record_button" %>
+      </div>
+    </div>
+
+    <div class="button" id="start-answer-button">
+      <%= link_to "Ready? Start Now...", nil %>
+    </div>
+  </div>
+
+  <div id="speech-new-answer-question-container">
+    <div class="speech-new-answer-question">
+      <h2>Here is your question</h2>
+      <%= image_tag user_avatar_url(User.find(3)) %>
+      <div id="question-content">
+        <h2>If tomorrow is your last day, what would you do?</h2>
+      </div>
+    </div>
+    <div class="speech-new-answer-status">
+      <h3>Recording strats in
+      <span class="speech-new-read-timer" value='30'>30</span>
+      seconds</h3>
+    </div>
+  </div>
+
+  <div id="speech-new-answer-speak-container">
+    <div class="speech-new-record-timer" value='140'>140</div>
+    <div class="speech-new-answer-evaluators">
+      <h2>Your speech evaluators</h2>
+      <%= image_tag user_avatar_url(User.find(4)) %>
+      <%= image_tag user_avatar_url(User.find(12)) %>
+      <%= image_tag user_avatar_url(User.find(8)) %>
+      <%= image_tag user_avatar_url(User.find(5)) %>
+    </div>
+    <div class="button" id="answer-done-button"><%= link_to "Stop Recording" %></div>
+  </div>
+
+  <div id="speech-new-answer-upload-container">
+    <div class="button" id="answer-playback-button"><%= link_to "Playback Voice" %></div>
+    <div id="upload_spinner">
+      <!--%= image_tag("spinner.gif") %-->
+    </div>
+  </div>
+
+  <div id="microphone_container">
+    <%= image_tag("recorder/microphone.png", :title => "Microphone") %>
+  </div>
+
+</div>

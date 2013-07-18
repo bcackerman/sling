@@ -1,0 +1,55 @@
+<%= hidden_field_tag("recorder_id", "#new_gnews", :id => "recorder_id") %>
+<%= hidden_field_tag("record_time", "18", :id => "record_time") %>
+<%= hidden_field_tag("redirect_url", "gnews/manage", :id => "redirect_url") %>
+<%= javascript_include_tag 'swfobject.js' %>
+<%= javascript_include_tag 'recorder.js' %>
+<%= javascript_include_tag 'jquery.maxlength-min.js' %>
+<%= javascript_include_tag 'autoresize.jquery.min.js' %>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".post_inputs textarea").maxlength({
+      maxCharacters: 180,
+      statusClass: "hint",
+      statusText: "character left"
+    });
+    $(".post_inputs textarea").autoResize({}).trigger('change');
+  });
+</script>
+
+<%= simple_form_for(@gnews, :url => {:action => 'create'}, :html => {:multipart => true}) do |f| %>
+  <div class="post_inputs">
+    <% if @topic.present? %>
+      <%= f.hidden_field :topic_id, :value => @topic.id %>
+      <%= f.input :language, :collection => @lang_selects, :hint => 'Select echo input language' %>
+    <% else %>
+      <%= f.input :language, :collection => @lang_default.lines, :selected => @lang_default, :hint => 'Topic uses home language' %>
+    <% end %>
+    <%= f.input :text_entry, :label => "Text", :input_html => {:cols => 39, :rows => 5} %>
+    <% if false %>
+      <p><%= f.label :Upload %><%= f.file_field :voice %></p>
+      <p><%= f.button :submit %></p>
+    <% end %>
+  </div>
+<% end %>
+
+<div id="record_voice">
+  <span class="record_label">Record</span>
+  <div id="record_container">
+    <%= link_to image_tag("recorder/record_enabled.png", :title => "Record"), {}, :id => "record_button" %>
+    <span id="record_count"></span>
+    <%= link_to image_tag("recorder/play_enabled.png", :title => "Playback"), {}, :id => "play_button", :style => "display:none;" %>
+    <span id="save_button">
+      <span id="flashcontent">
+        <p>Your browser must have Adobe Flash Player installed</p>
+        <p>and Javascript enabled to be able to record news.</p>
+      </span>
+    </span>
+    <div id="status_info">
+      <p><span id="record_status"></span></p>
+      <p><span id="record_privacy">- To skip, go to <%= link_to "flash setting", "http://macromedia.com/support/documentation/en/flashplayer/help/settings_manager06.html", :target => "_blank" %> and set Privacy to <em>Always allow</em>.</span><p>
+      <h3>Click upload button to save</h3>
+    </div>
+  </div>
+</div>
+

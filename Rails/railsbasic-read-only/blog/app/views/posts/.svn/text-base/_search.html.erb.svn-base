@@ -1,0 +1,124 @@
+<% if @post_mixed.present? %>
+  <% for post_mixed in @post_mixed %>
+    <% if post_mixed.is_topic? %>
+      <% post_left = post_mixed %>
+      <% if @post_lang.blank? %>
+        <% post_right_all = Post.where("removed_at IS NULL").where(:topic_id => post_left.id) %>
+      <% else %>
+        <% post_right_all = Post.where("removed_at IS NULL").where(:topic_id => post_left.id).where(:language => @post_lang) %>
+      <% end %>
+      <% if post_right_all.blank? %>
+        <div id="search_widget">      
+          <div class="topic_widget">
+            <div class="echo_links">
+              <div class="echo_avatar"><%= link_to image_tag user_avatar_url(post_left.user), :title => "Play Voice", :postid => post_left.id, :voice => post_voice_url(post_left) %></div>
+              <div class="echo_topic"><%= link_to image_tag("links/forward.png", :title => "Topic View"), topic_show_path(post_left) %></div>
+            </div>
+            <div class="echo_content">
+              <div class="echo_status">
+                <%= link_to post_left.user.username, user_profile_url(post_left.user) %>
+                <%= image_tag("flags/#{post_left.language}_small.png", :title => post_left.language) %>
+                <span class="echo_date"><em><%= l post_left.created_at %></em></span>
+                <span class="echo_reply"><%= link_to 'echo', reply_post_path(post_left) %></span>
+              </div>
+              <div class="echo_text">
+                <%= post_left.text_entry %>
+              </div>
+            </div>
+          </div>
+
+          <div class="reply_widget">
+            <div class="echo_none">
+              <%= image_tag("guest.png", :title => "No Echo") %>
+              <div class="echo_first">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      <% else %>
+        <% for post_right in post_right_all %>
+          <div id="search_widget">      
+            <div class="topic_widget">
+              <div class="echo_links">
+                <div class="echo_avatar"><%= link_to image_tag user_avatar_url(post_left.user), :title => "Play Voice", :postid => post_left.id, :voice => post_voice_url(post_left) %></div>
+                <div class="echo_topic"><%= link_to image_tag("links/forward.png", :title => "Topic View"), topic_show_path(post_left) %></div>
+              </div>
+              <div class="echo_content">
+                <div class="echo_status">
+                  <%= link_to post_left.user.username, user_profile_url(post_left.user) %>
+                  <%= image_tag("flags/#{post_left.language}_small.png", :title => post_left.language) %>
+                  <span class="echo_date"><em><%= l post_left.created_at %></em></span>
+                  <span class="echo_reply"><%= link_to 'echo', reply_post_path(post_left) %></span>
+                </div>
+                <div class="echo_text">
+                  <%= post_left.text_entry %>
+                </div>
+              </div>
+            </div>
+
+            <div class="reply_widget">
+              <div class="echo_links">
+                <div class="echo_avatar"><%= link_to image_tag user_avatar_url(post_right.user), :title => "Play Voice", :postid => post_right.id, :voice => post_voice_url(post_right) %></div>
+                <div class="echo_topic"><%= link_to image_tag("links/forward.png", :title => "Topic View"), topic_show_path(post_right.topic_id) %></div>
+              </div>
+              <div class="echo_content">
+                <div class="echo_status">
+                  <%= link_to post_right.user.username, user_profile_url(post_right.user) %>
+                  <%= image_tag("flags/#{post_right.language}_small.png", :title => post_right.language) %>
+                  <span class="echo_date"><em><%= l post_right.created_at %></em></span>
+                </div>
+                <div class="echo_text">
+                  <%= post_right.text_entry %>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+
+    <% else %>
+      <% post_right = post_mixed %>
+      <% post_left = Post.find(post_right.topic_id) %>
+      <div id="search_widget">      
+        <div class="topic_widget">
+          <div class="echo_links">
+            <div class="echo_avatar"><%= link_to image_tag user_avatar_url(post_left.user), :title => "Play Voice", :postid => post_left.id, :voice => post_voice_url(post_left) %></div>
+            <div class="echo_topic"><%= link_to image_tag("links/forward.png", :title => "Topic View"), topic_show_path(post_left) %></div>
+          </div>
+          <div class="echo_content">
+            <div class="echo_status">
+              <%= link_to post_left.user.username, user_profile_url(post_left.user) %>
+              <%= image_tag("flags/#{post_left.language}_small.png", :title => post_left.language) %>
+              <span class="echo_date"><em><%= l post_left.created_at %></em></span>
+              <span class="echo_reply"><%= link_to 'echo', reply_post_path(post_left) %></span>
+            </div>
+            <div class="echo_text">
+              <%= post_left.text_entry %>
+            </div>
+          </div>
+        </div>
+
+        <div class="reply_widget">
+          <div class="echo_links">
+            <div class="echo_avatar"><%= link_to image_tag user_avatar_url(post_right.user), :title => "Play Voice", :postid => post_right.id, :voice => post_voice_url(post_right) %></div>
+            <div class="echo_topic"><%= link_to image_tag("links/forward.png", :title => "Topic View"), topic_show_path(post_right.topic_id) %></div>
+          </div>
+          <div class="echo_content">
+            <div class="echo_status">
+              <%= link_to post_right.user.username, user_profile_url(post_right.user) %>
+              <%= image_tag("flags/#{post_right.language}_small.png", :title => post_right.language) %>
+              <span class="echo_date"><em><%= l post_right.created_at %></em></span>
+            </div>
+            <div class="echo_text">
+              <%= post_right.text_entry %>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+
+  <%= paginate @post_mixed %>
+
+<% end %>

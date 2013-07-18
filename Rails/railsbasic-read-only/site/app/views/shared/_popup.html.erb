@@ -1,0 +1,13 @@
+<div class="speech-answer-featured-content">
+  <div class="speech-answer-featured-status">
+    <%= link_to @popup.user.username, user_profile_url(@popup.user) %>
+    <span class="speech-answer-date"><%= time_ago_in_words(@popup.created_at) %> ago @</span>
+  </div>
+  </br>
+  <div class="featured-question-front-content">
+    <span class="speech-question-user-avatar"><%= image_tag user_avatar_url(@popup.question.user) %></span>
+    <%= link_to @popup.question.user.username, user_profile_url(@popup.question.user) %>
+    <%= @popup.question.content %>
+  </div>
+  <span class="featured-question-info-link"><%= link_to "see all", question_path(@popup.question) %></span>
+</div>

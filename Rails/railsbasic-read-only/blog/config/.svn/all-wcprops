@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/176/trunk/blog/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/176/trunk/blog/config/routes.rb
+END
+application.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/161/trunk/blog/config/application.rb
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/161/trunk/blog/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/159/trunk/blog/config/environment.rb
+END

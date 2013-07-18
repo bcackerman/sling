@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= content_for?(:title) ? yield(:title) : "Skill Developing" %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Skill Developing" %>">
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+    <%= yield(:head) %>
+  </head>
+  <body>
+    <header id="header-container" class="navbar navbar-inverse navbar-fixed-top">
+      <nav class="navbar-inner">
+        <div id="nav-container" class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <%= link_to "SkillDeveloping", root_path, :class => 'brand' %>
+          <div class="nav-collapse">
+            <% if user_signed_in? %>
+              <ul class="nav">
+                <%= render 'layouts/browse' %>
+              </ul>
+            <% end %>
+
+            <ul class="nav actions pull-right">
+              <% if user_signed_in? %>
+                <li class="dropdown">
+                  <%= link_to user_channel_url(current_user) do %>
+                    <i class="icon-user icon-white"></i>
+                    <%= current_user.email %>
+                  <% end %>
+                </li>
+              <% else %>
+                <%= render 'layouts/browse' %>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="page-container" class=" wrapper-front white">
+      <div class="front-container front-container-full-signup" id="front-container">
+
+        <div class="front-bg">
+          <%= image_tag "front_bg.jpg", :class=>"front-image" %>
+        </div>
+
+        <div class="front-card">
+          <div class="front-welcome">
+            <div class="front-welcome-text">
+              <h1>Welcome to SkillDeveloping.</h1>
+              <p>What defines you is the set of skills you have, join and start to develop the skills of your life.</p>
+              <p>
+                SkillDeveloping is an ad-free, video based skill development site where you can post skill videos,
+                track progress, create groups, and make friends with similar skills and interests. 
+              </p>
+            </div>
+          </div>
+          <div class="front-signin js-front-signin">
+
+            <%= form_for("user", :url => user_session_path) do |f| %>
+              <div class="signin-inputs">
+                <%= f.email_field :email, :placeholder=>"Email" %>
+                <%= f.password_field :password, :placeholder=>"Password" %>
+                <div class="signin-remember">
+                  <%= f.check_box :remember_me %>
+                  <%= f.label :remember_me %>
+                </div>
+              </div>
+              <div class="signin-links">
+                <%= f.submit "Sign in", :class => "btn btn-primary pull-right" %>
+                <%= link_to "Forgot password?", new_password_path('user'), :class=>"pull-left" %>
+              </div>
+            <% end %>
+
+          </div>
+          <div class="front-signup js-front-signup">
+            <p><strong>New to SkillDeveloping?</strong> Sign up</p>
+    
+            <%= form_for("user", :url => user_registration_path) do |f| %>
+              <div class="signup-inputs">
+                <%= f.email_field :email, :placeholder=>"Email" %>
+                <%= f.password_field :password, :placeholder=>"Password" %>
+                <%= f.password_field :password_confirmation, :placeholder=>"Confirm Password" %>
+              </div>
+              <div class="signup-links">
+                <%= f.submit "Sign up for SkillDeveloping", :class => "btn btn-warning pull-right" %>
+              </div>
+            <% end %>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

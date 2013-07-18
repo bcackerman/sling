@@ -1,0 +1,20 @@
+<div id="friend_panel">
+
+  <h3>Friends</h3>
+  <% if user_signed_in? && current_user == @user %>
+    <span class="friend_manage"><%= link_to "Manage", user_friend_url(current_user) %></span>
+  <% end %>
+
+  <% for friendship in @user.friendships.limit(42) %>
+    <% unread = "" %>
+    <% if user_signed_in? && current_user == @user %>
+      <% last_visit = current_user.friendships.find_by_friend_id(friendship.friend).visited_at %>
+      <% posts_after = Post.where(:user_id => friendship.friend).where("removed_at IS NULL").where("created_at > '#{last_visit}'").count %>
+      <% if posts_after > 0 %>
+        <% unread = '( ' + posts_after.to_s + ' new)' %>
+      <% end %>
+    <% end %>
+    <%= link_to image_tag(user_avatar_url(friendship.friend), :title => friendship.friend.username + unread), user_profile_url(friendship.friend) %>
+  <% end %>
+
+</div>

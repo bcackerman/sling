@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/433/trunk/show/app/views/posts
+END
+featured.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/398/trunk/show/app/views/posts/featured.js.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/408/trunk/show/app/views/posts/index.html.erb
+END
+_mplayer.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/367/trunk/show/app/views/posts/_mplayer.html.erb
+END
+channel.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/419/trunk/show/app/views/posts/channel.html.erb
+END
+create.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/426/trunk/show/app/views/posts/create.js.erb
+END
+index.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/334/trunk/show/app/views/posts/index.js.erb
+END
+channel.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/342/trunk/show/app/views/posts/channel.js.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/346/trunk/show/app/views/posts/show.html.erb
+END
+_blog.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/416/trunk/show/app/views/posts/_blog.html.erb
+END
+upload.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/433/trunk/show/app/views/posts/upload.html.erb
+END
+_post.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/416/trunk/show/app/views/posts/_post.html.erb
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/294/trunk/show/app/views/posts/edit.html.erb
+END
+home.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/350/trunk/show/app/views/posts/home.html.erb
+END
+_popover.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/416/trunk/show/app/views/posts/_popover.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/374/trunk/show/app/views/posts/new.html.erb
+END
+_player.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/430/trunk/show/app/views/posts/_player.html.erb
+END
+_guide.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/416/trunk/show/app/views/posts/_guide.html.erb
+END
+_caption.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/416/trunk/show/app/views/posts/_caption.html.erb
+END
+player.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/367/trunk/show/app/views/posts/player.js.erb
+END

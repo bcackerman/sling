@@ -1,0 +1,20 @@
+<% title "Front Page" %>
+
+<%= hidden_field_tag("language_id", "Post_Index") %>
+<%= render(:partial => 'shared/lang') %>
+
+<div id="front_frame">
+  
+  <%= form_for @post, :remote => true do |f| %>
+    <div class="frame_top">
+      <span class="front_title">Top Rated</span>
+      <span class="front_progress"><%= image_tag("progress.gif") %></span>
+      <span class="front_find"><%= f.text_field :text_entry_contains, :placeholder => "Search Questions", :maxlength => 24 %></span>
+      <span class="front_find_icon"><%= link_to image_tag("search.png", :title => "Search") %></span>
+    </div>
+  <% end %>
+  
+  <div id="front_list"><%= render 'front' %></div>
+  
+</div>
+

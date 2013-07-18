@@ -1,0 +1,15 @@
+<% if user_signed_in? && current_user == @user %>
+
+  <div id="setting_panel">
+
+    <h3>Settings</h3>
+
+    <p><%= link_to "Record Introduction", edit_user_profile_path %></p>
+    <p><%= link_to "Update Avatar", edit_user_profile_path %></p>
+    <p><%= link_to "Change Username", edit_user_profile_path %></p>
+    <p><%= link_to "Edit Registration", edit_user_registration_path %></p>
+
+  </div>
+
+<% end %>
+

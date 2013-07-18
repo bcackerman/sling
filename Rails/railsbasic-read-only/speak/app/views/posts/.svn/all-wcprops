@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/601/trunk/speak/app/views/posts
+END
+_evaluation.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/601/trunk/speak/app/views/posts/_evaluation.html.erb
+END
+featured.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/436/trunk/speak/app/views/posts/featured.js.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/546/trunk/speak/app/views/posts/index.html.erb
+END
+channel.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/585/trunk/speak/app/views/posts/channel.html.erb
+END
+_privacy.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/567/trunk/speak/app/views/posts/_privacy.html.erb
+END
+_process.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/578/trunk/speak/app/views/posts/_process.html.erb
+END
+index.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/436/trunk/speak/app/views/posts/index.js.erb
+END
+channel.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/580/trunk/speak/app/views/posts/channel.js.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/585/trunk/speak/app/views/posts/show.html.erb
+END
+_blog.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/580/trunk/speak/app/views/posts/_blog.html.erb
+END
+upload.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/583/trunk/speak/app/views/posts/upload.html.erb
+END
+_post.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/545/trunk/speak/app/views/posts/_post.html.erb
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/436/trunk/speak/app/views/posts/edit.html.erb
+END
+show.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/518/trunk/speak/app/views/posts/show.js.erb
+END
+home.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/436/trunk/speak/app/views/posts/home.html.erb
+END
+_popover.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/565/trunk/speak/app/views/posts/_popover.html.erb
+END
+update.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/568/trunk/speak/app/views/posts/update.js.erb
+END
+_player.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/539/trunk/speak/app/views/posts/_player.html.erb
+END
+_guide.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/520/trunk/speak/app/views/posts/_guide.html.erb
+END

@@ -1,0 +1,13 @@
+<%= render(:partial => 'shared/left') %>
+
+<div id="new_frame">
+
+  <h2>Create News:</h2>
+
+  <%= render 'form' %>
+
+</div>
+
+<div id="side_panel">
+  <%= render(:partial => 'shared/right') %>
+</div>

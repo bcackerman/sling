@@ -1,0 +1,40 @@
+source 'http://rubygems.org'
+
+gem 'rails', '3.2.8'
+gem 'jquery-rails'
+
+gem "omniauth"
+gem "devise"
+gem "kaminari"
+gem "carrierwave"
+gem "client_side_validations"
+gem "yaml_db"
+
+group :assets do
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
+  gem 'uglifier', '>= 1.0.3'
+end
+
+group :development, :test do
+  gem 'sqlite3'
+  gem "rspec-rails"
+end
+
+group :development do
+  # To use debugger
+  # gem 'ruby-debug19', :require => 'ruby-debug'
+end
+
+group :test do
+  gem "factory_girl_rails"
+  gem "cucumber-rails"
+  gem "capybara"
+  gem "database_cleaner"
+  gem "launchy"
+end
+
+group :production do
+  gem "capistrano"
+  gem "mysql2"
+end

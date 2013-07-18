@@ -1,0 +1,11 @@
+<%= render(:partial => 'shared/left') %>
+
+<div id="feedback_frame">
+
+  <h2>We'd love to hear from you</h2>
+
+  <%= render 'form' %>
+
+</div>
+
+<%= render(:partial => 'shared/right') %>

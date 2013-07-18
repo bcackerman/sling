@@ -1,0 +1,82 @@
+<div id="watch-top-container" class="row">
+  <div class="watch-top-wrap">
+    <div class="watch-top-left" style="width:785px;">
+      <div class="watch-top-avatar">
+        <%= link_to image_tag(user_avatar_url(@question.user), :class=>"img-rounded"), question_channel_path(@question.user.name) %>
+      </div>
+      <div class="question-top-info">
+        <div class="question-top-info-inner">
+          <span class="label label-info" style="margin-right: 5px;">
+            Question
+            <% if @question.subject.present? %>- <%= @question.subject.name %><% end %>
+          </span>
+          <span class="question-user-name"><%= link_to @question.user.name, question_channel_path(@question.user.name) %></span>
+          <span class="watch-top-post-date"><%= time_ago_in_words(@question.created_at) %> ago</span>
+        </div>
+        <div class="watch-top-content" style="width:640px; max-height:64px;"><%= @question.content %></div>
+
+        <div class="watch-top-stat">
+          <span class="watch-top-view"><%= number_with_delimiter(@question.posts.size) %> answers</span>
+        </div>
+      </div>
+    </div>
+    <div class="watch-top-middle">
+      <div>
+        <% if user_signed_in? %>
+          <%= link_to({:controller => "posts", :action => "upload", :cat_select => "Answer", :link_id => @question.id },
+                      html_options = {:class=>"btn btn-small", :style=>"width:120px;font-weight:bold;margin-bottom:4px;"}) do %>
+            <i class="icon-upload"></i> Upload Answer
+          <% end %> 
+        <% end %>
+      </div>
+    </div>
+    <div class="watch-top-right hide">
+      <div class="watch-answer-col">
+
+      </div>
+    </div>
+  </div>
+</diV>
+
+<div id="user-main-container" class="row">
+  
+  <div id="user-main">
+    <div id="watch-guide">
+      <div class="watch-guide-top">
+        <span class="label label-important">Question Page</span>
+      </div>
+
+      <div id="watch-filter-container">
+      </div>
+
+      <div class="watch-guide-top">
+        <span class="label label-success">Info</span>
+      </div>
+      <div id="watch-filter-about">
+        This is question's show page - with all the answer posts to this question.
+      </div>
+    </div>
+
+    <div id="watch-blog">
+      <div id="watch-channel-container" class="watch-panel-body">
+        <%= render 'content' %>
+      </div>
+      <div id="watch-more-button">
+        <%= link_to_next_page @answers, 'Load More', :remote => true, :id=>"load_more_link", :class=>"btn", :style=>"width:470px;font-weight:bold;" %>
+      </div>
+    </div>
+
+    <div id="watch-sidebar">
+
+    </div>
+
+  </div>
+</div>
+
+<div id="watch-metric" class="watch-metric-bar" style="top: 130px;">
+  <% if @metric_bar.present? %>
+    <%= render 'ratings/metric' %>
+  <% end %>
+</div>
+
+<div class="clear"></div>

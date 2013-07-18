@@ -1,0 +1,51 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#front_list").find(".echo_text_front").each(function() {
+      if (this.scrollHeight > $(this).height()) {
+        $(this).next('.ellipsis').show();
+      } else {
+        $(this).next('.ellipsis').hide();
+      }
+    });
+  });
+</script>
+
+<% if @answer.present? %>
+
+  <% for answer in @answer %>
+
+    <div id="front_widget">
+      <div class="topic_widget">
+        <div class="echo_links">
+          <div class="user_avatar">
+            <%= image_tag user_avatar_url(answer.user) %>
+            <span class="play_stop"><%= link_to image_tag "chat.png", :title => "Play Voice" %></span>
+          </div>
+        </div>
+        <div class="echo_content">
+          <div class="echo_status">
+            <%= link_to answer.user.username, user_profile_url(answer.user) %>
+            <span class="echo_date"><%= time_ago_in_words(answer.created_at) %> ago</span>
+            <span class="echo_like">
+              8
+              <%= image_tag "thumb_up.png" %>
+            </span>
+          </div>
+          <div class="echo_text_front">
+            <span class="question_image"><%= link_to image_tag "obama.jpg" %></span>
+            <!--%= answer.text_entry %-->
+            This is a text message, One of the most 
+            talk shit just like any stupid people thinks that he hate anderson or any thing 
+            staunting experiences a person can face is the request to deliver a speech without notice. This should show
+
+          </div>
+          <div class="ellipsis">...</div>
+        </div>
+      </div>
+    </div>
+
+  <% end %>
+
+  <%= paginate @answer %>
+
+<% end %>

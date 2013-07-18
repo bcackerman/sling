@@ -1,0 +1,29 @@
+<%= render(:partial => 'shared/left') %>
+
+<div id="reply_frame">
+
+  <h2>News:</h2>
+
+  <div id="reply_gnews">
+    <div class="gnews_links">
+      <div class="gnews_avatar"><%= link_to image_tag "globe.png", :title => "Play News", :newsid => @topic.id, :voice => gnews_voice_url(@topic) %></div>
+      <div class="gnews_date"><%= l @topic.created_at %></div>
+    </div>
+    <div class="gnews_content">
+      <%= image_tag("flags/#{@topic.language}_small.png", :title => @topic.language) %>
+      <%= @topic.text_entry %>
+    </div>
+  </div>
+
+  <div id="reply_title">
+    <h2>Echo:</h2>
+  </div>
+
+  <%= render 'form' %>
+
+</div>
+
+<div id="side_panel">
+  <%= render(:partial => 'shared/right') %>
+</div>
+

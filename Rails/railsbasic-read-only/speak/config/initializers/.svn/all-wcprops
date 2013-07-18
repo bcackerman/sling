@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/605/trunk/speak/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/436/trunk/speak/config/initializers/inflections.rb
+END
+client_side_validations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/522/trunk/speak/config/initializers/client_side_validations.rb
+END
+devise.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/515/trunk/speak/config/initializers/devise.rb
+END
+s3_direct_upload.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/436/trunk/speak/config/initializers/s3_direct_upload.rb
+END
+secret_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/436/trunk/speak/config/initializers/secret_token.rb
+END
+delayed_job_config.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/605/trunk/speak/config/initializers/delayed_job_config.rb
+END
+backtrace_silencers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/436/trunk/speak/config/initializers/backtrace_silencers.rb
+END
+wrap_parameters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/436/trunk/speak/config/initializers/wrap_parameters.rb
+END
+session_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/436/trunk/speak/config/initializers/session_store.rb
+END
+carrierwave_backgrounder.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/572/trunk/speak/config/initializers/carrierwave_backgrounder.rb
+END
+delayed_job.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/591/trunk/speak/config/initializers/delayed_job.rb
+END
+simple_form_bootstrap.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/436/trunk/speak/config/initializers/simple_form_bootstrap.rb
+END
+carrierwave.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/593/trunk/speak/config/initializers/carrierwave.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/436/trunk/speak/config/initializers/mime_types.rb
+END
+simple_form.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/436/trunk/speak/config/initializers/simple_form.rb
+END

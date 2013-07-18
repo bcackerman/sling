@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/603/trunk/speak/doc
+END
+installation.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/436/trunk/speak/doc/installation.txt
+END
+development.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/603/trunk/speak/doc/development.txt
+END
+README_FOR_APP
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/436/trunk/speak/doc/README_FOR_APP
+END
+technical.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/436/trunk/speak/doc/technical.txt
+END
+deployment.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/592/trunk/speak/doc/deployment.txt
+END

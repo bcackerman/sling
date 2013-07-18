@@ -1,0 +1,71 @@
+<div id="upload-page" class="initial-upload-page">
+  <div class="upload-header">
+    <h4><span class="upload-header-status-text">Upload video file</span></h4>
+    
+  </div>
+  <div id="uploader-main">
+    <div id="upload-prompt" class="upload-inner">
+      <div class="upload-box-left-column">
+
+        <div class="upload-box-button-container">
+          <div class="init-upload-action-icon">
+            <%= image_tag "video_upload.png" %>
+          </div>
+          <button type="button" class="btn">
+            <span><strong>Select video file from your computer</strong></span>
+          </button>
+        </div>
+
+        <!--%= s3_uploader_form post: worker_posts_url, as: "video_url", id: "vid-s3-uploader" do %-->
+          <!--div class="upload-input-wrap"-->
+            <!--%= file_field_tag :file, multiple: false %-->
+          <!--/div-->
+        <!--% end %-->
+        
+        <%= form_for(@post, :html => {:id => "vid-jf-uploader" }) do |f| %>
+          <div class="upload-input-wrap">
+            <%= f.file_field :video, multiple: false %>
+          </div>
+        <% end %>
+
+        <div class="upload-progress-container">
+          <script id="template-upload" type="text/x-tmpl">
+            <div class="upload-progress">
+              <h4>{%=o.name%}</h4>
+              <div class="progress progress-striped active"><div class="bar" style="width: 0%"></div></div>
+            </div>
+          </script>
+
+          <div class="progress-save" style="display: none;"><span class="progress-save-img"><%= image_tag "progress.gif" %></span> <strong>This may take a while.</strong></div>
+        </div>
+
+        <div class="upload-input-form" style="display: none;">
+          
+          <%= form_for @post, :url => save_posts_path(@post) do |f| %>
+            <div><%= f.label :category_id %><%= f.collection_select :category_id, Category.order(:name), :id, :name, include_blank: true %></div>
+            <div><%= f.label :skill_id %><%= f.grouped_collection_select :skill_id, Category.order(:name), :skills, :name, :id, :name, include_blank: true %></div>
+            <div><%= f.label :title %><%= f.text_area :title, :rows => 2, :placeholder => "", :class => "span6" %></div>
+            <div><%= f.label :description %><%= f.text_area :content, :rows => 5, :placeholder => "", :class => "span6" %></div>
+            <div><%= f.label :privacy %><%= f.select :privacy, options_for_select(["Public", "Members Only", "Private"]) %></div>
+            <div>
+              <%= f.hidden_field :success, :value => true %>
+            </div>
+            <div class="create-video-button"><%= f.submit "Create Video", :class => "btn btn-inverse pull-left disabled" %></div>
+          <% end %>
+        </div>
+
+        <div class="upload-video-info" style="display: none;">
+          <h4></h4>
+        </div>
+
+      </div>
+      <div id="upload-box-more-ways">
+        <h4>Webcam and other uploading coming soon.</h4>
+      </div>
+    </div>
+    <div id="upload-drag-drop-info">
+        Drag and drop videos anywhere on this page to start uploading.
+    </div>
+  </div>
+</div>
+

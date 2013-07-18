@@ -1,0 +1,19 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  datetime:
+    distance_in_words:
+      about_x_months:
+        # The defaults are "about 1 month" and "%{count} months"
+        one: "1 month"
+        other: "%{count} months"
+      about_x_hours:
+        # The defaults are "about 1 hour" and "about %{count} hours"
+        one: "1 hour"
+        other: "%{count} hours"
+  views:  
+    pagination:  
+      previous: "&laquo; Prev"  
+      next: "Next &raquo;"
+

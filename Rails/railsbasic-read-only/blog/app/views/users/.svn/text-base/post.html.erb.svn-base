@@ -1,0 +1,27 @@
+<% title "Profile" %>
+
+<%= hidden_field_tag("language_id", "User_Show") %>
+<%= hidden_field_tag("hd_user_name", @user.username) %>
+<%= render(:partial => 'shared/lang') %>
+
+<div id="post_frame">
+  <div id="post_user">
+    <span class="user_image"><%= link_to image_tag user_avatar_url(@user), :title => "Play Introduction" %></span>
+    <span class="post_title"><%= @user.username %></span>
+    <% if user_signed_in? %>
+      <% if current_user == @user %>
+        <span class="post_new"><%= link_to 'New Topic', new_post_path %></span>
+      <% else %>
+        <span class="add_friend"><%= link_to "Add Friend", friendships_path(:friend_id => @user.id), :method => :post %></span>
+      <% end %>
+    <% end %>
+    <span class="front_progress"><%= image_tag("progress.gif") %></span> 
+  </div>
+  <div id="post_list"><%= render 'shared/post' %></div>
+  <%= pageless("#post_list", @post.num_pages, user_post_profile_path) %>
+</div>
+
+<div id="side_panel">
+  <%= render(:partial => 'shared/friend') %>
+  <%= render(:partial => 'shared/setting') %>
+</div>

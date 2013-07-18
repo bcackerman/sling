@@ -1,0 +1,40 @@
+<ul id="watch-post" class="video-list">
+  <% for @post in @posts %>
+    <li class="video-list-item">
+    <div class="video-thumb-wrap">
+      <span class="video-thumb">
+        <%= link_to image_tag(post_poster_url(@post)), @post %>
+      </span>
+      <span class="video-time"><%= Time.at(@post.length).gmtime.strftime('%-M:%S') %></span>
+    </div>
+
+    <div class="video-info-wrap">
+      <div class="video-info">
+        <div class="video-user-avatar">
+          <%= link_to image_tag(user_avatar_url(@post.user)), post_channel_path(@post.user.name) %>
+        </div>
+        <div class="video-post-info">
+          <div class="video-post-info-inner">
+            <span class="video-user-name"><%= link_to truncate(@post.user.name, :length => 15), post_channel_path(@post.user.name) %></span>
+            <span class="video-post-date"><%= time_ago_in_words(@post.created_at) %> ago</span>
+          </div>
+          <div class="video-theme-group">
+            <%= @post.category %>
+            <%= post_subject_value(@post) %>
+          </div>
+        </div>
+      </div>
+      <div class="video-title" title="">
+        <% if @post.category != "Speech" %>@ <% end %><%= @post.title %>
+      </div>
+      <div class="video-stat">
+        <span class="video-view"><%= number_with_delimiter(@post.views) %> views</span>
+        <span class="video-like">
+          <%= number_with_delimiter(@post.likes.size) %>
+          <%= image_tag "thumb_up.png" %>
+        </span>
+      </div>
+    </div>
+  </li>
+  <% end %>
+</ul>

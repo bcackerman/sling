@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/561/trunk/speak/app/views/users
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/561/trunk/speak/app/views/users/index.html.erb
+END
+_user.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/555/trunk/speak/app/views/users/_user.html.erb
+END
+avatar.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/561/trunk/speak/app/views/users/avatar.html.erb
+END
+crop.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/561/trunk/speak/app/views/users/crop.html.erb
+END

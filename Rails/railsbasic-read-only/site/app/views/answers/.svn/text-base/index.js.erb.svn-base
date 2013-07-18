@@ -1,0 +1,2 @@
+$("#speech-front-audio-container").html("<%= escape_javascript(render("front")) %>");
+

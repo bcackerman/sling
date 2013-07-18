@@ -1,0 +1,22 @@
+<%= javascript_include_tag 'autoresize.jquery.min.js' %>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".post_inputs textarea").autoResize({}).trigger('change');
+  });
+</script>
+
+<%= simple_form_for(@feedback, :url => {:action => 'create'}) do |f| %>
+
+  <div class="post_inputs">
+
+    <%= f.input :name, :label => "Your Name", :input_html => {:size => 30} %>
+    <%= f.input :email, :label => "Your Email", :input_html => {:size => 30} %>
+    <%= f.input :content, :label => "Message", :input_html => {:cols => 39, :rows => 10}, :placeholder => "..." %>
+    <p><%= f.button :submit, 'Feedback' %></p>
+
+    <strong>You can also contact <a href="http://twitter.com/echowee">@echowee</a> on Twitter.</strong>
+
+  </div>
+
+<% end %>

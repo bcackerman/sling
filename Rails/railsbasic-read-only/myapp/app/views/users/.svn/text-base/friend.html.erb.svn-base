@@ -1,0 +1,28 @@
+<%= render(:partial => 'shared/ads') %>
+
+<div id="friend_frame">
+
+  <h2>Friends List:</h2>
+  
+  <% for friendship in current_user.friendships %>
+    <div class="">
+      <span><%= link_to image_tag avatar_url(friendship.friend) %></span>
+      <span><%= link_to friendship.friend.username, profile_url(friendship.friend) %></span>
+      <% if true %>
+        <span><%= link_to "Display", friendship, :method => :display %></span>
+      <% else %>
+        <span><%= link_to "Hide", friendship, :method => :hide %></span>
+      <% end %>
+      <span><%= link_to "Delete", friendship, :method => :delete %></span>
+    </div>
+  <% end %>
+
+  <%= link_to 'Back', show_user_profile_path %>
+
+</div>
+
+<div id="side_panel">
+  <%= render(:partial => 'shared/friend') %>
+  <%= render(:partial => 'shared/setting') %>
+</div>
+

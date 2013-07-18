@@ -1,0 +1,2 @@
+$("#player-popup .caption").replaceWith("<%= escape_javascript(render "caption", :formats => [:html]) %>");
+

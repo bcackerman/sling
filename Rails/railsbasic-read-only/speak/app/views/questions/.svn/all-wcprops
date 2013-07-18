@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/602/trunk/speak/app/views/questions
+END
+_question.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/555/trunk/speak/app/views/questions/_question.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/554/trunk/speak/app/views/questions/index.html.erb
+END
+select.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/507/trunk/speak/app/views/questions/select.js.erb
+END
+channel.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/540/trunk/speak/app/views/questions/channel.html.erb
+END
+show.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/518/trunk/speak/app/views/questions/show.js.erb
+END
+_content.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/601/trunk/speak/app/views/questions/_content.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/561/trunk/speak/app/views/questions/new.html.erb
+END
+_guide.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/520/trunk/speak/app/views/questions/_guide.html.erb
+END
+_select.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/550/trunk/speak/app/views/questions/_select.html.erb
+END
+_answer.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/557/trunk/speak/app/views/questions/_answer.html.erb
+END
+index.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/555/trunk/speak/app/views/questions/index.js.erb
+END
+channel.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/519/trunk/speak/app/views/questions/channel.js.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/602/trunk/speak/app/views/questions/show.html.erb
+END
+_blog.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/555/trunk/speak/app/views/questions/_blog.html.erb
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/284/trunk/shake/db/migrate
+END
+20120821140658_change_info_format_in_pubs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/284/trunk/shake/db/migrate/20120821140658_change_info_format_in_pubs.rb
+END
+20120816123323_create_drinks.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/282/trunk/shake/db/migrate/20120816123323_create_drinks.rb
+END
+20120818223031_add_pubs_drinks_join_table.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/282/trunk/shake/db/migrate/20120818223031_add_pubs_drinks_join_table.rb
+END
+20120816123238_create_pubs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/282/trunk/shake/db/migrate/20120816123238_create_pubs.rb
+END
+20120819002208_create_orders.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/282/trunk/shake/db/migrate/20120819002208_create_orders.rb
+END
+20120821140721_change_info_format_in_drinks.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/284/trunk/shake/db/migrate/20120821140721_change_info_format_in_drinks.rb
+END
+20120816123437_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/282/trunk/shake/db/migrate/20120816123437_create_users.rb
+END

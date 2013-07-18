@@ -1,0 +1,431 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require vendor
+ *= require_self
+ *= require_tree .
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html { 
+  background: url(black-brick-texture.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #333;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+a {
+  color: #3C6296;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3, h3 a {
+  color: #E98C08;
+  font-size: 16px;
+}
+
+
+div {
+  display: block;
+}
+
+
+.button a {
+  border-top: 1px solid #96d1f8;
+  background: #65a9d7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+  background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+  background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+  background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+  background: -o-linear-gradient(top, #3e779d, #65a9d7);
+  padding: 5px 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: white;
+  font-size: 14px;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.button a:hover {
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #ccc;
+}
+
+.button a:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
+}
+
+
+/*
+ * Start of the page layout
+ */
+
+
+#page {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#logo-bg {
+  position: absolute;
+  top: 0px;
+  z-index: -999;
+}
+
+#logo-bg img {
+  width: 960px;
+  height: 800px;
+}
+
+#sharePanel {
+  float: right;
+  margin-top: 5px;
+}
+
+.gd-shareLinks ul {
+  display: block;
+  overflow: hidden;
+  margin: 0 4px 0 7px;
+  padding: 0;
+}
+
+.gd-shareLinks ul li {
+  display: inline;
+}
+
+
+.gd-shareLinks-link-facebook {
+  background-position: -127px -67px;
+}
+
+.gd-shareLinks-link-twitter {
+  background-position: -240px -67px;
+}
+
+.gd-shareLinks-link-delicious {
+  background-position: -184px -67px;
+}
+
+.gd-shareLinks-link-stumbleupon {
+  background-position: -14px -67px;
+}
+
+.gd-shareLinks-link {
+  width: 26px;
+  height: 26px;
+  display: block;
+  float: left;
+  margin: 0 4px 0 0;
+  text-indent: -9000em;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(share_icon.png);
+  border: 1px solid transparent;
+}
+
+
+#sidebar-container {
+  position: fixed;
+  top: 20px;
+  right: 0px;
+  width: 150px;
+  height: 600px;
+  z-index: 999;
+}
+
+#sidebar {
+  float: right;
+}
+
+#app-store {
+  float: right;
+  margin-bottom: 30px;
+}
+
+#app-store img {
+  width: 120px;
+}
+
+#navigation {
+  margin-top: 30px;
+}
+
+#navigation a {
+}
+
+.nav-button {
+  float: right;
+  margin-bottom: 5px;
+}
+
+.nav-button img {
+  width: 100px;
+  height: 100px;
+  opacity: 0.6;
+}
+
+.nav-button img:hover {
+  opacity: 1;
+}
+
+.nav-disabled {
+  float: right;
+  margin-bottom: 5px;
+}
+
+.nav-disabled a {
+  pointer-events: none;
+  cursor: default;
+}
+
+.nav-disabled img {
+  width: 100px;
+  height: 100px;
+}
+
+.pubs-editor {
+  margin-left: 200px;
+  margin-top: 80px;
+  width: 600px;
+  color: #bbb;
+}
+
+.pubs-editor .field {
+  margin: 5px;
+}
+
+.pubs-editor .field label {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+}
+
+
+
+
+#partners-container {
+  float: left;
+  width: 960px;
+}
+
+#partners img {
+  width: 80px;
+  height: 80px;
+  padding-right: 6px;
+}
+
+#partners h3 {
+  font: 24px Tahoma, Helvetica, Arial, Sans-Serif;
+  text-align: left;
+  color: #222;
+  text-shadow: 0px 2px 3px #777;
+  line-height: 36px;
+  margin-bottom: 18px;
+}
+
+
+#company-container {
+  float: left;
+  width: 300px;
+}
+
+#company {
+  width: 280px;
+  height: 100%
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+#company ul li {
+  display: inline;
+  padding: 0 4px;
+  font-size: 11px;
+  color: #777;
+}
+
+#company-links {
+  padding: 5px 0;
+}
+
+#company-links a {
+  color: #E98C08;
+}
+
+#company-links a:hover {
+  color: #3C6296;
+}
+
+
+#content-container {
+  float: left;
+  height: 100%;
+}
+
+#content {
+  width: 960px;
+}
+
+.section-detail {
+  width: 660px;
+  height: 240px;
+  margin-top: 80px;
+  margin-left: 230px;
+  padding: 5px;
+}
+
+.section-detail-photo {
+  float: left;
+  width:320px;
+  height:205px;  
+  padding-top: 5px;
+  position:relative;
+  -moz-box-shadow: 0 0 10px #aaa;
+  -webkit-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
+}
+
+.section-detail-photo img {
+  width: 320px;
+  height: 210px;
+}
+
+.section-detail-drink-bottle {
+  float: left;
+}
+
+.section-detail-drink-bottle img {
+  width: 70px;
+  height: 210px;
+}
+
+.section-detail-drink-jar {
+  float: left;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+.section-detail-drink-jar img {
+  width: 70px;
+  height: 140px;
+}
+
+.section-detail-info {
+  width: 320px;
+  float: left;
+  padding: 10px;
+  text-align: right;
+  color: #999;
+}
+
+.section-gallery {
+  width: 896px;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 32px;
+  float: left;
+  position: relative;
+}
+
+.section-gallery ul.pagination {
+  display: none;
+}
+
+.section-pub-logos {
+  float: left;
+  padding: 4px;
+}
+
+.section-pub-logos img {
+  width: 120px;
+  height: 120px;
+  opacity: 0.5;
+}
+
+.section-pub-logos img:hover {
+  opacity: 1;
+  -moz-box-shadow: 0 0 10px #aaa;
+  -webkit-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
+}
+
+.section-drink-logos {
+  float: left;
+  padding: 4px;
+}
+
+.section-drink-logos img {
+  width: 120px;
+  height: 120px;
+  opacity: 0.5;
+}
+
+.section-drink-logos img:hover {
+  opacity: 1;
+}
+
+.section-social {
+  width: 800px;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 80px;
+  padding: 5px;
+}
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/481/trunk/speak/spec/helpers
+END
+questions_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/445/trunk/speak/spec/helpers/questions_helper_spec.rb
+END
+speeches_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/481/trunk/speak/spec/helpers/speeches_helper_spec.rb
+END
+groups_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/436/trunk/speak/spec/helpers/groups_helper_spec.rb
+END
+users_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/436/trunk/speak/spec/helpers/users_helper_spec.rb
+END
