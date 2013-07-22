@@ -2,27 +2,21 @@
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span4 text-left">
-         <span class="brand">Quid</span>
+         <span class="brand"><%= link_to "Sling", root_path %></span>
       </div>
       <div class="span4 text-center">
         <%= @clip.name %>
       </div>
       <div class="span4 text-right">
-         <%= link_to show_clip_url(shortlink: @clip.shortlink, host: 'usequid.com'), show_clip_path(shortlink: @clip.shortlink), target: "_blank", class: "" %>
+         <%= link_to show_clip_url(shortlink: @clip.shortlink, host: 'useSling.com'), show_clip_path(shortlink: @clip.shortlink), target: "_blank", class: "link" %>
       </div>
     </div>
     
   </div>
 </div>  
 
-
 <video width="720" height="auto" controls>
   <source src="<%= @clip.file %>" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
+  Your browser does not support the video tag. Please upgrade your browser.
 </video>
-
-<p>
-  
-</p>
-

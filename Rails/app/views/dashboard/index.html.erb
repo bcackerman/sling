@@ -2,18 +2,29 @@
   <div class="row-fluid">
     <div class="span12">
       <div id="all-clips">
-        <%= @clips.each_slice(4) do |slice| %>
+        <% if @clips.empty? %>
           <div class="row-fluid">
-            <% slice.each do |c| %>
-              <div class="span3 clip">
-                <%= link_to image_tag(c.screenshot, alt: ""), show_clip_path(shortlink: c.shortlink), target: "_blank" if c.screenshot? %>
-                <h5 class="thin"><%= c.try(:name) %></h5>
-                <%= link_to c.shortlink, show_clip_path(shortlink: c.shortlink), target: "_blank", class: "shortlink" %>
-                <div class="clearfix"></div>
-                <small class="muted"><%= time_ago_in_words(c.created_at) %> ago &#8211; <%= c.impressions_count %> views</small>
-              </div>
-            <% end %>
+            <div class="span8 offset2">
+              <h2 class="thin">Getting started</h2>
+              <h3>1. Download Sling <a href="">Mac app here</a>.</h3>
+              <h3>2. Click Sling's menu icon to record your screen.</h3>
+              <h3>3. Share the link.</h3>
+            </div>
           </div>
+        <% else %>
+          <%= @clips.each_slice(4) do |slice| %>
+            <div class="row-fluid">
+              <% slice.each do |c| %>
+                <div class="span3 clip">
+                  <%= link_to image_tag(c.screenshot, alt: ""), show_clip_path(shortlink: c.shortlink), target: "_blank" if c.screenshot? %>
+                  <h5 class="thin"><%= c.try(:name) %></h5>
+                  <%= link_to c.shortlink, show_clip_path(shortlink: c.shortlink), target: "_blank", class: "shortlink" %>
+                  <div class="clearfix"></div>
+                  <small class="muted"><%= time_ago_in_words(c.created_at) %> ago &#8211; <%= c.impressions_count %> views</small>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
         <% end %>
       </div>
     </div>

@@ -1,4 +1,4 @@
-Quid::Application.configure do
+Sling::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
@@ -47,7 +47,7 @@ Quid::Application.configure do
   # config.action_controller.asset_host = "http://assets.example.com"
 
   # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
-  config.assets.precompile += %w( animate.css.scss application.css.scss boostrap-clip-show.css.scss dashboard.css.scss devise.css.scss elements.css.scss global.css.scss home.css.scss layout.css.scss mixins.css.scss overrides.css.scss  application.js dashboard.js retina.js)
+  config.assets.precompile += %w( animate.css.scss application.css.scss boostrap-clip-layout.css.scss dashboard.css.scss devise.css.scss elements.css.scss global.css.scss home.css.scss layout.css.scss mixins.css.scss overrides.css.scss  application.js dashboard.js retina.js)
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false

@@ -26,12 +26,25 @@ body{
   margin:0 0 40px 0;
   color:white;
   border-bottom:1px solid black;
+  .brand{
+    a{
+      color:white;
+    }
+    a:hover{
+      text-decoration: none;
+    }
+  }
+  
+  .link{
+    font-size:.8em;
+  }
 }
 
 video{
   margin:20px 0 20px 0;
   -webkit-box-shadow:  0px 0px 50px 0px rgba(0, 0, 0, 0.8);
   box-shadow:  0px 0px 50px 0px rgba(0, 0, 0, 0.8);
+  color:white;
 }
 .shortlink, .shortlink:hover{
   color:#d7dbe3;

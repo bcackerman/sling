@@ -1,4 +1,4 @@
-Quid::Application.routes.draw do
+Sling::Application.routes.draw do
   get "api/create"
 
   resources :clips, only: [:create]

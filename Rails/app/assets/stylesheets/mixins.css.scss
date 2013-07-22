@@ -23,7 +23,7 @@
   $x2img : $image_name + '@2x' + $extention;
 
   @media all and (-webkit-min-device-pixel-ratio : 1.5) {
-    background-image: image_url($x2img);
+    background-image: image_url($x2img); 
     background-size: $w $h;
 
   }  

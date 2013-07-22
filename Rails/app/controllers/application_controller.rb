@@ -11,6 +11,10 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  def after_sign_in_path_for(resource)
+    dashboard_path
+  end
+
   def render_404
     respond_to do |type|
       type.html { render :template => "layouts/404", :layout => "application", :status => "404 Not Found" }

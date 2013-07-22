@@ -1,6 +1,5 @@
 class ClipsController < ApplicationController
   before_filter :authenticate_user!, :except => [:show]
-  impressionist :actions => [:show]
 
   # GET /clips
   # GET /clips.json
@@ -20,8 +19,9 @@ class ClipsController < ApplicationController
     if @clip.nil?
       render_404
     else
+      impressionist(@clip)
       respond_to do |format|
-        format.html { render :layout => 'layouts/clip' }
+        format.html { render :layout => 'layouts/clip-layout' }
         format.json { render json: @clip }
       end
     end
