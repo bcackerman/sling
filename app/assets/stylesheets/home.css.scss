@@ -1,0 +1,81 @@
+@import "mixins";
+
+#home-banner{
+  background-image:url('home/banner.jpg');
+  background-size:cover;
+  background-position: top center;
+  margin-top:-20px;
+  color:white;
+  @include bottom-black-shadow;
+  padding:60px 0;
+  h1{
+    font-size:28px;
+    margin:0;
+  }
+  h2{
+    font-size:18px;
+    font-weight:400;
+    margin-bottom: 25px;
+  }
+  .mac-download{
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1; /* Fix for IE7 */
+    *display: inline; /* Fix for IE7 */
+    padding:10px 18px 14px;
+    background-color: #509fd6;
+    color:white;
+    @include rounded(3);
+    width:250px;
+    position: relative;
+    @include transition;
+    text-align: center;
+    h5{
+      margin:0;
+      font-weight: 300;
+      @include top-black-shadow;
+    }
+    h4{
+      margin:0;
+      @include top-black-shadow;
+      i{
+
+      }
+    }
+  }
+  .mac-download:hover{
+    background:#61aee4;
+  }
+}
+#user-count{
+  background:#f6f5f5;
+  padding:15px;
+  h3{
+    color:#a3a4a6;
+    font-size:24px;
+  }
+}
+#number-steps{
+  border-bottom:1px dotted #d2d2d2;
+  margin:60px 0 30px 0;
+  height:11px;
+  .background-number-counter{
+    border:4px solid #d2d2d2;
+    @include rounded(100);
+    background-color:white;
+    color:#d2d2d2;
+    font-weight:bold;
+    padding:6px 17px;
+    font-size:28px;
+  }
+}
+#features-talk{
+  margin-bottom: 20px;
+  h4{
+    i{
+      top:5px; 
+      position: relative;
+      margin-right: 6px;
+    }
+  }
+}

@@ -1,0 +1,1023 @@
+# Logfile created on 2013-07-10 17:47:38 -0500 by logger.rb/31641
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Starting the New Relic agent in "development" environment.
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Reading configuration from 
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Enabling the Request Sampler.
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Environment: development
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Dispatcher: thin
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Application: development
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Installing DelayedJob instrumentation hooks
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Installing ActiveRecord instrumentation
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Installing DelayedJob instrumentation
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Installing middleware-based Excon instrumentation
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Installing Dalli Memcache instrumentation
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Installing Net instrumentation
+[07/10/13 17:47:38 -0500 BruceAckerman.local (46990)] INFO : Installing Rails 3 Controller instrumentation
+[07/10/13 17:47:39 -0500 BruceAckerman.local (46990)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/10/13 17:47:39 -0500 BruceAckerman.local (46990)] INFO : Installing Rails3 Error instrumentation
+[07/10/13 17:47:39 -0500 BruceAckerman.local (46990)] INFO : Finished instrumentation
+[07/10/13 17:47:39 -0500 BruceAckerman.local (46990)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Starting the New Relic agent in "development" environment.
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Reading configuration from 
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Enabling the Request Sampler.
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Environment: development
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Dispatcher: thin
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Application: development
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Installing DelayedJob instrumentation hooks
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Installing ActiveRecord instrumentation
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Installing DelayedJob instrumentation
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Installing middleware-based Excon instrumentation
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Installing Dalli Memcache instrumentation
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Installing Net instrumentation
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Installing Rails 3 Controller instrumentation
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Installing Rails3 Error instrumentation
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : Finished instrumentation
+[07/10/13 17:48:21 -0500 BruceAckerman.local (47154)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Starting the New Relic agent in "development" environment.
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Reading configuration from 
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Enabling the Request Sampler.
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Environment: development
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Dispatcher: thin
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Application: development
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Installing DelayedJob instrumentation hooks
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Installing ActiveRecord instrumentation
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Installing DelayedJob instrumentation
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Installing middleware-based Excon instrumentation
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Installing Dalli Memcache instrumentation
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Installing Net instrumentation
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Installing Rails 3 Controller instrumentation
+[07/10/13 17:54:22 -0500 BruceAckerman.local (47580)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/10/13 17:54:23 -0500 BruceAckerman.local (47580)] INFO : Installing Rails3 Error instrumentation
+[07/10/13 17:54:23 -0500 BruceAckerman.local (47580)] INFO : Finished instrumentation
+[07/10/13 17:54:23 -0500 BruceAckerman.local (47580)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Starting the New Relic agent in "development" environment.
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Reading configuration from 
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Enabling the Request Sampler.
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Environment: development
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Dispatcher: thin
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Application: development
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Installing DelayedJob instrumentation hooks
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Installing ActiveRecord instrumentation
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Installing DelayedJob instrumentation
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Installing middleware-based Excon instrumentation
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Installing Dalli Memcache instrumentation
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Installing Net instrumentation
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Installing Rails 3 Controller instrumentation
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Installing Rails3 Error instrumentation
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : Finished instrumentation
+[07/10/13 18:04:31 -0500 BruceAckerman.local (47778)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Starting the New Relic agent in "development" environment.
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Reading configuration from 
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Enabling the Request Sampler.
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Environment: development
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Dispatcher: thin
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Application: development
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Installing DelayedJob instrumentation hooks
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Installing ActiveRecord instrumentation
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Installing DelayedJob instrumentation
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Installing middleware-based Excon instrumentation
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Installing Dalli Memcache instrumentation
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Installing Net instrumentation
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Installing Rails 3 Controller instrumentation
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Installing Rails3 Error instrumentation
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : Finished instrumentation
+[07/10/13 18:05:22 -0500 BruceAckerman.local (47795)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Starting the New Relic agent in "development" environment.
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Reading configuration from 
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Enabling the Request Sampler.
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Environment: development
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Dispatcher: thin
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Application: development
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Installing DelayedJob instrumentation hooks
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Installing ActiveRecord instrumentation
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Installing DelayedJob instrumentation
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Installing middleware-based Excon instrumentation
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Installing Dalli Memcache instrumentation
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Installing Net instrumentation
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Installing Rails 3 Controller instrumentation
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Installing Rails3 Error instrumentation
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : Finished instrumentation
+[07/10/13 18:08:08 -0500 BruceAckerman.local (47846)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Starting the New Relic agent in "development" environment.
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Reading configuration from 
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Enabling the Request Sampler.
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Environment: development
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Dispatcher: thin
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Application: development
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Installing DelayedJob instrumentation hooks
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Installing ActiveRecord instrumentation
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Installing DelayedJob instrumentation
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Installing middleware-based Excon instrumentation
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Installing Dalli Memcache instrumentation
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Installing Net instrumentation
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Installing Rails 3 Controller instrumentation
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Installing Rails3 Error instrumentation
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : Finished instrumentation
+[07/10/13 18:08:40 -0500 BruceAckerman.local (47860)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Starting the New Relic agent in "development" environment.
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Reading configuration from 
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Enabling the Request Sampler.
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Environment: development
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Dispatcher: thin
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Application: development
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Installing DelayedJob instrumentation hooks
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Installing ActiveRecord instrumentation
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Installing DelayedJob instrumentation
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Installing middleware-based Excon instrumentation
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Installing Dalli Memcache instrumentation
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Installing Net instrumentation
+[07/11/13 22:57:09 -0500 BruceAckerman.local (63457)] INFO : Installing Rails 3 Controller instrumentation
+[07/11/13 22:57:10 -0500 BruceAckerman.local (63457)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/11/13 22:57:10 -0500 BruceAckerman.local (63457)] INFO : Installing Rails3 Error instrumentation
+[07/11/13 22:57:10 -0500 BruceAckerman.local (63457)] INFO : Finished instrumentation
+[07/11/13 22:57:10 -0500 BruceAckerman.local (63457)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Starting the New Relic agent in "development" environment.
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Reading configuration from 
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Enabling the Request Sampler.
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Environment: development
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Dispatcher: thin
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Application: development
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Installing DelayedJob instrumentation hooks
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Installing ActiveRecord instrumentation
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Installing DelayedJob instrumentation
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Installing middleware-based Excon instrumentation
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Installing Dalli Memcache instrumentation
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Installing Net instrumentation
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Installing Rails 3 Controller instrumentation
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Installing Rails3 Error instrumentation
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : Finished instrumentation
+[07/12/13 00:27:01 -0500 bruceackerman (64713)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Starting the New Relic agent in "development" environment.
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Reading configuration from 
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Enabling the Request Sampler.
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Environment: development
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Dispatcher: thin
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Application: development
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Installing DelayedJob instrumentation hooks
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Installing ActiveRecord instrumentation
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Installing DelayedJob instrumentation
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Installing middleware-based Excon instrumentation
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Installing Dalli Memcache instrumentation
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Installing Net instrumentation
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Installing Rails 3 Controller instrumentation
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Installing Rails3 Error instrumentation
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : Finished instrumentation
+[07/12/13 00:55:29 -0500 bruceackerman (65492)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Starting the New Relic agent in "development" environment.
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Reading configuration from 
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Enabling the Request Sampler.
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Environment: development
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Dispatcher: thin
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Application: development
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Installing DelayedJob instrumentation hooks
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Installing ActiveRecord instrumentation
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Installing DelayedJob instrumentation
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Installing middleware-based Excon instrumentation
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Installing Dalli Memcache instrumentation
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Installing Net instrumentation
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Installing Rails 3 Controller instrumentation
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Installing Rails3 Error instrumentation
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : Finished instrumentation
+[07/12/13 09:48:18 -0500 BruceAckerman.local (88125)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Reading configuration from 
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Enabling the Request Sampler.
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Environment: development
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Dispatcher: thin
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Application: development
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Installing DelayedJob instrumentation
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Installing Net instrumentation
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : Finished instrumentation
+[07/17/13 09:39:34 -0500 BruceAckerman.local (33021)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Reading configuration from 
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Enabling the Request Sampler.
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Environment: development
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Dispatcher: thin
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Application: development
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Installing DelayedJob instrumentation
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Installing Net instrumentation
+[07/17/13 09:40:50 -0500 BruceAckerman.local (33191)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 09:40:51 -0500 BruceAckerman.local (33191)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 09:40:51 -0500 BruceAckerman.local (33191)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 09:40:51 -0500 BruceAckerman.local (33191)] INFO : Finished instrumentation
+[07/17/13 09:40:51 -0500 BruceAckerman.local (33191)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 09:42:43 -0500 BruceAckerman.local (33237)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 09:42:43 -0500 BruceAckerman.local (33237)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 09:42:43 -0500 BruceAckerman.local (33237)] INFO : Reading configuration from 
+[07/17/13 09:42:43 -0500 BruceAckerman.local (33237)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 09:42:43 -0500 BruceAckerman.local (33237)] INFO : Enabling the Request Sampler.
+[07/17/13 09:42:43 -0500 BruceAckerman.local (33237)] INFO : Environment: development
+[07/17/13 09:42:43 -0500 BruceAckerman.local (33237)] INFO : Dispatcher: thin
+[07/17/13 09:42:43 -0500 BruceAckerman.local (33237)] INFO : Application: development
+[07/17/13 09:42:43 -0500 BruceAckerman.local (33237)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 09:42:43 -0500 BruceAckerman.local (33237)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 09:42:43 -0500 BruceAckerman.local (33237)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 09:42:43 -0500 BruceAckerman.local (33237)] INFO : Installing DelayedJob instrumentation
+[07/17/13 09:42:44 -0500 BruceAckerman.local (33237)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 09:42:44 -0500 BruceAckerman.local (33237)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 09:42:44 -0500 BruceAckerman.local (33237)] INFO : Installing Net instrumentation
+[07/17/13 09:42:44 -0500 BruceAckerman.local (33237)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 09:42:44 -0500 BruceAckerman.local (33237)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 09:42:44 -0500 BruceAckerman.local (33237)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 09:42:44 -0500 BruceAckerman.local (33237)] INFO : Finished instrumentation
+[07/17/13 09:42:44 -0500 BruceAckerman.local (33237)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Reading configuration from 
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Enabling the Request Sampler.
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Environment: development
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Dispatcher: thin
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Application: development
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Installing DelayedJob instrumentation
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Installing Net instrumentation
+[07/17/13 10:41:06 -0500 BruceAckerman.local (34179)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 10:41:07 -0500 BruceAckerman.local (34179)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 10:41:07 -0500 BruceAckerman.local (34179)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 10:41:07 -0500 BruceAckerman.local (34179)] INFO : Finished instrumentation
+[07/17/13 10:41:07 -0500 BruceAckerman.local (34179)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Reading configuration from 
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Enabling the Request Sampler.
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Environment: development
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Dispatcher: thin
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Application: development
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Installing DelayedJob instrumentation
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Installing Net instrumentation
+[07/17/13 10:46:11 -0500 BruceAckerman.local (34275)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 10:46:12 -0500 BruceAckerman.local (34275)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 10:46:12 -0500 BruceAckerman.local (34275)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 10:46:12 -0500 BruceAckerman.local (34275)] INFO : Finished instrumentation
+[07/17/13 10:46:12 -0500 BruceAckerman.local (34275)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Reading configuration from 
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Enabling the Request Sampler.
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Environment: development
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Dispatcher: thin
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Application: development
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Installing DelayedJob instrumentation
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Installing Net instrumentation
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : Finished instrumentation
+[07/17/13 10:47:01 -0500 BruceAckerman.local (34294)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Reading configuration from 
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Enabling the Request Sampler.
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Environment: development
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Dispatcher: thin
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Application: development
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Installing DelayedJob instrumentation
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Installing Net instrumentation
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : Finished instrumentation
+[07/17/13 10:47:38 -0500 BruceAckerman.local (34307)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Reading configuration from 
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Enabling the Request Sampler.
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Environment: development
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Dispatcher: thin
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Application: development
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Installing DelayedJob instrumentation
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Installing Net instrumentation
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : Finished instrumentation
+[07/17/13 11:18:38 -0500 BruceAckerman.local (2857)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Reading configuration from 
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Enabling the Request Sampler.
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Environment: development
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Dispatcher: thin
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Application: development
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Installing DelayedJob instrumentation
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Installing Net instrumentation
+[07/17/13 11:21:53 -0500 BruceAckerman.local (2993)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 11:21:54 -0500 BruceAckerman.local (2993)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 11:21:54 -0500 BruceAckerman.local (2993)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 11:21:54 -0500 BruceAckerman.local (2993)] INFO : Finished instrumentation
+[07/17/13 11:21:54 -0500 BruceAckerman.local (2993)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Reading configuration from 
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Enabling the Request Sampler.
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Environment: development
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Dispatcher: thin
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Application: development
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Installing DelayedJob instrumentation
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Installing Net instrumentation
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : Finished instrumentation
+[07/17/13 11:25:40 -0500 BruceAckerman.local (3110)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Reading configuration from 
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Enabling the Request Sampler.
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Environment: development
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Dispatcher: thin
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Application: development
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Installing DelayedJob instrumentation
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Installing Net instrumentation
+[07/17/13 11:26:01 -0500 BruceAckerman.local (3118)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 11:26:02 -0500 BruceAckerman.local (3118)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 11:26:02 -0500 BruceAckerman.local (3118)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 11:26:02 -0500 BruceAckerman.local (3118)] INFO : Finished instrumentation
+[07/17/13 11:26:02 -0500 BruceAckerman.local (3118)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Reading configuration from 
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Enabling the Request Sampler.
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Environment: development
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Dispatcher: thin
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Application: development
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Installing DelayedJob instrumentation
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Installing Net instrumentation
+[07/17/13 11:28:21 -0500 BruceAckerman.local (3144)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 11:28:22 -0500 BruceAckerman.local (3144)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 11:28:22 -0500 BruceAckerman.local (3144)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 11:28:22 -0500 BruceAckerman.local (3144)] INFO : Finished instrumentation
+[07/17/13 11:28:22 -0500 BruceAckerman.local (3144)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Reading configuration from 
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Enabling the Request Sampler.
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Environment: development
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Dispatcher: thin
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Application: development
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Installing DelayedJob instrumentation
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Installing Net instrumentation
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : Finished instrumentation
+[07/17/13 11:31:36 -0500 BruceAckerman.local (3179)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Reading configuration from 
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Enabling the Request Sampler.
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Environment: development
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Dispatcher: thin
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Application: development
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Installing DelayedJob instrumentation
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Installing Net instrumentation
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : Finished instrumentation
+[07/17/13 11:32:16 -0500 BruceAckerman.local (3193)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Reading configuration from 
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Enabling the Request Sampler.
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Environment: development
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Dispatcher: thin
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Application: development
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Installing DelayedJob instrumentation
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Installing Net instrumentation
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : Finished instrumentation
+[07/17/13 11:32:50 -0500 BruceAckerman.local (3202)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Reading configuration from 
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Enabling the Request Sampler.
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Environment: development
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Dispatcher: thin
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Application: development
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Installing DelayedJob instrumentation
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Installing Net instrumentation
+[07/17/13 11:33:08 -0500 BruceAckerman.local (3209)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 11:33:09 -0500 BruceAckerman.local (3209)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 11:33:09 -0500 BruceAckerman.local (3209)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 11:33:09 -0500 BruceAckerman.local (3209)] INFO : Finished instrumentation
+[07/17/13 11:33:09 -0500 BruceAckerman.local (3209)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Reading configuration from 
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Enabling the Request Sampler.
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Environment: development
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Dispatcher: thin
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Application: development
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Installing DelayedJob instrumentation
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Installing Net instrumentation
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : Finished instrumentation
+[07/17/13 11:39:34 -0500 BruceAckerman.local (3292)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Reading configuration from 
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Enabling the Request Sampler.
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Environment: development
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Dispatcher: thin
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Application: development
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Installing DelayedJob instrumentation
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Installing Net instrumentation
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : Finished instrumentation
+[07/17/13 12:01:41 -0500 BruceAckerman.local (3618)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 12:11:10 -0500 BruceAckerman.local (6098)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 12:11:10 -0500 BruceAckerman.local (6098)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 12:11:10 -0500 BruceAckerman.local (6098)] INFO : Reading configuration from 
+[07/17/13 12:11:10 -0500 BruceAckerman.local (6098)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 12:11:10 -0500 BruceAckerman.local (6098)] INFO : Enabling the Request Sampler.
+[07/17/13 12:11:10 -0500 BruceAckerman.local (6098)] INFO : Environment: development
+[07/17/13 12:11:10 -0500 BruceAckerman.local (6098)] INFO : Dispatcher: thin
+[07/17/13 12:11:10 -0500 BruceAckerman.local (6098)] INFO : Application: development
+[07/17/13 12:11:10 -0500 BruceAckerman.local (6098)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 12:11:11 -0500 BruceAckerman.local (6098)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 12:11:11 -0500 BruceAckerman.local (6098)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 12:11:11 -0500 BruceAckerman.local (6098)] INFO : Installing DelayedJob instrumentation
+[07/17/13 12:11:11 -0500 BruceAckerman.local (6098)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 12:11:11 -0500 BruceAckerman.local (6098)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 12:11:11 -0500 BruceAckerman.local (6098)] INFO : Installing Net instrumentation
+[07/17/13 12:11:11 -0500 BruceAckerman.local (6098)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 12:11:11 -0500 BruceAckerman.local (6098)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 12:11:11 -0500 BruceAckerman.local (6098)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 12:11:11 -0500 BruceAckerman.local (6098)] INFO : Finished instrumentation
+[07/17/13 12:11:11 -0500 BruceAckerman.local (6098)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Reading configuration from 
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Enabling the Request Sampler.
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Environment: development
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Dispatcher: thin
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Application: development
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Installing DelayedJob instrumentation
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Installing Net instrumentation
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : Finished instrumentation
+[07/17/13 12:15:51 -0500 BruceAckerman.local (6270)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Reading configuration from 
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Enabling the Request Sampler.
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Environment: development
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Dispatcher: thin
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Application: development
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Installing DelayedJob instrumentation
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Installing Net instrumentation
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : Finished instrumentation
+[07/17/13 12:26:45 -0500 BruceAckerman.local (6380)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Reading configuration from 
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Enabling the Request Sampler.
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Environment: development
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Dispatcher: thin
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Application: development
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Installing DelayedJob instrumentation
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Installing Net instrumentation
+[07/17/13 12:27:20 -0500 BruceAckerman.local (6394)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 12:27:21 -0500 BruceAckerman.local (6394)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 12:27:21 -0500 BruceAckerman.local (6394)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 12:27:21 -0500 BruceAckerman.local (6394)] INFO : Finished instrumentation
+[07/17/13 12:27:21 -0500 BruceAckerman.local (6394)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Reading configuration from 
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Enabling the Request Sampler.
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Environment: development
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Dispatcher: thin
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Application: development
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Installing DelayedJob instrumentation
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Installing Net instrumentation
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : Finished instrumentation
+[07/17/13 12:30:45 -0500 BruceAckerman.local (6442)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Reading configuration from 
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Enabling the Request Sampler.
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Environment: development
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Dispatcher: thin
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Application: development
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Installing DelayedJob instrumentation
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Installing Net instrumentation
+[07/17/13 12:31:26 -0500 BruceAckerman.local (6457)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 12:31:27 -0500 BruceAckerman.local (6457)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 12:31:27 -0500 BruceAckerman.local (6457)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 12:31:27 -0500 BruceAckerman.local (6457)] INFO : Finished instrumentation
+[07/17/13 12:31:27 -0500 BruceAckerman.local (6457)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Reading configuration from 
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Enabling the Request Sampler.
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Environment: development
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Dispatcher: thin
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Application: development
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Installing DelayedJob instrumentation
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Installing Net instrumentation
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : Finished instrumentation
+[07/17/13 18:59:22 -0500 BruceAckerman.local (10448)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] INFO : Reading configuration from 
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] INFO : Enabling the Request Sampler.
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] INFO : Environment: development
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] INFO : Dispatcher: thin
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] INFO : Application: development
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] INFO : Installing DelayedJob instrumentation
+[07/17/13 19:31:15 -0500 BruceAckerman.local (11153)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 19:31:16 -0500 BruceAckerman.local (11153)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 19:31:16 -0500 BruceAckerman.local (11153)] INFO : Installing Net instrumentation
+[07/17/13 19:31:16 -0500 BruceAckerman.local (11153)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 19:31:16 -0500 BruceAckerman.local (11153)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 19:31:16 -0500 BruceAckerman.local (11153)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 19:31:16 -0500 BruceAckerman.local (11153)] INFO : Finished instrumentation
+[07/17/13 19:31:16 -0500 BruceAckerman.local (11153)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Reading configuration from 
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Enabling the Request Sampler.
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Environment: development
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Dispatcher: thin
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Application: development
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Installing DelayedJob instrumentation
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Installing Net instrumentation
+[07/17/13 19:34:06 -0500 BruceAckerman.local (13876)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 19:34:07 -0500 BruceAckerman.local (13876)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 19:34:07 -0500 BruceAckerman.local (13876)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 19:34:07 -0500 BruceAckerman.local (13876)] INFO : Finished instrumentation
+[07/17/13 19:34:07 -0500 BruceAckerman.local (13876)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Reading configuration from 
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Enabling the Request Sampler.
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Environment: development
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Dispatcher: thin
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Application: development
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Installing DelayedJob instrumentation
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Installing Net instrumentation
+[07/17/13 20:58:24 -0500 BruceAckerman.local (14657)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 20:58:25 -0500 BruceAckerman.local (14657)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 20:58:25 -0500 BruceAckerman.local (14657)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 20:58:25 -0500 BruceAckerman.local (14657)] INFO : Finished instrumentation
+[07/17/13 20:58:25 -0500 BruceAckerman.local (14657)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Reading configuration from 
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Enabling the Request Sampler.
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Environment: development
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Dispatcher: thin
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Application: development
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Installing DelayedJob instrumentation
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Installing Net instrumentation
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : Finished instrumentation
+[07/17/13 22:31:24 -0500 BruceAckerman.local (16488)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Reading configuration from 
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Enabling the Request Sampler.
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Environment: development
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Dispatcher: thin
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Application: development
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Installing DelayedJob instrumentation
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Installing Net instrumentation
+[07/17/13 22:32:05 -0500 BruceAckerman.local (16499)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 22:32:06 -0500 BruceAckerman.local (16499)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 22:32:06 -0500 BruceAckerman.local (16499)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 22:32:06 -0500 BruceAckerman.local (16499)] INFO : Finished instrumentation
+[07/17/13 22:32:06 -0500 BruceAckerman.local (16499)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Reading configuration from 
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Enabling the Request Sampler.
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Environment: development
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Dispatcher: thin
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Application: development
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Installing DelayedJob instrumentation
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Installing Net instrumentation
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : Finished instrumentation
+[07/17/13 22:32:47 -0500 BruceAckerman.local (16508)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Reading configuration from 
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Enabling the Request Sampler.
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Environment: development
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Dispatcher: thin
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Application: development
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Installing DelayedJob instrumentation
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Installing Net instrumentation
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : Finished instrumentation
+[07/17/13 22:33:54 -0500 BruceAckerman.local (16523)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Reading configuration from 
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Enabling the Request Sampler.
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Environment: development
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Dispatcher: thin
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Application: development
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Installing DelayedJob instrumentation
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Installing Net instrumentation
+[07/17/13 22:34:53 -0500 BruceAckerman.local (16538)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 22:34:54 -0500 BruceAckerman.local (16538)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 22:34:54 -0500 BruceAckerman.local (16538)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 22:34:54 -0500 BruceAckerman.local (16538)] INFO : Finished instrumentation
+[07/17/13 22:34:54 -0500 BruceAckerman.local (16538)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Reading configuration from 
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Enabling the Request Sampler.
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Environment: development
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Dispatcher: thin
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Application: development
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Installing DelayedJob instrumentation
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Installing Net instrumentation
+[07/17/13 22:35:18 -0500 BruceAckerman.local (16544)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 22:35:19 -0500 BruceAckerman.local (16544)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 22:35:19 -0500 BruceAckerman.local (16544)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 22:35:19 -0500 BruceAckerman.local (16544)] INFO : Finished instrumentation
+[07/17/13 22:35:19 -0500 BruceAckerman.local (16544)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Starting the New Relic agent in "development" environment.
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Reading configuration from 
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Enabling the Request Sampler.
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Environment: development
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Dispatcher: thin
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Application: development
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Installing DelayedJob instrumentation hooks
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Installing ActiveRecord instrumentation
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Installing DelayedJob instrumentation
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Installing middleware-based Excon instrumentation
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Installing Dalli Memcache instrumentation
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Installing Net instrumentation
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Installing Rails 3 Controller instrumentation
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Installing Rails3 Error instrumentation
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : Finished instrumentation
+[07/17/13 22:38:01 -0500 BruceAckerman.local (16573)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Starting the New Relic agent in "development" environment.
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Reading configuration from 
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Enabling the Request Sampler.
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Environment: development
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Dispatcher: thin
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Application: development
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Installing DelayedJob instrumentation hooks
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Installing ActiveRecord instrumentation
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Installing DelayedJob instrumentation
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Installing middleware-based Excon instrumentation
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Installing Dalli Memcache instrumentation
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Installing Net instrumentation
+[07/18/13 09:32:10 -0500 BruceAckerman.local (17358)] INFO : Installing Rails 3 Controller instrumentation
+[07/18/13 09:32:11 -0500 BruceAckerman.local (17358)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/18/13 09:32:11 -0500 BruceAckerman.local (17358)] INFO : Installing Rails3 Error instrumentation
+[07/18/13 09:32:11 -0500 BruceAckerman.local (17358)] INFO : Finished instrumentation
+[07/18/13 09:32:11 -0500 BruceAckerman.local (17358)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Starting the New Relic agent in "development" environment.
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Reading configuration from 
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Enabling the Request Sampler.
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Environment: development
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Dispatcher: thin
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Application: development
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Installing DelayedJob instrumentation hooks
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Installing ActiveRecord instrumentation
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Installing DelayedJob instrumentation
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Installing middleware-based Excon instrumentation
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Installing Dalli Memcache instrumentation
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Installing Net instrumentation
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Installing Rails 3 Controller instrumentation
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Installing Rails3 Error instrumentation
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : Finished instrumentation
+[07/21/13 19:59:24 -0500 BruceAckerman.local (40460)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Starting the New Relic agent in "development" environment.
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Reading configuration from 
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] ERROR : Unable to read configuration file : can't convert nil into String
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Enabling the Request Sampler.
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Environment: development
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Dispatcher: thin
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Application: development
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Installing DelayedJob instrumentation hooks
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Installing ActiveRecord instrumentation
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Installing DelayedJob instrumentation
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Installing middleware-based Excon instrumentation
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Installing Dalli Memcache instrumentation
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Installing Net instrumentation
+[07/22/13 10:32:56 -0500 BruceAckerman.local (43746)] INFO : Installing Rails 3 Controller instrumentation
+[07/22/13 10:32:57 -0500 BruceAckerman.local (43746)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/22/13 10:32:57 -0500 BruceAckerman.local (43746)] INFO : Installing Rails3 Error instrumentation
+[07/22/13 10:32:57 -0500 BruceAckerman.local (43746)] INFO : Finished instrumentation
+[07/22/13 10:32:57 -0500 BruceAckerman.local (43746)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Starting the New Relic agent in "development" environment.
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Reading configuration from 
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Enabling the Request Sampler.
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Environment: development
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Dispatcher: thin
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Application: development
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Installing DelayedJob instrumentation hooks
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Installing ActiveRecord instrumentation
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Installing DelayedJob instrumentation
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Installing middleware-based Excon instrumentation
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Installing Dalli Memcache instrumentation
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Installing Net instrumentation
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Installing Rails 3 Controller instrumentation
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Installing Rails3 Error instrumentation
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : Finished instrumentation
+[08/13/13 21:44:07 -0500 BruceAckerman.local (98863)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Starting the New Relic agent in "production" environment.
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "production" section of your newrelic.yml.
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Reading configuration from 
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Enabling the Request Sampler.
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Environment: production
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : No known dispatcher detected.
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Application: production
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'production'
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Installing DelayedJob instrumentation hooks
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Installing ActiveRecord instrumentation
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Installing DelayedJob instrumentation
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Installing middleware-based Excon instrumentation
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Installing Dalli Memcache instrumentation
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Installing Net instrumentation
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Installing Unicorn instrumentation
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[08/13/13 21:58:16 -0500 BruceAckerman.local (99279)] INFO : Installing Rails 3 Controller instrumentation
+[08/13/13 21:58:17 -0500 BruceAckerman.local (99279)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/13/13 21:58:17 -0500 BruceAckerman.local (99279)] INFO : Installing Rails3 Error instrumentation
+[08/13/13 21:58:17 -0500 BruceAckerman.local (99279)] INFO : Finished instrumentation
+[08/13/13 21:58:17 -0500 BruceAckerman.local (99279)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present

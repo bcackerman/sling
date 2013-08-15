@@ -1,0 +1,10 @@
+== Setup
+1.  bundle; rake db:migrate; rails -p 3003;
+
+david@beforeprinting.com
+arpan
+polish publisher dude
+kevin yun
+kyle m
+
+https://docs.google.com/forms/d/10j78fjvW0SbFUfOIYi09N4OhL6oYrMzIByzBm2GAY08/viewform 
