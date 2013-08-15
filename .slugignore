@@ -1,0 +1,10 @@
+*.psd
+*.pdf
+*.docx
+*.mp3
+*.mp4
+*.wav
+test
+spec
+log
+tmp
