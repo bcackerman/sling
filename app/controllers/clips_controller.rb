@@ -46,7 +46,12 @@ class ClipsController < ApplicationController
   # POST /clips
   # POST /clips.json
   def create
-    @clip = Clip.new(params[:clip].merge(user_id: current_user.id))
+    user = User.where(token: params[:token]).first
+    if user.present?
+      @clip = Clip.new(params[:clip]) #params[:token]
+    else
+      false
+    end
 
     respond_to do |format|
       if @clip.save!

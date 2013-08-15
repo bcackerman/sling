@@ -30,9 +30,9 @@ class User < ActiveRecord::Base
 
   has_many :clips
 
-  # validates :public_hash, :presence => true, :uniqueness => true
+  validates :token, :presence => true, :uniqueness => true
 
-  after_validation :generate_token, :on => :create
+  before_validation :generate_token, :on => :create
 
   protected
     def generate_token

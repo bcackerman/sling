@@ -26,6 +26,7 @@ class Clip < ActiveRecord::Base
   validates_presence_of :user_id
 
   before_validation :generate_shortlink, on: :create
+  before_validation :set_user_id, on: :create
 
   is_impressionable :counter_cache => true
 
@@ -34,11 +35,15 @@ class Clip < ActiveRecord::Base
   end
   
   def set_duration(format, opts)
-
   end
+
 
   protected
     def generate_shortlink
       self.shortlink = SecureRandom.hex(3)
     end
+
+    def set_user_id
+      user_id = User.where(token: token).first
+    end 
 end
