@@ -81926,3 +81926,1565 @@ Served asset /application.js - 304 Not Modified (1ms)
 Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-08-13 21:50:26 -0500
 Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-14 20:11:11 -0500
+Processing by HomeController#index as HTML
+  [1m[36m (11.3ms)[0m  [1mSELECT COUNT(*) FROM "clips" [0m
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+  Rendered layouts/partials/_meta-stuff.html.erb (0.5ms)
+  Rendered layouts/partials/_header.html.erb (18.4ms)
+  Rendered layouts/partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 466ms (Views: 209.6ms | ActiveRecord: 11.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home/banner.jpg" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /home/banner.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /retina.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:12 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-08-14 20:11:14 -0500
+Processing by Devise::RegistrationsController#new as HTML
+DEPRECATION WARNING: Layout found at "devise" for DeviseController but parent controller set layout to :layout_by_resource. Please explicitly set your layout to "devise" or set it to nil to force a dynamic lookup. (called from realtime at /Users/bruceackerman/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295)
+  Rendered devise/shared/_links.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/devise (16.7ms)
+  Rendered layouts/partials/_meta-stuff.html.erb (0.0ms)
+Completed 200 OK in 793ms (Views: 37.7ms | ActiveRecord: 23.8ms)
+
+
+Started GET "/assets/devise.css?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /devise.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /retina.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 20:11:15 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-08-14 20:11:20 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lPTwvNOfM/KJ51yzaRoAgnyPsbGcoSEZbn8TTx6Iu7s=", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (11.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'a@a.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 396ms
+
+NoMethodError - undefined method `public_hash' for #<User:0x007ff9689ddd48>:
+  activemodel (3.2.13) lib/active_model/attribute_methods.rb:407:in `method_missing'
+  activerecord (3.2.13) lib/active_record/attribute_methods.rb:149:in `method_missing'
+  activemodel (3.2.13) lib/active_model/errors.rb:254:in `block in add_on_blank'
+  activemodel (3.2.13) lib/active_model/errors.rb:253:in `add_on_blank'
+  activemodel (3.2.13) lib/active_model/validations/presence.rb:8:in `validate'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:310:in `_callback_before_311'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:484:in `_run__2709655965310523161__validate__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_validate_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activemodel (3.2.13) lib/active_model/validations.rb:228:in `run_validations!'
+  activemodel (3.2.13) lib/active_model/validations/callbacks.rb:53:in `block in run_validations!'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:436:in `_run__2709655965310523161__validation__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_validation_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activemodel (3.2.13) lib/active_model/validations/callbacks.rb:53:in `run_validations!'
+  activemodel (3.2.13) lib/active_model/validations.rb:195:in `valid?'
+  activerecord (3.2.13) lib/active_record/validations.rb:69:in `valid?'
+  activerecord (3.2.13) lib/active_record/validations.rb:77:in `perform_validations'
+  activerecord (3.2.13) lib/active_record/validations.rb:50:in `save'
+  activerecord (3.2.13) lib/active_record/attribute_methods/dirty.rb:22:in `save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:259:in `block (2 levels) in save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:313:in `block in with_transaction_returning_status'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/database_statements.rb:192:in `transaction'
+  activerecord (3.2.13) lib/active_record/transactions.rb:208:in `transaction'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:518:in `block in transaction_with_trace_ActiveRecord_self_name_transaction'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:268:in `trace_execution_scoped'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:513:in `transaction_with_trace_ActiveRecord_self_name_transaction'
+  activerecord (3.2.13) lib/active_record/transactions.rb:311:in `with_transaction_returning_status'
+  activerecord (3.2.13) lib/active_record/transactions.rb:259:in `block in save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:270:in `rollback_active_record_state!'
+  activerecord (3.2.13) lib/active_record/transactions.rb:258:in `save'
+  devise (2.2.4) app/controllers/devise/registrations_controller.rb:15:in `create'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:447:in `_run__3744736500095549354__process_action__2051670359003857173__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/rails3/action_controller.rb:38:in `block in process_action'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/controller_instrumentation.rb:318:in `perform_action_with_newrelic_trace'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/rails3/action_controller.rb:37:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/mapper.rb:42:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  bullet (4.6.0) lib/bullet/rack.rb:10:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/error_collector.rb:12:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/agent_hooks.rb:22:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/browser_monitoring.rb:16:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1649816326623177175__call__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  airbrake (3.1.12) lib/airbrake/rails/middleware.rb:13:in `call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  airbrake (3.1.12) lib/airbrake/user_informer.rb:16:in `_call'
+  airbrake (3.1.12) lib/airbrake/user_informer.rb:12:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.13) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.13) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.13) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+  script/rails:0:in `<main>'
+
+
+
+Started POST "/__better_errors/70354592482100/variables" for 127.0.0.1 at 2013-08-14 20:11:21 -0500
+
+
+Started POST "/users" for 127.0.0.1 at 2013-08-14 20:12:03 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lPTwvNOfM/KJ51yzaRoAgnyPsbGcoSEZbn8TTx6Iu7s=", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'a@a.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 301ms
+
+NoMethodError - undefined method `public_hash' for #<User:0x007ff965974df0>:
+  activemodel (3.2.13) lib/active_model/attribute_methods.rb:407:in `method_missing'
+  activerecord (3.2.13) lib/active_record/attribute_methods.rb:149:in `method_missing'
+  activemodel (3.2.13) lib/active_model/errors.rb:254:in `block in add_on_blank'
+  activemodel (3.2.13) lib/active_model/errors.rb:253:in `add_on_blank'
+  activemodel (3.2.13) lib/active_model/validations/presence.rb:8:in `validate'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:310:in `_callback_before_377'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:484:in `_run__2709655965310523161__validate__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_validate_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activemodel (3.2.13) lib/active_model/validations.rb:228:in `run_validations!'
+  activemodel (3.2.13) lib/active_model/validations/callbacks.rb:53:in `block in run_validations!'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:425:in `_run__2709655965310523161__validation__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_validation_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activemodel (3.2.13) lib/active_model/validations/callbacks.rb:53:in `run_validations!'
+  activemodel (3.2.13) lib/active_model/validations.rb:195:in `valid?'
+  activerecord (3.2.13) lib/active_record/validations.rb:69:in `valid?'
+  activerecord (3.2.13) lib/active_record/validations.rb:77:in `perform_validations'
+  activerecord (3.2.13) lib/active_record/validations.rb:50:in `save'
+  activerecord (3.2.13) lib/active_record/attribute_methods/dirty.rb:22:in `save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:259:in `block (2 levels) in save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:313:in `block in with_transaction_returning_status'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/database_statements.rb:192:in `transaction'
+  activerecord (3.2.13) lib/active_record/transactions.rb:208:in `transaction'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:518:in `block in transaction_with_trace_ActiveRecord_self_name_transaction'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:268:in `trace_execution_scoped'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:513:in `transaction_with_trace_ActiveRecord_self_name_transaction'
+  activerecord (3.2.13) lib/active_record/transactions.rb:311:in `with_transaction_returning_status'
+  activerecord (3.2.13) lib/active_record/transactions.rb:259:in `block in save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:270:in `rollback_active_record_state!'
+  activerecord (3.2.13) lib/active_record/transactions.rb:258:in `save'
+  devise (2.2.4) app/controllers/devise/registrations_controller.rb:15:in `create'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:447:in `_run__3744736500095549354__process_action__2051670359003857173__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/rails3/action_controller.rb:38:in `block in process_action'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/controller_instrumentation.rb:318:in `perform_action_with_newrelic_trace'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/rails3/action_controller.rb:37:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/mapper.rb:42:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  bullet (4.6.0) lib/bullet/rack.rb:10:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/error_collector.rb:12:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/agent_hooks.rb:22:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/browser_monitoring.rb:16:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1649816326623177175__call__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  airbrake (3.1.12) lib/airbrake/rails/middleware.rb:13:in `call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  airbrake (3.1.12) lib/airbrake/user_informer.rb:16:in `_call'
+  airbrake (3.1.12) lib/airbrake/user_informer.rb:12:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.13) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.13) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.13) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+  script/rails:0:in `<main>'
+
+
+
+Started POST "/__better_errors/70354546828420/variables" for 127.0.0.1 at 2013-08-14 20:12:04 -0500
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Processing by Devise::RegistrationsController#new as HTML
+DEPRECATION WARNING: Layout found at "devise" for DeviseController but parent controller set layout to :layout_by_resource. Please explicitly set your layout to "devise" or set it to nil to force a dynamic lookup. (called from realtime at /Users/bruceackerman/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295)
+  Rendered devise/shared/_links.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/devise (9.2ms)
+  Rendered layouts/partials/_meta-stuff.html.erb (0.0ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/devise.css?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /devise.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:06 -0500
+Served asset /retina.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 20:12:07 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-08-14 20:12:12 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lPTwvNOfM/KJ51yzaRoAgnyPsbGcoSEZbn8TTx6Iu7s=", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'a@a.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 265ms
+
+NoMethodError - undefined method `public_hash' for #<User:0x007ff968928f60>:
+  activemodel (3.2.13) lib/active_model/attribute_methods.rb:407:in `method_missing'
+  activerecord (3.2.13) lib/active_record/attribute_methods.rb:149:in `method_missing'
+  activemodel (3.2.13) lib/active_model/errors.rb:254:in `block in add_on_blank'
+  activemodel (3.2.13) lib/active_model/errors.rb:253:in `add_on_blank'
+  activemodel (3.2.13) lib/active_model/validations/presence.rb:8:in `validate'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:310:in `_callback_before_377'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:484:in `_run__2709655965310523161__validate__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_validate_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activemodel (3.2.13) lib/active_model/validations.rb:228:in `run_validations!'
+  activemodel (3.2.13) lib/active_model/validations/callbacks.rb:53:in `block in run_validations!'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:425:in `_run__2709655965310523161__validation__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_validation_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activemodel (3.2.13) lib/active_model/validations/callbacks.rb:53:in `run_validations!'
+  activemodel (3.2.13) lib/active_model/validations.rb:195:in `valid?'
+  activerecord (3.2.13) lib/active_record/validations.rb:69:in `valid?'
+  activerecord (3.2.13) lib/active_record/validations.rb:77:in `perform_validations'
+  activerecord (3.2.13) lib/active_record/validations.rb:50:in `save'
+  activerecord (3.2.13) lib/active_record/attribute_methods/dirty.rb:22:in `save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:259:in `block (2 levels) in save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:313:in `block in with_transaction_returning_status'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/database_statements.rb:192:in `transaction'
+  activerecord (3.2.13) lib/active_record/transactions.rb:208:in `transaction'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:518:in `block in transaction_with_trace_ActiveRecord_self_name_transaction'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:268:in `trace_execution_scoped'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:513:in `transaction_with_trace_ActiveRecord_self_name_transaction'
+  activerecord (3.2.13) lib/active_record/transactions.rb:311:in `with_transaction_returning_status'
+  activerecord (3.2.13) lib/active_record/transactions.rb:259:in `block in save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:270:in `rollback_active_record_state!'
+  activerecord (3.2.13) lib/active_record/transactions.rb:258:in `save'
+  devise (2.2.4) app/controllers/devise/registrations_controller.rb:15:in `create'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:447:in `_run__3744736500095549354__process_action__2051670359003857173__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/rails3/action_controller.rb:38:in `block in process_action'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/controller_instrumentation.rb:318:in `perform_action_with_newrelic_trace'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/rails3/action_controller.rb:37:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/mapper.rb:42:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  bullet (4.6.0) lib/bullet/rack.rb:10:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/error_collector.rb:12:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/agent_hooks.rb:22:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/browser_monitoring.rb:16:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1649816326623177175__call__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  airbrake (3.1.12) lib/airbrake/rails/middleware.rb:13:in `call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  airbrake (3.1.12) lib/airbrake/user_informer.rb:16:in `_call'
+  airbrake (3.1.12) lib/airbrake/user_informer.rb:12:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.13) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.13) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.13) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+  script/rails:0:in `<main>'
+
+
+
+Started POST "/__better_errors/70354563313800/variables" for 127.0.0.1 at 2013-08-14 20:12:12 -0500
+
+
+Started POST "/__better_errors/70354563313800/eval" for 127.0.0.1 at 2013-08-14 20:12:16 -0500
+
+
+Started POST "/users" for 127.0.0.1 at 2013-08-14 20:15:42 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lPTwvNOfM/KJ51yzaRoAgnyPsbGcoSEZbn8TTx6Iu7s=", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'a@a.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 300ms
+
+NoMethodError - undefined method `public_hash' for #<User:0x007ff9657e4710>:
+  activemodel (3.2.13) lib/active_model/attribute_methods.rb:407:in `method_missing'
+  activerecord (3.2.13) lib/active_record/attribute_methods.rb:149:in `method_missing'
+  activemodel (3.2.13) lib/active_model/errors.rb:254:in `block in add_on_blank'
+  activemodel (3.2.13) lib/active_model/errors.rb:253:in `add_on_blank'
+  activemodel (3.2.13) lib/active_model/validations/presence.rb:8:in `validate'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:310:in `_callback_before_436'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:484:in `_run__2709655965310523161__validate__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_validate_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activemodel (3.2.13) lib/active_model/validations.rb:228:in `run_validations!'
+  activemodel (3.2.13) lib/active_model/validations/callbacks.rb:53:in `block in run_validations!'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:436:in `_run__2709655965310523161__validation__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_validation_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activemodel (3.2.13) lib/active_model/validations/callbacks.rb:53:in `run_validations!'
+  activemodel (3.2.13) lib/active_model/validations.rb:195:in `valid?'
+  activerecord (3.2.13) lib/active_record/validations.rb:69:in `valid?'
+  activerecord (3.2.13) lib/active_record/validations.rb:77:in `perform_validations'
+  activerecord (3.2.13) lib/active_record/validations.rb:50:in `save'
+  activerecord (3.2.13) lib/active_record/attribute_methods/dirty.rb:22:in `save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:259:in `block (2 levels) in save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:313:in `block in with_transaction_returning_status'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/database_statements.rb:192:in `transaction'
+  activerecord (3.2.13) lib/active_record/transactions.rb:208:in `transaction'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:518:in `block in transaction_with_trace_ActiveRecord_self_name_transaction'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:268:in `trace_execution_scoped'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:513:in `transaction_with_trace_ActiveRecord_self_name_transaction'
+  activerecord (3.2.13) lib/active_record/transactions.rb:311:in `with_transaction_returning_status'
+  activerecord (3.2.13) lib/active_record/transactions.rb:259:in `block in save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:270:in `rollback_active_record_state!'
+  activerecord (3.2.13) lib/active_record/transactions.rb:258:in `save'
+  devise (2.2.4) app/controllers/devise/registrations_controller.rb:15:in `create'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:447:in `_run__3744736500095549354__process_action__2051670359003857173__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/rails3/action_controller.rb:38:in `block in process_action'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/controller_instrumentation.rb:318:in `perform_action_with_newrelic_trace'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/rails3/action_controller.rb:37:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/mapper.rb:42:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  bullet (4.6.0) lib/bullet/rack.rb:10:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/error_collector.rb:12:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/agent_hooks.rb:22:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/browser_monitoring.rb:16:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1649816326623177175__call__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  airbrake (3.1.12) lib/airbrake/rails/middleware.rb:13:in `call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  airbrake (3.1.12) lib/airbrake/user_informer.rb:16:in `_call'
+  airbrake (3.1.12) lib/airbrake/user_informer.rb:12:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.13) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.13) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.13) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+  script/rails:0:in `<main>'
+
+
+
+Started POST "/__better_errors/70354528098080/variables" for 127.0.0.1 at 2013-08-14 20:15:43 -0500
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Processing by Devise::RegistrationsController#new as HTML
+DEPRECATION WARNING: Layout found at "devise" for DeviseController but parent controller set layout to :layout_by_resource. Please explicitly set your layout to "devise" or set it to nil to force a dynamic lookup. (called from realtime at /Users/bruceackerman/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295)
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/devise (7.4ms)
+  Rendered layouts/partials/_meta-stuff.html.erb (0.0ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/devise.css?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /devise.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /retina.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 20:15:52 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-08-14 20:15:59 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lPTwvNOfM/KJ51yzaRoAgnyPsbGcoSEZbn8TTx6Iu7s=", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'a@a.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 263ms
+
+NoMethodError - undefined method `public_hash' for #<User:0x007ff9657567f8>:
+  activemodel (3.2.13) lib/active_model/attribute_methods.rb:407:in `method_missing'
+  activerecord (3.2.13) lib/active_record/attribute_methods.rb:149:in `method_missing'
+  activemodel (3.2.13) lib/active_model/errors.rb:254:in `block in add_on_blank'
+  activemodel (3.2.13) lib/active_model/errors.rb:253:in `add_on_blank'
+  activemodel (3.2.13) lib/active_model/validations/presence.rb:8:in `validate'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:310:in `_callback_before_436'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:484:in `_run__2709655965310523161__validate__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_validate_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activemodel (3.2.13) lib/active_model/validations.rb:228:in `run_validations!'
+  activemodel (3.2.13) lib/active_model/validations/callbacks.rb:53:in `block in run_validations!'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:436:in `_run__2709655965310523161__validation__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_validation_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activemodel (3.2.13) lib/active_model/validations/callbacks.rb:53:in `run_validations!'
+  activemodel (3.2.13) lib/active_model/validations.rb:195:in `valid?'
+  activerecord (3.2.13) lib/active_record/validations.rb:69:in `valid?'
+  activerecord (3.2.13) lib/active_record/validations.rb:77:in `perform_validations'
+  activerecord (3.2.13) lib/active_record/validations.rb:50:in `save'
+  activerecord (3.2.13) lib/active_record/attribute_methods/dirty.rb:22:in `save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:259:in `block (2 levels) in save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:313:in `block in with_transaction_returning_status'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/database_statements.rb:192:in `transaction'
+  activerecord (3.2.13) lib/active_record/transactions.rb:208:in `transaction'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:518:in `block in transaction_with_trace_ActiveRecord_self_name_transaction'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:268:in `trace_execution_scoped'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/method_tracer.rb:513:in `transaction_with_trace_ActiveRecord_self_name_transaction'
+  activerecord (3.2.13) lib/active_record/transactions.rb:311:in `with_transaction_returning_status'
+  activerecord (3.2.13) lib/active_record/transactions.rb:259:in `block in save'
+  activerecord (3.2.13) lib/active_record/transactions.rb:270:in `rollback_active_record_state!'
+  activerecord (3.2.13) lib/active_record/transactions.rb:258:in `save'
+  devise (2.2.4) app/controllers/devise/registrations_controller.rb:15:in `create'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:447:in `_run__3744736500095549354__process_action__2051670359003857173__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/rails3/action_controller.rb:38:in `block in process_action'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/controller_instrumentation.rb:318:in `perform_action_with_newrelic_trace'
+  newrelic_rpm (3.6.5.130) lib/new_relic/agent/instrumentation/rails3/action_controller.rb:37:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/mapper.rb:42:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  bullet (4.6.0) lib/bullet/rack.rb:10:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/error_collector.rb:12:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/agent_hooks.rb:22:in `call'
+  newrelic_rpm (3.6.5.130) lib/new_relic/rack/browser_monitoring.rb:16:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1649816326623177175__call__797345804068225451__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  airbrake (3.1.12) lib/airbrake/rails/middleware.rb:13:in `call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (0.9.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  airbrake (3.1.12) lib/airbrake/user_informer.rb:16:in `_call'
+  airbrake (3.1.12) lib/airbrake/user_informer.rb:12:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.13) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.13) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.13) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+  script/rails:0:in `<main>'
+
+
+
+Started POST "/__better_errors/70354601727440/variables" for 127.0.0.1 at 2013-08-14 20:16:00 -0500
+
+
+Started POST "/users" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lPTwvNOfM/KJ51yzaRoAgnyPsbGcoSEZbn8TTx6Iu7s=", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'a@a.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+DEPRECATION WARNING: Layout found at "devise" for DeviseController but parent controller set layout to :layout_by_resource. Please explicitly set your layout to "devise" or set it to nil to force a dynamic lookup. (called from realtime at /Users/bruceackerman/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295)
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/devise (7.4ms)
+  Rendered layouts/partials/_meta-stuff.html.erb (0.0ms)
+Completed 200 OK in 387ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/devise.css?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /devise.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /retina.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:09 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-08-14 20:16:15 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lPTwvNOfM/KJ51yzaRoAgnyPsbGcoSEZbn8TTx6Iu7s=", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'a@a.com' LIMIT 1[0m
+  [1m[35mSQL (14.7ms)[0m  INSERT INTO "users" ("created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "last_sign_in_at", "last_sign_in_ip", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sign_in_count", "token", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"  [["created_at", Thu, 15 Aug 2013 01:16:15 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "a@a.com"], ["encrypted_password", "$2a$10$0fW69nXM1nJI/0Dy4LplC.bPyfuusWFXXFsUsx1vuKDXxgUxf853m"], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sign_in_count", 0], ["token", "6455402a827137f81992a80d51cef318"], ["updated_at", Thu, 15 Aug 2013 01:16:15 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (2.5ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '2013-08-15 01:16:15.613552', "current_sign_in_at" = '2013-08-15 01:16:15.613552', "last_sign_in_ip" = '127.0.0.1', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 1, "updated_at" = '2013-08-15 01:16:15.614957' WHERE "users"."id" = 2[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3005/dashboard
+Completed 302 Found in 293ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2013-08-14 20:16:15 -0500
+Processing by DashboardController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "clips" WHERE "clips"."user_id" = 2
+  [1m[36mClip Load (4.8ms)[0m  [1mSELECT "clips".* FROM "clips" WHERE "clips"."user_id" = 2 ORDER BY created_at DESC[0m
+  Rendered dashboard/index.html.erb within layouts/application (33.5ms)
+  Rendered layouts/partials/_meta-stuff.html.erb (0.0ms)
+  Rendered layouts/partials/_header.html.erb (0.8ms)
+  Rendered layouts/partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 258ms (Views: 102.5ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 20:16:15 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:15 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:15 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:15 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:15 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:15 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:15 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:15 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:16 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:16 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:16 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:16 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:16 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:16 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:16 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:16 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:16 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:16 -0500
+Served asset /retina.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:16 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/c/7e9681" for 127.0.0.1 at 2013-08-14 20:16:33 -0500
+Processing by ClipsController#show as HTML
+  Parameters: {"shortlink"=>"7e9681"}
+  [1m[35mClip Load (0.4ms)[0m  SELECT "clips".* FROM "clips" WHERE "clips"."shortlink" = '7e9681' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (8.3ms)[0m  [1mINSERT INTO "impressions" ("action_name", "controller_name", "created_at", "impressionable_id", "impressionable_type", "ip_address", "message", "referrer", "request_hash", "session_hash", "updated_at", "user_id", "view_name") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["action_name", "show"], ["controller_name", "clips"], ["created_at", Thu, 15 Aug 2013 01:16:33 UTC +00:00], ["impressionable_id", 4], ["impressionable_type", "Clip"], ["ip_address", "127.0.0.1"], ["message", nil], ["referrer", "http://localhost:3005/dashboard"], ["request_hash", "729aba135404365ce18c4e9d432697dc4ce879053fadbd6f5b71eb07beb3a9cc"], ["session_hash", "be75668a7272d9ba4048a7b01b0d562a"], ["updated_at", Thu, 15 Aug 2013 01:16:33 UTC +00:00], ["user_id", 2], ["view_name", nil]]
+  [1m[35mClip Load (0.4ms)[0m  SELECT "clips".* FROM "clips" WHERE "clips"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36m (4.5ms)[0m  [1mSELECT COUNT(DISTINCT "impressions"."request_hash") FROM "impressions" WHERE "impressions"."impressionable_id" = 4 AND "impressions"."impressionable_type" = 'Clip'[0m
+  [1m[35mSQL (1.2ms)[0m  UPDATE "clips" SET "impressions_count" = COALESCE("impressions_count", 0) + 1 WHERE "clips"."id" = 4
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  Rendered clips/show.html.erb within layouts/clip-layout (2.3ms)
+Compiled clip-layout.css  (3809ms)  (pid 98863)
+  Rendered layouts/partials/_meta-stuff.html.erb (0.0ms)
+Completed 200 OK in 4088ms (Views: 4025.8ms | ActiveRecord: 17.8ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lPTwvNOfM/KJ51yzaRoAgnyPsbGcoSEZbn8TTx6Iu7s="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3005/
+Completed 302 Found in 100ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/partials/_meta-stuff.html.erb (0.0ms)
+  Rendered layouts/partials/_header.html.erb (1.1ms)
+  Rendered layouts/partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home/banner.jpg" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /home/banner.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:47 -0500
+Served asset /retina.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:48 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-08-14 20:16:48 -0500
+Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Processing by Devise::RegistrationsController#new as HTML
+DEPRECATION WARNING: Layout found at "devise" for DeviseController but parent controller set layout to :layout_by_resource. Please explicitly set your layout to "devise" or set it to nil to force a dynamic lookup. (called from realtime at /Users/bruceackerman/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295)
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/devise (9.5ms)
+  Rendered layouts/partials/_meta-stuff.html.erb (0.0ms)
+Completed 200 OK in 32ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/devise.css?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /devise.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /retina.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:49 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-08-14 20:16:55 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1dAKoRwWy60sfl4bEkPRLXE0WO6N2un373XJfm6K6u4=", "user"=>{"email"=>"a@a2.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'a@a2.com' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "last_sign_in_at", "last_sign_in_ip", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sign_in_count", "token", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["created_at", Thu, 15 Aug 2013 01:16:56 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "a@a2.com"], ["encrypted_password", "$2a$10$kWzO5wg0zkMOVoePV3FMlujnd5cfQmNa11ST4M5mXeGYTAXudJmQ6"], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sign_in_count", 0], ["token", "06145ba6ead911f3768b03ab718d5061"], ["updated_at", Thu, 15 Aug 2013 01:16:56 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2013-08-15 01:16:56.071863', "current_sign_in_at" = '2013-08-15 01:16:56.071863', "last_sign_in_ip" = '127.0.0.1', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 1, "updated_at" = '2013-08-15 01:16:56.072630' WHERE "users"."id" = 3
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3005/dashboard
+Completed 302 Found in 270ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Processing by DashboardController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "clips" WHERE "clips"."user_id" = 3[0m
+  Rendered dashboard/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/partials/_meta-stuff.html.erb (0.0ms)
+  Rendered layouts/partials/_header.html.erb (0.8ms)
+  Rendered layouts/partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 62ms (Views: 23.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /retina.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 20:16:56 -0500
+Served asset /application.js - 304 Not Modified (0ms)
