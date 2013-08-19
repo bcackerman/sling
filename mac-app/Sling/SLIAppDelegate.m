@@ -141,20 +141,21 @@
 - (void)captureOutput:(AVCaptureFileOutput *)captureOutput didFinishRecordingToOutputFileAtURL:(NSURL *)outputFileURL fromConnections:(NSArray *)connections error:(NSError *)error
 {
     // Setup an HTTP request to upload the data from this file to a server
-    AFHTTPClient *httpClient = [[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:@"http://stagebloc.com"]];
+    AFHTTPClient *httpClient = [[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:@"http://getsling.herokuapp.com/clips/"]];
     NSMutableURLRequest *request = [httpClient multipartFormRequestWithMethod:@"POST"
                                                                          path:@""
-                                                                   parameters:nil
+                                                                   parameters:[NSDictionary dictionaryWithObject:@"e61101f139d395671c32f86330633e2f"
+                                                                                                          forKey:@"token"]
                                                     constructingBodyWithBlock:^(id <AFMultipartFormData>formData) {
                                                         [formData appendPartWithFileData:[NSData dataWithContentsOfURL:outputFileURL]
-                                                                                    name:@"video"
+                                                                                    name:@"file"
                                                                                 fileName:@"Quid_Recording.mov"
                                                                                 mimeType:@"image/mov"];
                                                     }];
     
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     [operation setUploadProgressBlock:^(NSUInteger bytesWritten, long long totalBytesWritten, long long totalBytesExpectedToWrite) {
-        //NSLog(@"Sent %lld of %lld bytes", totalBytesWritten, totalBytesExpectedToWrite);
+        NSLog(@"Sent %lld of %lld bytes", totalBytesWritten, totalBytesExpectedToWrite);
     }];
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"Response: %@", [operation responseString]);
